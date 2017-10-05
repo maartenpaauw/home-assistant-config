@@ -1,0 +1,5 @@
+family:
+  name: Familie
+  icon: mdi:gps-fixed
+  entities:
+    - device_tracker.iphone_8_plus_van_maarten_paauw

@@ -1,0 +1,21 @@
+# Ignore UUID.
+.uuid
+
+# Ignore configuration files for devices.
+.ios.conf
+phue.conf
+
+# Ignore secrets
+secrets.yaml
+
+# Ignore deps directory.
+deps/
+
+# Ignore text to speech directory.
+tts/
+
+# Ignore Home Assistant log file.
+home-assistant.log
+
+# Ignore Home Assistant database file.
+home-assistant_v2.db

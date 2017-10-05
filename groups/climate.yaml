@@ -1,0 +1,5 @@
+climate:
+  name: Klimaat
+  icon: mdi:wb-sunny
+  entities:
+    - climate.toon_van_eneco

@@ -1,0 +1,8 @@
+iphone_8_plus_van_maarten_paauw:
+  hide_if_away: false
+  icon:
+  mac:
+  name: iphone 8 plus van maarten paauw
+  gravatar: !secret gravatar_email_maarten_paauw
+  track: true
+  vendor:

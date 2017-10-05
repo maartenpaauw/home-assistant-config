@@ -1,0 +1,7 @@
+living_room:
+  name: Woonkamer
+  icon: mdi:weekend
+  control: hidden
+  entities:
+    - remote.woonkamer_apple_tv
+    - media_player.woonkamer_apple_tv

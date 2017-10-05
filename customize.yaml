@@ -1,0 +1,11 @@
+device_tracker.iphone_8_plus_van_maarten_paauw:
+  friendly_name: Maarten Paauw
+
+climate.toon_van_eneco:
+  friendly_name: Toon
+
+switch.sonoff_fan:
+  friendly_name: Ventilator
+
+zone.home:
+  radius: 20

@@ -1,0 +1,7 @@
+bedroom:
+  name: Slaapkamer
+  icon: mdi:hotel
+  control: hidden
+  entities:
+    - light.nachtlamp_van_maarten
+    - light.nachtlamp_van_rianne
