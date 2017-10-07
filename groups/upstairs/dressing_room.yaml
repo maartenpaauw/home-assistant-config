@@ -1,0 +1,4 @@
+dressing_room:
+  name: Kleedkamer
+  icon: mdi:tie
+  control: hidden

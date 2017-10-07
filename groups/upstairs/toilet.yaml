@@ -1,0 +1,4 @@
+toilet:
+  name: WC
+  icon: mdi:human-male-female
+  control: hidden

@@ -1,0 +1,4 @@
+stairs:
+  name: Trap
+  icon: mdi:stairs
+  control: hidden
