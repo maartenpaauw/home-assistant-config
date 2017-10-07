@@ -1,16 +1,10 @@
 homeassistant:
-  # Name of the location where Home Assistant is running
   name: Brouwerstraat
-  # Location required to calculate the time the sun rises and sets
-  latitude: 52.193056
-  longitude: 4.446462
-  # Impacts weather/sunrise data (altitude above sea level in meters)
+  latitude: !secret home_assistant_latitude
+  longitude: !secret home_assistant_longitude
   elevation: 3
-  # metric for Metric, imperial for Imperial
   unit_system: metric
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Amsterdam
-
   customize: !include customize.yaml
 
 # Apple
