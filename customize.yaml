@@ -5,6 +5,7 @@ climate.toon_van_eneco:
   friendly_name: Toon
 
 switch.sonoff_fan:
+  icon: mdi:fan
   friendly_name: Ventilator
 
 zone.home:
