@@ -12,3 +12,11 @@ switch.sonoff_fan:
 
 zone.home:
   radius: 20
+
+automation.default_theme_at_sunrise:
+  icon: mdi:weather-sunset-up
+  friendly_name: Donker thema bij zonsondergang
+
+automation.dark_theme_at_sunset:
+  icon: mdi:weather-sunset-down
+  friendly_name: Standaard theme bij zonsopgang

@@ -1,0 +1,10 @@
+- alias: 'default_theme_at_sunrise'
+  initial_state: True
+  trigger:
+    - platform: sun
+      event: sunrise
+      offset: "+01:00:00"
+  action:
+    - service: frontend.set_theme
+      data:
+        name: default
