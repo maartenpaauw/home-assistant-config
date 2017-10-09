@@ -15,8 +15,8 @@ zone.home:
 
 automation.default_theme_at_sunrise:
   icon: mdi:weather-sunset-up
-  friendly_name: Donker thema bij zonsondergang
+  friendly_name: Standaard thema bij zonsopgang
 
 automation.dark_theme_at_sunset:
   icon: mdi:weather-sunset-down
-  friendly_name: Standaard theme bij zonsopgang
+  friendly_name: Donker thema bij zonsondergang
