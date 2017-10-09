@@ -7,4 +7,3 @@
 | F6    | WC, Bathroom & Shed |
 | F7    | Fridge & Microwave  |
 | F8    | F7                  |
-
