@@ -1,4 +1,4 @@
-- alias: 'dark_theme_at_sunset'
+- alias: "dark_theme_at_sunset"
   initial_state: True
   trigger:
     - platform: sun

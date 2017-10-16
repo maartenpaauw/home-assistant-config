@@ -1,4 +1,4 @@
-- alias: 'default_theme_at_sunrise'
+- alias: "default_theme_at_sunrise"
   initial_state: True
   trigger:
     - platform: sun
