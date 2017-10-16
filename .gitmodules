@@ -1,0 +1,3 @@
+[submodule "libraries/toon"]
+	path = libraries/toon
+	url = https://github.com/krocat/ToonHA.git
