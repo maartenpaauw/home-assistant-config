@@ -19,3 +19,4 @@ home-assistant.log
 
 # Ignore Home Assistant database file.
 home-assistant_v2.db
+home-assistant_v2.db-wal
