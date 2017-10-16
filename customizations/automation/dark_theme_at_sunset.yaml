@@ -1,0 +1,3 @@
+automation.dark_theme_at_sunset:
+  icon: mdi:weather-sunset-down
+  friendly_name: Donker thema bij zonsondergang

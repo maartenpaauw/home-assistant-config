@@ -5,7 +5,7 @@ homeassistant:
   elevation: 3
   unit_system: metric
   time_zone: Europe/Amsterdam
-  customize: !include customize.yaml
+  customize: !include_dir_merge_named customizations
 
 # Apple
 ios:
