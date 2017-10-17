@@ -1,0 +1,13 @@
+- alias: "dark_theme_on_boot"
+  initial_state: True
+  trigger:
+    - platform: homeassistant
+      event: start
+  condition:
+    condition: sun
+    after: sunset
+    after_offset: "-1:00:00"
+  action:
+    - service: frontend.set_theme
+      data:
+        name: midnight_blue
