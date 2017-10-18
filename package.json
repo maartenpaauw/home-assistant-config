@@ -1,0 +1,17 @@
+{
+  "name": "home-assistant-config",
+  "version": "1.0.0",
+  "description": "Maarten Paauw's Home Assistant configuration files",
+  "main": "configuration.yaml",
+  "repository": "git@github.com:maartenpaauw/home-assistant-config.git",
+  "author": "Maarten Paauw <maartenpaauw@gmail.com>",
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "commitmsg": "commitlint -e"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "4.2.0",
+    "@commitlint/config-angular": "4.2.0",
+    "husky": "0.14.3"
+  }
+}
