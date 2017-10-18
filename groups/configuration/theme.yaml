@@ -1,0 +1,9 @@
+theme:
+  name: Thema
+  icon: mdi:format-paint
+  control: hidden
+  entities:
+    - automation.dark_theme_at_sunset
+    - automation.default_theme_at_sunrise
+    - automation.dark_theme_on_boot
+    - automation.default_theme_on_boot

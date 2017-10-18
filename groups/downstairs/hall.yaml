@@ -1,0 +1,4 @@
+hall:
+  name: Hal
+  icon: mdi:home
+  control: hidden

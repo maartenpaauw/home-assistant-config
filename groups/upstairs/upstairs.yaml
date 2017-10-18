@@ -1,0 +1,9 @@
+upstairs:
+  name: Boven
+  view: yes
+  entities:
+    - group.bedroom
+    - group.corridor
+    - group.dressing_room
+    - group.office
+    - group.toilet

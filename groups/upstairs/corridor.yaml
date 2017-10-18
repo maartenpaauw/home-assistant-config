@@ -1,4 +1,4 @@
-stairs:
-  name: Trap
+corridor:
+  name: Overloop
   icon: mdi:stairs
   control: hidden

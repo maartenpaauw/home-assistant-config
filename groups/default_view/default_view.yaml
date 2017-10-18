@@ -1,0 +1,6 @@
+default_view:
+  name: Brouwerstraat
+  view: yes
+  entities:
+    - group.climate
+    - group.family

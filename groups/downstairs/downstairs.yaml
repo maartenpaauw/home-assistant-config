@@ -1,0 +1,6 @@
+downstairs:
+  name: Beneden
+  view: yes
+  entities:
+    - group.living_room
+    - group.hall
