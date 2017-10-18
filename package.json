@@ -21,7 +21,7 @@
     "type": "git",
     "url": "https://github.com/maartenpaauw/home-assistant-config.git"
   },
-  "license": "CC-BY-4.0",
+  "license": "GPL-3.0",
   "scripts": {
     "commitmsg": "commitlint -e"
   },
