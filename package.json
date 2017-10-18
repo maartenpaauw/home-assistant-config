@@ -13,5 +13,9 @@
     "@commitlint/cli": "4.2.0",
     "@commitlint/config-angular": "4.2.0",
     "husky": "0.14.3"
+  },
+  "greenkeeper": {
+    "branchPrefix": "dependency-update-",
+    "label": "dependency-update"
   }
 }
