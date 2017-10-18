@@ -2,9 +2,25 @@
   "name": "home-assistant-config",
   "version": "1.0.0",
   "description": "Maarten Paauw's Home Assistant configuration files",
+  "keywords": [
+    "Home Assistant",
+    "Home Assistant Config"
+  ],
+  "homepage": "https://github.com/maartenpaauw/home-assistant-config",
+  "bugs": {
+    "email": "maartenpaauw@gmail.com",
+    "url": "https://github.com/maartenpaauw/home-assistant-config/issues"
+  },
+  "author": {
+    "name": "Maarten Paauw",
+    "email": "maartenpaauw@gmail.com",
+    "url": "http://www.maartenpaauw.com/"
+  },
   "main": "configuration.yaml",
-  "repository": "git@github.com:maartenpaauw/home-assistant-config.git",
-  "author": "Maarten Paauw <maartenpaauw@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maartenpaauw/home-assistant-config.git"
+  },
   "license": "CC-BY-4.0",
   "scripts": {
     "commitmsg": "commitlint -e"
