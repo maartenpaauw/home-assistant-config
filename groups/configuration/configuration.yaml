@@ -1,5 +1,5 @@
 configuration:
-  name: Instellingen
+  name: Configuratie
   view: yes
   entities:
     - group.theme
