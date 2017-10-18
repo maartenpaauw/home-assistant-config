@@ -28,7 +28,8 @@
   "devDependencies": {
     "@commitlint/cli": "4.2.0",
     "@commitlint/config-angular": "4.2.0",
-    "husky": "0.14.3"
+    "husky": "0.14.3",
+    "lint-staged": "4.3.0"
   },
   "greenkeeper": {
     "branchPrefix": "dependency-update-",
