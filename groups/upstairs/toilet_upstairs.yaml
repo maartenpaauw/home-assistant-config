@@ -1,4 +1,4 @@
-toilet:
-  name: WC
+toilet_upstairs:
+  name: WC boven
   icon: mdi:human-male-female
   control: hidden

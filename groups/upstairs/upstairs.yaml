@@ -6,4 +6,4 @@ upstairs:
     - group.corridor
     - group.dressing_room
     - group.office
-    - group.toilet
+    - group.toilet_upstairs
