@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-hass -c . --script check_config
+hass -c . --script check_config;
