@@ -1,7 +1,7 @@
 homeassistant:
   name: Brouwerstraat
-  latitude: !secret home_assistant_latitude
-  longitude: !secret home_assistant_longitude
+  latitude: !secret zone_home_latitude
+  longitude: !secret zone_home_longitude
   elevation: 3
   unit_system: metric
   time_zone: Europe/Amsterdam
