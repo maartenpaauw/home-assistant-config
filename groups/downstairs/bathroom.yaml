@@ -1,0 +1,4 @@
+bathroom:
+  name: Badkamer
+  icon: mdi:hot-tub
+  control: hidden
