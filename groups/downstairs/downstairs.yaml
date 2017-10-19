@@ -4,3 +4,4 @@ downstairs:
   entities:
     - group.living_room
     - group.hall
+    - group.staircase

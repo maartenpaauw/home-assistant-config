@@ -1,0 +1,4 @@
+staircase:
+  name: Trapkast
+  icon: mdi:stairs
+  control: hidden
