@@ -1,0 +1,4 @@
+kitchen:
+  name: Keuken
+  icon: mdi:pot-mix
+  control: hidden

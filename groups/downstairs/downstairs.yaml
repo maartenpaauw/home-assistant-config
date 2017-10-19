@@ -2,6 +2,7 @@ downstairs:
   name: Beneden
   view: yes
   entities:
-    - group.living_room
     - group.hall
+    - group.kitchen
+    - group.living_room
     - group.staircase
