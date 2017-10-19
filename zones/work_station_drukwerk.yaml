@@ -1,0 +1,4 @@
+- name: work_station_drukwerk
+  latitude: !secret work_station_drukwerk_latitude
+  longitude: !secret work_station_drukwerk_longitude
+  icon: mdi:briefcase

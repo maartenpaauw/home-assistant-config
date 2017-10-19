@@ -55,10 +55,11 @@ tts:
 
 # Thermostat
 toon:
-    username: !secret toon_username
-    password: !secret toon_password
+  username: !secret toon_username
+  password: !secret toon_password
 
-group: !include_dir_merge_named groups
-switch: !include_dir_merge_list switches
 automation: !include_dir_merge_list automations
+group: !include_dir_merge_named groups
 script: !include scripts.yaml
+switch: !include_dir_merge_list switches
+zone: !include_dir_merge_list zones
