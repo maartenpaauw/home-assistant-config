@@ -1,0 +1,9 @@
+language: python
+python:
+  - 3.6.3
+install:
+  - . ci/travis/install.sh
+before_script:
+  - . ci/travis/before_script.sh
+script:
+  - . ci/travis/script.sh
