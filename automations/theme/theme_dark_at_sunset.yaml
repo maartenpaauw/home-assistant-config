@@ -1,10 +1,10 @@
-- alias: "default_theme_at_sunrise"
+- alias: "theme_dark_at_sunset"
   initial_state: True
   trigger:
     - platform: sun
-      event: sunrise
-      offset: "+01:00:00"
+      event: sunset
+      offset: "-01:00:00"
   action:
     - service: frontend.set_theme
       data:
-        name: default
+        name: midnight_blue
