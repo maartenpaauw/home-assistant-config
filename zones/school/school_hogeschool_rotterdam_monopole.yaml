@@ -1,0 +1,4 @@
+- name: school_hogeschool_rotterdam_monopole
+  latitude: !secret school_hogeschool_rotterdam_monopole_latitude
+  longitude: !secret school_hogeschool_rotterdam_monopole_longitude
+  icon: mdi:school
