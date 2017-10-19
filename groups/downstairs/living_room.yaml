@@ -1,6 +1,6 @@
 living_room:
   name: Woonkamer
-  icon: mdi:weekend
+  icon: mdi:sofa
   control: hidden
   entities:
     - remote.woonkamer_apple_tv
