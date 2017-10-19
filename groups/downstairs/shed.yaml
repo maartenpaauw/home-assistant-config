@@ -1,0 +1,4 @@
+shed:
+  name: Schuur
+  icon: mdi:washing-machine
+  control: hidden

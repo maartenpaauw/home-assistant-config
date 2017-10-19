@@ -6,5 +6,6 @@ downstairs:
     - group.hall
     - group.kitchen
     - group.living_room
+    - group.shed
     - group.staircase
     - group.toilet.downstairs
