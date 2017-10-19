@@ -6,3 +6,4 @@ downstairs:
     - group.kitchen
     - group.living_room
     - group.staircase
+    - group.toilet.downstairs

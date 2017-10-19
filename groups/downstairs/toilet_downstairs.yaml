@@ -1,0 +1,4 @@
+toilet_downstairs:
+  name: WC beneden
+  icon: mdi:human-male-female
+  control: hidden
