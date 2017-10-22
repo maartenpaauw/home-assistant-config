@@ -53,7 +53,7 @@ sensor:
 tts:
   - platform: google
 
-# Thermostat
+# Toon
 toon:
   username: !secret toon_username
   password: !secret toon_password
