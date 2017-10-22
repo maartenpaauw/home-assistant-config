@@ -14,6 +14,9 @@ ios:
 frontend:
   themes: !include_dir_merge_named themes
 
+# Map
+map:
+
 # Enables configuration UI
 config:
 
