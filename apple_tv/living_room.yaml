@@ -1,0 +1,5 @@
+- host: !secret apple_tv_woonkamer_host
+  login_id: !secret apple_tv_woonkamer_login_id
+  name: Apple TV woonkamer
+  start_off: True
+  credentials: !secret apple_tv_woonkamer_credentials

@@ -56,6 +56,9 @@ sensor:
 tts:
   - platform: google
 
+# Apple TV
+apple_tv: !include_dir_merge_list apple_tv
+
 # Toon
 toon:
   username: !secret toon_username
