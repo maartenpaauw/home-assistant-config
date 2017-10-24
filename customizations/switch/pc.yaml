@@ -1,4 +1,4 @@
 switch.pc:
-  icon: mdi:desktop-classic
+  icon: mdi:desktop-tower
   friendly_name: Computer
   homebridge_visible: true
