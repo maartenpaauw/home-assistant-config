@@ -1,0 +1,1 @@
+pc_turn_off: !secret shell_command_pc_turn_off

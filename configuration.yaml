@@ -67,5 +67,6 @@ toon:
 automation: !include_dir_merge_list automations
 group: !include_dir_merge_named groups
 script: !include scripts.yaml
+shell_command: !include_dir_merge_named shell_commands
 switch: !include_dir_merge_list switches
 zone: !include_dir_merge_list zones
