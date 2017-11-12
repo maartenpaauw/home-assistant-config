@@ -12,4 +12,4 @@ https://www.howtogeek.com/howto/windows-vista/enable-mapping-to-hostnamec-share-
 ## Samba installation
 Install net command on Synology with the following command:
 
-`apt-get install samba-common`
+`apt-get update -y && apt-get install samba-common -y`
