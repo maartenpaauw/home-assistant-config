@@ -1,0 +1,4 @@
+switch.sonoff_heater:
+  icon: mdi:fan
+  friendly_name: Elektrische Kachel
+  homebridge_visible: true

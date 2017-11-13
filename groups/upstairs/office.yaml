@@ -4,4 +4,5 @@ office:
   control: hidden
   entities:
     - switch.sonoff_fan
+    - switch.sonoff_heater
     - switch.pc
