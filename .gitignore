@@ -27,3 +27,6 @@ custom_components/**/toon.py
 
 # Ignore Yarn lock file.
 yarn.lock
+
+# Ignore Spotify tokens.
+.spotify-token-cache
