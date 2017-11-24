@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "5.0.1",
-    "@commitlint/config-angular": "5.0.1",
+    "@commitlint/config-angular": "5.1.1",
     "husky": "0.14.3",
     "lint-staged": "5.0.0"
   },
