@@ -3,3 +3,4 @@ configuration:
   view: yes
   entities:
     - group.theme
+    - group.automation_climate
