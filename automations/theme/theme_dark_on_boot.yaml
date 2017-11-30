@@ -1,4 +1,4 @@
-- alias: "theme_dark_on_boot"
+- alias: theme_dark_on_boot
   initial_state: True
   trigger:
     - platform: homeassistant
