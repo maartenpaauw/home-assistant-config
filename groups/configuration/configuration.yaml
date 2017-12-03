@@ -2,5 +2,5 @@ configuration:
   name: Configuratie
   view: yes
   entities:
-    - group.theme
-    - group.automation_climate
+    - group.configuration_theme
+    - group.configuration_climate
