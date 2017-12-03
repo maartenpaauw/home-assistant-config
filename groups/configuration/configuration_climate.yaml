@@ -1,4 +1,4 @@
-automation_climate:
+configuration_climate:
   name: Klimaat
   icon: mdi:nest-thermostat
   control: hidden

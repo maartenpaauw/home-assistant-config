@@ -1,4 +1,4 @@
-theme:
+configuration_theme:
   name: Thema
   icon: mdi:format-paint
   control: hidden
