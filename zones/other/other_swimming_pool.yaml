@@ -1,0 +1,4 @@
+- name: other_swimming_pool
+  latitude: !secret other_swimming_pool_latitude
+  longitude: !secret other_swimming_pool_longitude
+  icon: mdi:swim
