@@ -1,0 +1,3 @@
+- platform: coinmarketcap
+  currency: bytecoin-bcn
+  display_currency: EUR
