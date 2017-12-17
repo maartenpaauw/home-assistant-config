@@ -3,7 +3,7 @@
 
 # Ignore configuration files for devices.
 .ios.conf
-phue.conf
+phue*.conf
 
 # Ignore secrets
 secrets.yaml
