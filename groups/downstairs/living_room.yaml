@@ -3,5 +3,6 @@ living_room:
   icon: mdi:sofa
   control: hidden
   entities:
+    - light.staanlamp
     - remote.apple_tv_woonkamer
     - media_player.apple_tv_woonkamer
