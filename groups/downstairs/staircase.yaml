@@ -2,3 +2,5 @@ staircase:
   name: Trapkast
   icon: mdi:stairs
   control: hidden
+  entities:
+    - light.ai_light_staircase

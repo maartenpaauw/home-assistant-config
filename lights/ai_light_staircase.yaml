@@ -1,0 +1,10 @@
+- platform: mqtt_json
+  name: "Ai Light Staircase"
+  state_topic: "AiLight-2BFB7A"
+  command_topic: "AiLight-2BFB7A/set"
+  color_temp: true
+  brightness: true
+  rgb: true
+  white_value: true
+  effect: false
+  optimistic: false
