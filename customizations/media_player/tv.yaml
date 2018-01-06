@@ -1,3 +1,4 @@
 media_player.tv: 
   friendly_name: Televisie
   homebridge_visible: true
+  homebridge_media_player_switch: on_off
