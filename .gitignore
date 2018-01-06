@@ -2,8 +2,7 @@
 .uuid
 
 # Ignore configuration files for devices.
-.ios.conf
-phue*.conf
+*.conf
 
 # Ignore secrets
 secrets.yaml

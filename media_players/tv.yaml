@@ -1,0 +1,3 @@
+- platform: braviatv
+  host: !secret tv_host
+  name: TV
