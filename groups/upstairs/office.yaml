@@ -6,4 +6,5 @@ office:
     - switch.sonoff_fan
     - switch.sonoff_heater
     - switch.pc
+    - light.bloom
     - media_player.spotify
