@@ -1,0 +1,3 @@
+automation.tv_apple_tv_on:
+  icon: mdi:power
+  friendly_name: Zet de Apple TV aan als de televisie aan staat
