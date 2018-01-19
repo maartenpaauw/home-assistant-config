@@ -1,0 +1,10 @@
+- platform: mqtt_json
+  name: "Ai Light Dinner Table"
+  state_topic: "AiLight-2BF5BE"
+  command_topic: "AiLight-2BF5BE/set"
+  color_temp: true
+  brightness: true
+  rgb: true
+  white_value: true
+  effect: false
+  optimistic: false

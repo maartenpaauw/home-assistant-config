@@ -4,6 +4,7 @@ living_room:
   control: hidden
   entities:
     - light.staanlamp
+    - light.ai_light_dinner_table
     - remote.apple_tv_woonkamer
     - media_player.tv
     - media_player.apple_tv_woonkamer
