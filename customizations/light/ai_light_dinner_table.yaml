@@ -1,4 +1,0 @@
-light.ai_light_dinner_table:
-  icon: mdi:lightbulb
-  friendly_name: Eettafel
-  homebridge_visible: true

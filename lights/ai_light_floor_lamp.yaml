@@ -1,5 +1,5 @@
 - platform: mqtt_json
-  name: "Ai Light Dinner Table"
+  name: "Ai Light Floor Lamp"
   state_topic: "AiLight-2BF5BE"
   command_topic: "AiLight-2BF5BE/set"
   color_temp: true

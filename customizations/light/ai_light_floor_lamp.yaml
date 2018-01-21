@@ -1,0 +1,4 @@
+light.ai_light_floor_lamp:
+  icon: mdi:lightbulb
+  friendly_name: Staanlamp
+  homebridge_visible: true
