@@ -1,17 +1,13 @@
 iphone_8_plus_van_maarten_paauw:
-  hide_if_away: false
-  icon:
-  mac:
   name: iPhone 8 Plus van Maarten Paauw
-  gravatar: !secret gravatar_email_maarten_paauw
+  mac: !secret device_tracker_maarten_paauw_mac_address
+  gravatar: !secret device_tracker_maarten_paauw_gravatar
   track: true
-  vendor:
+  hide_if_away: false
 
 iphone_6s_van_rianne_van_der_maat:
-  hide_if_away: false
-  icon:
-  mac:
   name: iPhone 6s van Rianne van der Maat
-  gravatar: !secret gratatar_email_rianne_van_der_maat
+  mac:
+  gravatar: !secret device_tracker_rianne_van_der_maat_gravatar
   track: true
-  vendor:
+  hide_if_away: false
