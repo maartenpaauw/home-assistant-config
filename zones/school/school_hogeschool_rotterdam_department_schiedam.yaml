@@ -1,5 +1,0 @@
-- name: school_hogeschool_rotterdam_department_schiedam
-  latitude: !secret school_hogeschool_rotterdam_department_schiedam_latitude
-  longitude: !secret school_hogeschool_rotterdam_department_schiedam_longitude
-  radius: !secret school_hogeschool_rotterdam_department_schiedam_radius
-  icon: mdi:school
