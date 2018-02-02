@@ -3,7 +3,7 @@ office:
   icon: mdi:work
   control: hidden
   entities:
-    - switch.sonoff_fan
+    # - switch.sonoff_fan
     - switch.sonoff_heater
     - switch.pc
     - light.bloom
