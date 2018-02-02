@@ -26,8 +26,8 @@
     "commitmsg": "commitlint -e"
   },
   "devDependencies": {
-    "@commitlint/cli": "6.0.2",
-    "@commitlint/config-conventional": "6.0.2",
+    "@commitlint/cli": "6.0.5",
+    "@commitlint/config-conventional": "6.0.4",
     "husky": "0.15.0-rc.2",
     "lint-staged": "6.1.0"
   },
