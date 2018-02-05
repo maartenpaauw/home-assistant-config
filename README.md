@@ -10,6 +10,7 @@
 - Apple iPhone 8+
 - Apple TV 3rd generation
 - ARILUX E27 RGBW - 2× (Flashed with AiLight)
+- Game PC
 - iTead Sonoff Basic - 2× (Flashed with Tasmota)
 - Philips Hue LivingColours Bloom
 - Philips Hue White and Ambiance E27
