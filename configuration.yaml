@@ -53,6 +53,10 @@ sun:
 tts:
   - platform: google
 
+# IFTTT
+ifttt:
+  key: !secret ifttt_key
+
 # Apple TV
 apple_tv: !include_dir_merge_list apple_tv
 
@@ -63,10 +67,11 @@ toon:
 
 automation: !include_dir_merge_list automations
 group: !include_dir_merge_named groups
+input_boolean: !include_dir_merge_named input_booleans
+light: !include_dir_merge_list lights
+media_player: !include_dir_merge_list media_players
 script: !include scripts.yaml
 sensor: !include_dir_merge_list sensors
 shell_command: !include_dir_merge_named shell_commands
 switch: !include_dir_merge_list switches
 zone: !include_dir_merge_list zones
-media_player: !include_dir_merge_list media_players
-light: !include_dir_merge_list lights

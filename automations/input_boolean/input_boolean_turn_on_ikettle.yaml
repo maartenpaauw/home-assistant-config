@@ -1,0 +1,9 @@
+- alias: input_boolean_turn_on_ikettle
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: input_boolean.ikettle
+      to: "on"
+  action:
+    - service: ifttt.trigger
+      data: { "event": "ikettle_on" }

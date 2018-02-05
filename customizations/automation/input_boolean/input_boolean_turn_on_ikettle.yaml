@@ -1,0 +1,3 @@
+automation.input_boolean_turn_on_ikettle:
+  icon: mdi:kettle
+  friendly_name: Zet de waterkoker aan via IFTTT

@@ -5,3 +5,4 @@ configuration:
     - group.configuration_tv
     - group.configuration_climate
     - group.configuration_theme
+    - group.configuration_input_boolean

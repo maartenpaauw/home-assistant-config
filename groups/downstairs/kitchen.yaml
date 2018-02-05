@@ -2,3 +2,5 @@ kitchen:
   name: Keuken
   icon: mdi:pot-mix
   control: hidden
+  entities:
+    - input_boolean.ikettle
