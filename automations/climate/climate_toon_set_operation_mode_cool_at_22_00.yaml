@@ -1,8 +1,8 @@
 - alias: climate_toon_set_operation_mode_cool_at_22_00
   initial_state: True
   trigger:
-    platform: time
-    at: "22:00:00"
+    - platform: time
+      at: "22:00:00"
   action:
     - service: climate.set_operation_mode
       data:
