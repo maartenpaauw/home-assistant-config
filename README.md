@@ -13,6 +13,9 @@
 - ARILUX E27 RGBW - 2× (Flashed with AiLight)
 - Game PC
 - iTead Sonoff Basic - 2× (Flashed with Tasmota)
+- iTead Sonoff RF Bridge 433 (Flashed with Tasmota)
+  - Sonoff DW1
+  - Sonoff PIR2
 - Philips Hue LivingColours Bloom
 - Philips Hue White and Ambiance E27
 - Philips Hue White and Color E27 - 2×
