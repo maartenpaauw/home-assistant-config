@@ -21,9 +21,6 @@ home-assistant_v2.db
 home-assistant_v2.db-wal
 home-assistant_v2.db-shm
 
-# Ignore Toon custom component files.
-custom_components/**/toon.py
-
 # Ignore Yarn lock file.
 yarn.lock
 
