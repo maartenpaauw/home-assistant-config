@@ -1,0 +1,10 @@
+- platform: template
+  sensors:
+    sonoff_pir2_staircase:
+      friendly_name: "Beweging"
+      value_template: >-
+        {% if is_state("sensor.sonoff_rf_bridge_1", "D23EBE") %}
+          Ja
+        {% else %}
+          Nee
+        {% endif %}

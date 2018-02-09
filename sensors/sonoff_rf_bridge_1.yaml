@@ -1,0 +1,5 @@
+- platform: mqtt
+  name: "Sonoff RF Bridge 1"
+  state_topic: "tele/sonoff-bridge-1/RESULT"
+  expire_after: 10
+  value_template: "{{ value_json['RfReceived']['Data'] }}"
