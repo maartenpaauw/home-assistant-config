@@ -1,0 +1,4 @@
+dinner_planner_sunday:
+  name: Zondag
+  options: !include options/meals.yaml
+  icon: mdi:food

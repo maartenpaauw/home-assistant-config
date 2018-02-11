@@ -1,0 +1,4 @@
+dinner_planner_wednesday:
+  name: Woensdag
+  options: !include options/meals.yaml
+  icon: mdi:food

@@ -1,0 +1,21 @@
+- alias: input_select_dinner_planner_clear_choices_at_friday_20_00
+  initial_state: True
+  trigger:
+    - platform: time
+      at: "20:00:00"
+  condition:
+    - condition: time
+      weekday:
+        - fri
+  action:
+    - service: input_select.select_option
+      entity_id: 
+        - input_select.dinner_planner_monday
+        - input_select.dinner_planner_tuesday
+        - input_select.dinner_planner_wednesday
+        - input_select.dinner_planner_thursday
+        - input_select.dinner_planner_friday
+        - input_select.dinner_planner_saturday
+        - input_select.dinner_planner_sunday
+      data:
+        option: "Onbeslist"

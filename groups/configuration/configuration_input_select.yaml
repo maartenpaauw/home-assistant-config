@@ -1,0 +1,6 @@
+configuration_input_select:
+  name: Input Select
+  icon: mdi:menu-down
+  control: hidden
+  entities:
+    - automation.input_select_dinner_planner_clear_choices_at_friday_20_00

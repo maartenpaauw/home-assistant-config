@@ -4,3 +4,4 @@ default_view:
   entities:
     - group.climate
     - group.family
+    - group.dinner_planner

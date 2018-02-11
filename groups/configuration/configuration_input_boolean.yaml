@@ -1,5 +1,5 @@
 configuration_input_boolean:
-  name: Input boolean
+  name: Input Boolean
   icon: mdi:toggle_switch
   control: hidden
   entities:
