@@ -28,3 +28,5 @@
 - Turn the Toon van Eneco in "Slaap" mode when it's 10:00 pm.
 - Turn on the Smarter iKettle 3rd generation when an input boolean is turned on.
 - Turn on/off the Apple TV 3rd generation when the Sony Bravia KDL-42W805A is on/off.
+- Turn on AiLight in the staircase if there is movement.
+- Turn off AiLight in the staircase if there is no movement for a minute.
