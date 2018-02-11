@@ -1,0 +1,3 @@
+automation.sensor_sonoff_pir2_staircase_turn_off_ai_light_staircase:
+  icon: mdi:lightbulb
+  friendly_name: Zet de lamp in de trapkast uit bij geen beweging voor 1 minuut
