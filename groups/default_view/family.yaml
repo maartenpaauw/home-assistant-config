@@ -1,6 +1,6 @@
 family:
   name: Familie
-  icon: mdi:gps-fixed
+  icon: mdi:crosshairs-gps
   entities:
     - device_tracker.iphone_8_plus_van_maarten_paauw
     - device_tracker.iphone_6s_van_rianne_van_der_maat

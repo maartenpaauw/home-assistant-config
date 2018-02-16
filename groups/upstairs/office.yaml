@@ -1,6 +1,6 @@
 office:
   name: Kantoor
-  icon: mdi:work
+  icon: mdi:briefcase
   control: hidden
   entities:
     # - switch.sonoff_fan

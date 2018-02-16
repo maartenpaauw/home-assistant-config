@@ -1,6 +1,6 @@
 configuration_input_boolean:
   name: Input Boolean
-  icon: mdi:toggle_switch
+  icon: mdi:toggle-switch
   control: hidden
   entities:
     - automation.input_boolean_turn_on_ikettle
