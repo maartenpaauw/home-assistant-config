@@ -1,3 +1,0 @@
-automation.theme_default_on_boot:
-  icon: mdi:power
-  friendly_name: Standaard thema bij opstarten als de zon op is

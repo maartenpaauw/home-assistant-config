@@ -3,7 +3,5 @@ configuration_theme:
   icon: mdi:format-paint
   control: hidden
   entities:
-    - automation.theme_dark_at_sunset
-    - automation.theme_default_at_sunrise
-    - automation.theme_dark_on_boot
-    - automation.theme_default_on_boot
+    - automation.theme_dark
+    - automation.theme_default
