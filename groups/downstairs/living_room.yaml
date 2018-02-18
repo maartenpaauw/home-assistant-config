@@ -8,3 +8,4 @@ living_room:
     - remote.apple_tv_woonkamer
     - media_player.tv
     - media_player.apple_tv_woonkamer
+    - script.tv_hdmi_3
