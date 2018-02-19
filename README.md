@@ -10,11 +10,11 @@
 - Apple iPhone 6s
 - Apple iPhone 8+
 - Apple TV 3rd generation
-- ARILUX E27 RGBW - 2× (Flashed with AiLight)
+- ARILUX E27 RGBW - 2× (Flashed with [AiLight][ailight])
 - Game PC
-- iTead Sonoff Basic - 2× (Flashed with Tasmota)
-- iTead Sonoff T1 (Flashed with Tasmota)
-- iTead Sonoff RF Bridge 433 (Flashed with Tasmota)
+- iTead Sonoff Basic - 2× (Flashed with [Tasmota][tasmota])
+- iTead Sonoff T1 (Flashed with [Tasmota][tasmota])
+- iTead Sonoff RF Bridge 433 (Flashed with [Tasmota][tasmota])
   - Sonoff DW1
   - Sonoff PIR2
 - Philips Hue LivingColours Bloom
@@ -31,3 +31,7 @@
 - Turn on/off the Apple TV 3rd generation when the Sony Bravia KDL-42W805A is on/off.
 - Turn on AiLight in the staircase if there is movement.
 - Turn off AiLight in the staircase if there is no movement for a minute.
+
+[tasmota]: https://github.com/arendst/Sonoff-Tasmota	"Sonoff Tasmota"
+[ailight]: https://github.com/stelgenhof/AiLight	"AiLight"
+
