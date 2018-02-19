@@ -23,6 +23,8 @@
 - Smarter iKettle 3rd generation
 - Sony Bravia KDL-42W805A
 - Toon van Eneco
+- Wemos D1 mini - 2× (Flashed with [Tasmota][tasmota])
+  - To [control a Wax Candle](https://www.instagram.com/p/BfY4dR_FVtn/?taken-by=maartenpaauw) from the Action
 
 ## Automations
 
@@ -32,6 +34,5 @@
 - Turn on AiLight in the staircase if there is movement.
 - Turn off AiLight in the staircase if there is no movement for a minute.
 
-[tasmota]: https://github.com/arendst/Sonoff-Tasmota	"Sonoff Tasmota"
-[ailight]: https://github.com/stelgenhof/AiLight	"AiLight"
-
+  [tasmota]: https://github.com/arendst/Sonoff-Tasmota	"Sonoff Tasmota"
+  [ailight]: https://github.com/stelgenhof/AiLight	"AiLight"
