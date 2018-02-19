@@ -13,6 +13,7 @@
 - ARILUX E27 RGBW - 2× (Flashed with AiLight)
 - Game PC
 - iTead Sonoff Basic - 2× (Flashed with Tasmota)
+- iTead Sonoff T1 (Flashed with Tasmota)
 - iTead Sonoff RF Bridge 433 (Flashed with Tasmota)
   - Sonoff DW1
   - Sonoff PIR2
