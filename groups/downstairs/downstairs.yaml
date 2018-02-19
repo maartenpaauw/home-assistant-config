@@ -3,6 +3,7 @@ downstairs:
   view: yes
   entities:
     - group.bathroom
+    - group.candles
     - group.hall
     - group.kitchen
     - group.living_room
