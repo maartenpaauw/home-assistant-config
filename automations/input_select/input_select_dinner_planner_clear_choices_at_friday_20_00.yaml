@@ -19,3 +19,7 @@
         - input_select.dinner_planner_sunday
       data:
         option: "Onbeslist"
+    - service: notify.IPHONE_MAARTEN_AND_RIANNE
+      data:
+        title: "Nieuwe maaltijden"
+        message: "Tijd om voor komende week te plannen!"
