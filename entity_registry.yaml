@@ -1,0 +1,30 @@
+remote.apple_tv_woonkamer:
+  platform: apple_tv
+  unique_id: 78099b9bbcc4601a8b69683254b972a76a1839dec5c7d65772133bf03604dbb2
+media_player.apple_tv_woonkamer:
+  platform: apple_tv
+  unique_id: 78099b9bbcc4601a8b69683254b972a76a1839dec5c7d65772133bf03604dbb2
+sensor.iphone_8_van_maarten_paauw_battery_level:
+  platform: ios
+  unique_id: level_iphone_8_plus_van_maarten_paauw
+sensor.iphone_6s_van_rianne_van_der_maat_battery_level:
+  platform: ios
+  unique_id: level_iphone_6s_van_rianne_van_der_maat
+sensor.iphone_6s_van_rianne_van_der_maat_battery_state:
+  platform: ios
+  unique_id: state_iphone_6s_van_rianne_van_der_maat
+sensor.iphone_8_van_maarten_paauw_battery_state:
+  platform: ios
+  unique_id: state_iphone_8_plus_van_maarten_paauw
+light.eettafel:
+  platform: hue
+  unique_id: 00:17:88:01:03:59:c5:56-0b
+light.nachtlamp_van_rianne:
+  platform: hue
+  unique_id: 00:17:88:01:02:78:2b:04-0b
+light.nachtlamp_van_maarten:
+  platform: hue
+  unique_id: 00:17:88:01:02:7a:21:6d-0b
+light.bloom:
+  platform: hue
+  unique_id: 00:17:88:01:00:1e:8c:f7-0b
