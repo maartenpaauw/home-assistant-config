@@ -24,6 +24,9 @@ recorder:
 # Enables configuration UI
 config:
 
+# Shopping list
+shopping_list:
+
 http:
   api_password: !secret http_api_password
   base_url: !secret http_base_url
