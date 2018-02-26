@@ -9,7 +9,7 @@
         - fri
   action:
     - service: input_select.select_option
-      entity_id: 
+      entity_id:
         - input_select.dinner_planner_monday
         - input_select.dinner_planner_tuesday
         - input_select.dinner_planner_wednesday
