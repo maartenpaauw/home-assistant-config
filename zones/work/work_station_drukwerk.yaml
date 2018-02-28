@@ -1,4 +1,4 @@
-- name: work_station_drukwerk
-  latitude: !secret zone_work_station_drukwerk_latitude
-  longitude: !secret zone_work_station_drukwerk_longitude
+- name: work_duocore
+  latitude: !secret zone_work_duocore_latitude
+  longitude: !secret zone_work_duocore_longitude
   icon: mdi:briefcase
