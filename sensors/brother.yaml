@@ -1,0 +1,4 @@
+- platform: scrape
+  name: "Brother"
+  resource: !select sensor_brother_resource
+  select: "#moni_data > span"
