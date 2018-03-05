@@ -1,0 +1,7 @@
+- platform: mqtt
+  name: "Sonoff Touch Dressing Room"
+  state_topic: "stat/sonoff-touch-dressing-room/POWER"
+  command_topic: "cmnd/sonoff-touch-dressing-room/POWER"
+  optimistic: false
+  qos: 2
+  retain: true

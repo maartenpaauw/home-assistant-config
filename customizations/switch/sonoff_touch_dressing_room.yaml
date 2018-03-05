@@ -1,0 +1,4 @@
+switch.sonoff_touch_dressing_room:
+  icon: mdi:ceiling-light
+  friendly_name: Kledingkamer
+  homebridge_visible: true

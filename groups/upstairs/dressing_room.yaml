@@ -2,3 +2,5 @@ dressing_room:
   name: Kleedkamer
   icon: mdi:tie
   control: hidden
+  entities:
+    - switch.sonoff_touch_dressing_room
