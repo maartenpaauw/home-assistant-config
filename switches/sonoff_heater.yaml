@@ -1,7 +1,0 @@
-- platform: mqtt
-  name: "Sonoff Heater"
-  state_topic: "stat/sonoff-heater/POWER"
-  command_topic: "cmnd/sonoff-heater/POWER"
-  optimistic: false
-  qos: 2
-  retain: true

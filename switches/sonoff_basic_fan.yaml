@@ -1,0 +1,7 @@
+- platform: mqtt
+  name: "Sonoff Basic Fan"
+  state_topic: "stat/sonoff-basic-fan/POWER"
+  command_topic: "cmnd/sonoff-basic-fan/POWER"
+  optimistic: false
+  qos: 2
+  retain: true
