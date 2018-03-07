@@ -1,0 +1,3 @@
+automation.sensor_brother_drum_below_20_percent:
+  icon: mdi:printer
+  friendly_name: Geef een notificatie als de drum onder de 20% komt

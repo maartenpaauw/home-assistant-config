@@ -1,0 +1,11 @@
+- alias: sensor_brother_drum_below_20_percent
+  initial_state: True
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.brother_drum
+      below: 20
+  action:
+    - service: notify.IPHONE_MAARTEN_AND_RIANNE
+      data:
+        title: "Brother"
+        message: "De drum is bijna op!"

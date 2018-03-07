@@ -8,4 +8,5 @@ office:
     - switch.pc
     - light.bloom
     - media_player.spotify
-    - sensor.brother
+    - sensor.brother_toner
+    - sensor.brother_drum

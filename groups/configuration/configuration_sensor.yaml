@@ -5,4 +5,5 @@ configuration_sensor:
   entities:
     - automation.sensor_sonoff_pir2_staircase_turn_off_ai_light_staircase
     - automation.sensor_sonoff_pir2_staircase_turn_on_ai_light_staircase
-    - automation.sensor_brother_below_20_percent
+    - automation.sensor_brother_toner_below_20_percent
+    - automation.sensor_brother_drum_below_20_percent
