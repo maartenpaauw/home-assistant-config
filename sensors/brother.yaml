@@ -1,4 +1,7 @@
 - platform: scrape
   name: "Brother"
   resource: !secret sensor_brother_resource
-  select: "#moni_data > span"
+  select: ".tonerremain"
+  attribute: height
+  value_template: '{{ (100 / 56) * (value | int) }}'
+  unit_of_measurement: "%"

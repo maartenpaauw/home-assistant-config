@@ -1,0 +1,11 @@
+- alias: sensor_brother_below_20_percent
+  initial_state: True
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.brother
+      below: 20
+  action:
+    - service: notify.IPHONE_MAARTEN_AND_RIANNE
+      data:
+        title: "Brother"
+        message: "De toner is bijna op!"
