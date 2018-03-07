@@ -1,5 +1,5 @@
 dressing_room:
-  name: Kleedkamer
+  name: Kledingkamer
   icon: mdi:tie
   control: hidden
   entities:
