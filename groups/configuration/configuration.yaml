@@ -5,6 +5,6 @@ configuration:
     - group.configuration_climate
     - group.configuration_input_boolean
     - group.configuration_input_select
+    - group.configuration_media_player
     - group.configuration_sensor
     - group.configuration_theme
-    - group.configuration_tv

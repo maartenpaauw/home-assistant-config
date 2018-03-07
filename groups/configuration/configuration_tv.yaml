@@ -1,7 +1,0 @@
-configuration_tv:
-  name: Televisie
-  icon: mdi:television
-  control: hidden
-  entities:
-    - automation.tv_apple_tv_off
-    - automation.tv_apple_tv_on

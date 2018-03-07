@@ -1,0 +1,7 @@
+configuration_media_player:
+  name: Media Speler
+  icon: mdi:play-pause
+  control: hidden
+  entities:
+    - automation.media_player_tv_off_apple_tv_off
+    - automation.media_player_tv_on_apple_tv_on

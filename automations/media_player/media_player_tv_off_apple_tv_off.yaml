@@ -1,4 +1,4 @@
-- alias: tv_apple_tv_off
+- alias: media_player_tv_off_apple_tv_off
   initial_state: True
   trigger:
     - platform: state
