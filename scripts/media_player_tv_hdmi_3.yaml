@@ -1,4 +1,4 @@
-tv_hdmi_3:
+media_player_tv_hdmi_3:
   alias: tv_hdmi_3
   sequence:
     - service: media_player.select_source
