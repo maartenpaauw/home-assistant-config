@@ -1,0 +1,17 @@
+- alias: zone_rianne_van_der_maat_to_home
+  initial_state: True
+  trigger:
+    - platform: zone
+      event: enter
+      zone: zone.home
+      entity_id:
+        - device_tracker.iphone_6s_van_rianne_van_der_maat
+  action:
+    - service: notify.iphone_6s_van_rianne_van_der_maat
+      data:
+        title: "Welkom thuis!"
+        message: "Trek in een theetje?"
+        data:
+          push:
+            badge: 0
+            category: "ikettle"

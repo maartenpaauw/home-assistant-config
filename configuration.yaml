@@ -8,7 +8,7 @@ homeassistant:
   customize: !include_dir_merge_named customizations
 
 # Apple
-ios:
+ios: !include ios/ios.yaml
 
 # Enables the frontend
 frontend:

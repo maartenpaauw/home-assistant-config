@@ -1,0 +1,6 @@
+configuration_zone:
+  name: Zones
+  icon: mdi:crosshairs-gps
+  control: hidden
+  entities:
+    - automation.zone_rianne_van_der_maat_to_home

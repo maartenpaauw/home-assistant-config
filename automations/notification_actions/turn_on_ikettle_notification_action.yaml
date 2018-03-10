@@ -1,0 +1,10 @@
+- alias: turn_on_ikettle_notification_action
+  initial_state: True
+  trigger:
+    - platform: event
+      event_type: ios.notification_action_fired
+      event_data:
+        actionName: IKETTLE_ON
+  action:
+    - service: input_boolean.turn_on
+      entity_id: input_boolean.ikettle
