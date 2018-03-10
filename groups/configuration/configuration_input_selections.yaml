@@ -1,5 +1,5 @@
-configuration_input_select:
-  name: Input Select
+configuration_input_selections:
+  name: Invoer Selecties
   icon: mdi:menu-down
   control: hidden
   entities:

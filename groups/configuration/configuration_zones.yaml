@@ -1,4 +1,4 @@
-configuration_zone:
+configuration_zones:
   name: Zones
   icon: mdi:crosshairs-gps
   control: hidden

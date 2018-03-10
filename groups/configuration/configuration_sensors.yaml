@@ -1,4 +1,4 @@
-configuration_sensor:
+configuration_sensors:
   name: Sensoren
   icon: mdi:run
   control: hidden

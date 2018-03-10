@@ -1,5 +1,5 @@
-configuration_theme:
-  name: Thema
+configuration_themes:
+  name: Thema's
   icon: mdi:format-paint
   control: hidden
   entities:
