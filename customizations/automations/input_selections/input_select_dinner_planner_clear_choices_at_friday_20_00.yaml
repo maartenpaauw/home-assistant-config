@@ -1,3 +1,3 @@
 automation.input_select_dinner_planner_clear_choices_at_friday_20_00:
-  icon: mdi:food
   friendly_name: Reset de maaltijd planner op vrijdag 8 uur 's avonds
+  icon: mdi:food

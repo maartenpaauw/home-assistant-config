@@ -1,4 +1,4 @@
 switch.sonoff_basic_fan:
-  icon: mdi:fan
   friendly_name: Ventilator
+  icon: mdi:fan
   homebridge_visible: true

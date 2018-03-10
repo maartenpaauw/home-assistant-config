@@ -1,4 +1,4 @@
 switch.sonoff_basic_heater:
-  icon: mdi:fan
   friendly_name: Elektrische Kachel
+  icon: mdi:fan
   homebridge_visible: true
