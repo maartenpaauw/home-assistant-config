@@ -1,0 +1,3 @@
+script.media_player_tv_hdmi_1:
+  friendly_name: HDMI 1
+  icon: mdi:video-input-hdmi
