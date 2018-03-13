@@ -1,6 +1,12 @@
 media_player_tv_hdmi_3:
   alias: tv_hdmi_3
   sequence:
+    - service: media_player.turn_on
+      data:
+        entity_id: media_player.tv
+    - wait_template: "{{ states.media_player.tv.state == 'on' }}"
+      timeout:
+        seconds: 45
     - service: media_player.select_source
       data:
         entity_id: media_player.tv
