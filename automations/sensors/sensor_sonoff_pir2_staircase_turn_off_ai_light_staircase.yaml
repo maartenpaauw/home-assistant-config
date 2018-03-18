@@ -5,7 +5,7 @@
       entity_id: sensor.sonoff_pir2_staircase
       to: "Nee"
       for:
-          minutes: 1
+          seconds: 30
   action:
     - service: light.turn_off
       entity_id: light.ai_light_staircase
