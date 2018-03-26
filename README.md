@@ -30,9 +30,22 @@
 
 - Turn the Toon van Eneco in "Slaap" mode when it's 10:00 pm.
 - Turn on the Smarter iKettle 3rd generation when an input boolean is turned on.
+- Reset dinner planner every friday at 8:00 pm.
 - Turn on/off the Apple TV 3rd generation when the Sony Bravia KDL-42W805A is on/off.
 - Turn on AiLight in the staircase if there is movement.
 - Turn off AiLight in the staircase if there is no movement for 30 seconds.
+- Toggle light/dark theme based on sunset and sunrise.
+- Ask for tea when my girlfriend comes home.
 
-  [tasmota]: https://github.com/arendst/Sonoff-Tasmota	"Sonoff Tasmota"
-  [ailight]: https://github.com/stelgenhof/AiLight	"AiLight"
+## Scripts
+
+- Put Sony Bravia KDL-42W805A on and switch to HDMI 1.
+- Put Sony Bravia KDL-42W805A on and switch to HDMI 3.
+
+## Shell Commands
+
+- Turn of PC.
+
+
+[tasmota]: https://github.com/arendst/Sonoff-Tasmota	"Sonoff Tasmota"
+[ailight]: https://github.com/stelgenhof/AiLight	"AiLight"
