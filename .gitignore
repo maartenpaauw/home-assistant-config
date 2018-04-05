@@ -29,3 +29,6 @@ yarn.lock
 
 # Ignore Shopping List.
 .shopping_list.json
+
+# Ignore Homekit file.
+.homekit.state

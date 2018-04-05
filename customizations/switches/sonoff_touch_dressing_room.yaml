@@ -1,4 +1,3 @@
 switch.sonoff_touch_dressing_room:
   friendly_name: Plafondlamp
   icon: mdi:ceiling-light
-  homebridge_visible: true

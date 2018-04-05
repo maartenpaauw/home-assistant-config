@@ -1,0 +1,6 @@
+filter:
+  exclude_entities:
+    - sensor.brother_toner
+    - sensor.brother_drum
+    - sensor.iphone_6s_van_rianne_van_der_maat_battery_level
+    - sensor.iphone_8_van_maarten_paauw_battery_level

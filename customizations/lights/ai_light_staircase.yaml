@@ -1,4 +1,3 @@
 light.ai_light_staircase:
   friendly_name: Trapkast
   icon: mdi:lightbulb
-  homebridge_visible: true
