@@ -3,7 +3,7 @@ office:
   icon: mdi:briefcase
   control: hidden
   entities:
-    # - switch.sonoff_basic_fan
+    - switch.sonoff_basic_fan
     - switch.sonoff_basic_heater
     - switch.pc
     - light.bloom
