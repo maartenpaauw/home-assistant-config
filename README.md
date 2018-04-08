@@ -13,6 +13,7 @@
 - ARILUX E27 RGBW - 2× (Flashed with [AiLight][ailight])
 - Game PC
 - iTead Sonoff Basic - 2× (Flashed with [Tasmota][tasmota])
+- iTead Sonoff S20 (Flashed with [Tasmota][tasmota])
 - iTead Sonoff Touch (Flashed with [Tasmota][tasmota])
 - iTead Sonoff RF Bridge 433 (Flashed with [Tasmota][tasmota])
   - Sonoff DW1
@@ -46,6 +47,5 @@
 
 - Turn of PC.
 
-
-[tasmota]: https://github.com/arendst/Sonoff-Tasmota	"Sonoff Tasmota"
-[ailight]: https://github.com/stelgenhof/AiLight	"AiLight"
+[tasmota]: https://github.com/arendst/Sonoff-Tasmota  "Sonoff Tasmota"
+[ailight]: https://github.com/stelgenhof/AiLight  "AiLight"
