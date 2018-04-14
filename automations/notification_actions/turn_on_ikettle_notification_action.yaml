@@ -7,4 +7,5 @@
         actionName: IKETTLE_ON
   action:
     - service: input_boolean.turn_on
-      entity_id: input_boolean.ikettle
+      data:
+        entity_id: input_boolean.ikettle

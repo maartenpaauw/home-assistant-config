@@ -6,4 +6,5 @@
       to: "Ja"
   action:
     - service: light.turn_on
-      entity_id: light.ai_light_staircase
+      data:
+        entity_id: light.ai_light_staircase

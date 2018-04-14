@@ -8,4 +8,5 @@
           seconds: 30
   action:
     - service: light.turn_off
-      entity_id: light.ai_light_staircase
+      data:
+        entity_id: light.ai_light_staircase
