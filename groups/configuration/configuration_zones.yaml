@@ -3,4 +3,5 @@ configuration_zones:
   icon: mdi:crosshairs-gps
   control: hidden
   entities:
+    - automation.time_request_device_trackers_location
     - automation.zone_rianne_van_der_maat_to_home

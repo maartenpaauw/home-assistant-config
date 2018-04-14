@@ -1,0 +1,8 @@
+- alias: time_request_device_trackers_location
+  trigger:
+    - platform: time
+      minutes: "/5"
+  action:
+    - service: notify.IPHONE_MAARTEN_AND_RIANNE
+      data:
+        message: "request_location_update"
