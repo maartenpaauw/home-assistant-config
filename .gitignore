@@ -32,3 +32,6 @@ yarn.lock
 
 # Ignore Homekit file.
 .homekit.state
+
+# Ignore Configuration Entries file.
+.config_entries.json
