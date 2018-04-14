@@ -3,6 +3,7 @@ upstairs:
   view: yes
   entities:
     - group.bedroom
+    - group.alarm_clock_maarten_paauw
     - group.corridor
     - group.dressing_room
     - group.office

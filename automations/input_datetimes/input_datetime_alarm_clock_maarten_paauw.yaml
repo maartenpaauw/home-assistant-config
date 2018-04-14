@@ -1,0 +1,15 @@
+- alias: input_datetime_alarm_clock_maarten_paauw
+  initial_state: True
+  trigger:
+    - platform: template
+      value_template: "{{ states('sensor.time') == (states.input_datetime.alarm_clock_maarten_paauw.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.alarm_clock_maarten_paauw
+      state: "on"
+  action:
+    - service: light.turn_on
+      data:
+        entity_id: light.nachtlamp_van_maarten
+        transition: 60
+        profile: "concentrate"

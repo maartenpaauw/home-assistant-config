@@ -4,6 +4,7 @@ configuration:
   entities:
     - group.configuration_climate
     - group.configuration_input_booleans
+    - group.configuration_input_datetimes
     - group.configuration_input_selections
     - group.configuration_media_players
     - group.configuration_notification_actions
