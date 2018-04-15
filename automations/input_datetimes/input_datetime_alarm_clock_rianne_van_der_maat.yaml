@@ -13,6 +13,9 @@
         entity_id: light.nachtlamp_van_rianne
         transition: 60
         profile: "concentrate"
+    - service: input_boolean.turn_off
+      data:
+        entity_id: input_boolean.alarm_clock_rianne_van_der_maat
     - service: input_boolean.turn_on
       data:
         entity_id: input_boolean.ikettle
