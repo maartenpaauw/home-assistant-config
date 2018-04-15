@@ -32,12 +32,16 @@
 
 - Turn the Toon van Eneco in "Slaap" mode when it's 10:00 pm.
 - Turn on the Smarter iKettle 3rd generation when an input boolean is turned on.
+- Morning routine when Maarten Paauw's alarm goes off.
+- Morning routine when Rianne van der Maat's alarm goes off.
 - Reset dinner planner every friday at 8:00 pm.
 - Turn on/off the Apple TV 3rd generation when the Sony Bravia KDL-42W805A is on/off.
+- Send a notification when the printer's drum or toner is below 20 percent.
+- Turn off some office components when the PC shuts down.
 - Turn on AiLight in the staircase if there is movement.
 - Turn off AiLight in the staircase if there is no movement for 30 seconds.
 - Toggle light/dark theme based on sunset and sunrise.
-- Ask for tea when my girlfriend comes home.
+- Ask for tea when Rianne van der Maat comes home.
 
 ## Scripts
 
