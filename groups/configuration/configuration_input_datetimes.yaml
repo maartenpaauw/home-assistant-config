@@ -1,5 +1,5 @@
 configuration_input_datetimes:
-  name: Invoer Datum Tijden
+  name: Invoer Datum-Tijden
   icon: mdi:alarm-check
   control: hidden
   entities:
