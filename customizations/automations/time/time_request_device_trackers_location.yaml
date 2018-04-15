@@ -1,3 +1,0 @@
-automation.time_request_device_trackers_location:
-  friendly_name: Haal elke 5 minuten de familie locatie op
-  icon: mdi:account-location
