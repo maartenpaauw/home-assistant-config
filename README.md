@@ -5,7 +5,7 @@
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-0.67.0-038FC7.svg)](https://home-assistant.io/)
 > Maarten Paauw's Home Assistant configuration files
 
-## Devices
+## Components
 
 - Apple iPhone 6s
 - Apple iPhone 8+
@@ -23,6 +23,7 @@
 - Philips Hue White and Color E27 - 2×
 - Smarter iKettle 3rd generation
 - Sony Bravia KDL-42W805A
+- Spotify Premium
 - Toon van Eneco
 - Wemos D1 mini - 2× (Flashed with [Tasmota][tasmota])
   - To [control a Wax Candle](https://www.instagram.com/p/BfY4dR_FVtn/?taken-by=maartenpaauw) from the Action
