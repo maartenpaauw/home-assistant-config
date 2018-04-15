@@ -1,0 +1,3 @@
+automation.input_datetime_alarm_clock_rianne_van_der_maat:
+  friendly_name: De wekker van Rianne van der Maat gaat af
+  icon: mdi:alarm-check

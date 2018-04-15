@@ -4,3 +4,4 @@ configuration_input_datetimes:
   control: hidden
   entities:
     - automation.input_datetime_alarm_clock_maarten_paauw
+    - automation.input_datetime_alarm_clock_rianne_van_der_maat

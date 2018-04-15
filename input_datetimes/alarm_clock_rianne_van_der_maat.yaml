@@ -1,0 +1,4 @@
+alarm_clock_rianne_van_der_maat:
+  name: Tijd
+  has_date: False
+  has_time: True

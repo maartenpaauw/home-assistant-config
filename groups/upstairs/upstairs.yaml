@@ -4,6 +4,7 @@ upstairs:
   entities:
     - group.bedroom
     - group.alarm_clock_maarten_paauw
+    - group.alarm_clock_rianne_van_der_maat
     - group.corridor
     - group.dressing_room
     - group.office

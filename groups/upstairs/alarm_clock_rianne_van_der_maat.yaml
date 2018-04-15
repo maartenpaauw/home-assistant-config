@@ -1,0 +1,6 @@
+alarm_clock_rianne_van_der_maat:
+  name: Wekker van Rianne
+  icon: mdi:clock
+  entities:
+    - input_boolean.alarm_clock_rianne_van_der_maat
+    - input_datetime.alarm_clock_rianne_van_der_maat
