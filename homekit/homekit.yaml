@@ -1,6 +1,15 @@
 filter:
-  exclude_entities:
-    - sensor.brother_toner
-    - sensor.brother_drum
-    - sensor.iphone_6s_van_rianne_van_der_maat_battery_level
-    - sensor.iphone_8_van_maarten_paauw_battery_level
+  include_entities:
+    - climate.toon_van_eneco
+    - input_boolean.ikettle
+    - light.ai_light_floor_lamp
+    - light.ai_light_staircase
+    - light.group_bedside_lamps
+    - script.media_player_tv_hdmi_1
+    - script.media_player_tv_hdmi_3
+    - switch.candle_1
+    - switch.macbook_pro
+    - switch.pc
+    - switch.sonoff_basic_fan
+    - switch.sonoff_basic_heater
+    - switch.sonoff_touch_dressing_room
