@@ -1,4 +1,3 @@
 dinner_planner_thursday:
   name: Donderdag
   options: !include options/meals.yaml
-  icon: mdi:food
