@@ -37,7 +37,7 @@ yarn.lock
 .config_entries.json
 
 # Ignore Custom UI files.
-www/custom_ui/*
+www/custom_ui/state-card-custom-ui*
 
 # Ignore Customizer component
 custom_components/customizer/*
