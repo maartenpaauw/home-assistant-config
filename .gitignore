@@ -35,3 +35,9 @@ yarn.lock
 
 # Ignore Configuration Entries file.
 .config_entries.json
+
+# Ignore Custom UI files.
+www/custom_ui/*
+
+# Ignore Customizer component
+custom_components/customizer/*

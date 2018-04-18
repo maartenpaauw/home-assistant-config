@@ -7,6 +7,11 @@ homeassistant:
   time_zone: Europe/Amsterdam
   customize: !include_dir_merge_named customizations
 
+  customize_glob:
+    "*.*":
+      custom_ui_state_card: state-card-custom-ui
+      show_last_changed: True
+
 # Apple
 ios: !include ios/ios.yaml
 
@@ -17,6 +22,13 @@ homekit: !include homekit/homekit.yaml
 frontend:
   themes: !include_dir_merge_named themes
   javascript_version: latest
+  extra_html_url:
+    - /local/custom_ui/state-card-custom-ui.html
+  extra_html_url_es5:
+    - /local/custom_ui/state-card-custom-ui-es5.html
+
+customizer:
+  custom_ui: local
 
 # Map
 map:
