@@ -1,6 +1,6 @@
 - platform: scrape
   name: "Brother Drum"
-  resource: !secret sensor_brother_drum_resource
+  resource: !secret sensor_brother_information_resource
   select: "#pageContents > form > div:nth-of-type(4) > dl > dd:nth-of-type(2)"
   value_template: '{{ (value.split("(")[1].split("%")[0] | float) | round(2) }}'
   unit_of_measurement: "%"
