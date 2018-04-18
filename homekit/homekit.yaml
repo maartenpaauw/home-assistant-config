@@ -12,4 +12,5 @@ filter:
     - switch.pc
     - switch.sonoff_basic_fan
     - switch.sonoff_basic_heater
+    - switch.sonoff_s20_wall_fan
     - switch.sonoff_touch_dressing_room
