@@ -41,3 +41,6 @@ www/custom_ui/state-card-custom-ui*
 
 # Ignore Customizer component
 custom_components/customizer/*
+
+# Ignore Custom UI update shell command file.
+update.sh
