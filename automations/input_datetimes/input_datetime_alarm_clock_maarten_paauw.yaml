@@ -16,3 +16,12 @@
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_maarten_paauw
+    - delay: "00:30:00"
+    - service: notify.ios_iphone_8_plus_van_maarten_paauw
+      data:
+        title: "Even een herinnering!"
+        message: "Heb jij je medicijnen al genomen?"
+        data:
+          push:
+            badge: 0
+            category: "seretide_diskus_taken"
