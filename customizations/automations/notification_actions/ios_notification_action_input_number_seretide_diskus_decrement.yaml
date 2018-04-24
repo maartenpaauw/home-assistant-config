@@ -1,0 +1,3 @@
+automation.ios_notification_action_input_number_seretide_diskus_decrement:
+  friendly_name: Update de status van de Seretide Diskus via een notificatie
+  icon: mdi:medical-bag
