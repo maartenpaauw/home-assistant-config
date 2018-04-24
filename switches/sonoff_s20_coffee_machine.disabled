@@ -1,0 +1,7 @@
+- platform: mqtt
+  name: "Sonoff S20 Coffee Machine"
+  state_topic: "stat/sonoff-s20-coffee-machine/POWER"
+  command_topic: "cmnd/sonoff-s20-coffee-machine/POWER"
+  optimistic: false
+  qos: 2
+  retain: true
