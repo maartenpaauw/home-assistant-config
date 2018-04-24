@@ -1,13 +1,13 @@
-office_cold_mode:
-  alias: office_cold_mode
+group_office_hot_mode:
+  alias: group_office_hot_mode
   sequence:
     - service: customizer.set_attribute
       data:
-        entity_id: switch.sonoff_basic_fan
+        entity_id: switch.sonoff_basic_heater
         attribute: hidden
         value: True
     - service: customizer.set_attribute
       data:
-        entity_id: switch.sonoff_basic_heater
+        entity_id: switch.sonoff_basic_fan
         attribute: hidden
         value: False
