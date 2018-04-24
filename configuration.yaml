@@ -9,10 +9,9 @@ homeassistant:
   customize_glob: !include_dir_merge_named customizations_global
 
 # Apple
-ios: !include ios/ios.yaml
-
-# Homekit
-homekit: !include homekit/homekit.yaml
+apple_tv: !include_dir_merge_list apple/apple_tv
+homekit: !include apple/homekit/homekit.yaml
+ios: !include apple/ios/ios.yaml
 
 # Enables the frontend
 frontend:
@@ -79,7 +78,6 @@ toon:
   username: !secret toon_username
   password: !secret toon_password
 
-apple_tv: !include_dir_merge_list apple_tv
 automation: !include_dir_merge_list automations
 group: !include_dir_merge_named groups
 input_boolean: !include_dir_merge_named input_booleans
