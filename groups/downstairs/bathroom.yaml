@@ -2,3 +2,5 @@ bathroom:
   name: Badkamer
   icon: mdi:hot-tub
   control: hidden
+  entities:
+    - input_number.seretide_diskus
