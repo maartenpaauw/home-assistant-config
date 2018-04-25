@@ -6,6 +6,6 @@
       event_data:
         actionName: SERETIDE_DISKUS_TAKEN
   action:
-    - service: input_number.decrement
+    - service: script.turn_on
       data:
-        entity_id: input_number.seretide_diskus
+        entity_id: script.input_number_seretide_diskus_decrement

@@ -1,0 +1,6 @@
+input_number_seretide_diskus_decrement:
+  alias: input_number_seretide_diskus_decrement
+  sequence:
+    - service: input_number.decrement
+      data:
+        entity_id: input_number.seretide_diskus
