@@ -3,4 +3,3 @@ climate:
   icon: mdi:thermometer
   entities:
     - climate.toon_van_eneco
-    - sensor.longfonds
