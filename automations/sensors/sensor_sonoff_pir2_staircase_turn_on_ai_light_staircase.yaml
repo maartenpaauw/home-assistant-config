@@ -8,6 +8,6 @@
     - service: light.turn_on
       data:
         entity_id: light.ai_light_staircase
-        profile: "reading"
+        brightness: 255
+        color_temp: 500
         white_value: 255
-        color_temp: 347
