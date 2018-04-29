@@ -1,3 +1,3 @@
 automation.climate_toon_set_operation_mode_cool_at_22_00:
   friendly_name: Zet de Toon op "Slapen" als het 10 uur 's avonds is
-  icon: mdi:nest-thermostat
+  icon: mdi:thermostat
