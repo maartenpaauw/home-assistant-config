@@ -1,2 +1,3 @@
 media_player.tv: 
   friendly_name: Televisie
+  icon: mdi:television
