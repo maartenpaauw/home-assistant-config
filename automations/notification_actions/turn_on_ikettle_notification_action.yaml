@@ -1,5 +1,5 @@
 - alias: turn_on_ikettle_notification_action
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: event
       event_type: ios.notification_action_fired

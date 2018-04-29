@@ -1,5 +1,5 @@
 - alias: ios_notification_action_input_number_seretide_diskus_decrement
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: event
       event_type: ios.notification_action_fired

@@ -1,2 +1,2 @@
 binary_sensor.burner_status:
-  hidden: True
+  hidden: true

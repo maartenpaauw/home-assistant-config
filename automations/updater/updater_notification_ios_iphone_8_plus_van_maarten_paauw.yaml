@@ -1,5 +1,5 @@
 - alias: updater_notification_ios_iphone_8_plus_van_maarten_paauw
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: state
       entity_id: updater.updater

@@ -1,5 +1,5 @@
 - alias: theme_default
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: homeassistant
       event: start

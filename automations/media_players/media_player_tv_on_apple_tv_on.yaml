@@ -1,5 +1,5 @@
 - alias: media_player_tv_on_apple_tv_on
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: state
       entity_id: media_player.tv

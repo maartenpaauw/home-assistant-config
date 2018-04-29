@@ -1,4 +1,4 @@
 alarm_clock_maarten_paauw:
   name: Tijd
-  has_date: False
-  has_time: True
+  has_date: false
+  has_time: true

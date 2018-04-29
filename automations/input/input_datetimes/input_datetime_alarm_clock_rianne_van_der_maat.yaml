@@ -1,8 +1,8 @@
 - alias: input_datetime_alarm_clock_rianne_van_der_maat
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: template
-      value_template: "{{ states('sensor.time') == (states.input_datetime.alarm_clock_rianne_van_der_maat.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+      value_template: "{{ states('sensor.time') == (states.input_datetime.alarm_clock_rianne_van_der_maat.attributes.timestamp | int | timestamp_custom('%H:%M', false)) }}"
   condition:
     - condition: state
       entity_id: input_boolean.alarm_clock_rianne_van_der_maat

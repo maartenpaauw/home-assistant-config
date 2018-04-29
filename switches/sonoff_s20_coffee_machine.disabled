@@ -7,7 +7,7 @@
   payload_off: "OFF"
   payload_available: "Online"
   payload_not_available: "Offline"
-  optimistic: False
+  optimistic: false
   qos: 1
-  retain: True
+  retain: true
 

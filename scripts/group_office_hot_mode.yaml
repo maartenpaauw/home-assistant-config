@@ -5,9 +5,9 @@ group_office_hot_mode:
       data:
         entity_id: switch.sonoff_basic_heater
         attribute: hidden
-        value: True
+        value: true
     - service: customizer.set_attribute
       data:
         entity_id: switch.sonoff_basic_fan
         attribute: hidden
-        value: False
+        value: false

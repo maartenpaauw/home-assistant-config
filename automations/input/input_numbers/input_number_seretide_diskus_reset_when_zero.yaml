@@ -1,5 +1,5 @@
 - alias: input_number_seretide_diskus_reset_when_zero
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: numeric_state
       entity_id: input_number.seretide_diskus

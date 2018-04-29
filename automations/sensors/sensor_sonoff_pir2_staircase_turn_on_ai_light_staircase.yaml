@@ -1,5 +1,5 @@
 - alias: sensor_sonoff_pir2_staircase_turn_on_ai_light_staircase
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: state
       entity_id: sensor.sonoff_pir2_staircase

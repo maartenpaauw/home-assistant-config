@@ -1,5 +1,5 @@
 - alias: zone_rianne_van_der_maat_to_home
-  initial_state: True
+  initial_state: true
   trigger:
     - platform: zone
       event: enter
