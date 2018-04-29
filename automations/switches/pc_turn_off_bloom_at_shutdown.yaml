@@ -8,4 +8,5 @@
         minutes: 1
   action:
     - service: light.turn_off
-      entity_id: light.bloom
+      data:
+        entity_id: light.bloom
