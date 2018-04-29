@@ -2,6 +2,11 @@
   name: "Sonoff S20 Wall Fan"
   state_topic: "stat/sonoff-s20-wall-fan/POWER"
   command_topic: "cmnd/sonoff-s20-wall-fan/POWER"
-  optimistic: false
-  qos: 2
-  retain: true
+  availability_topic: "tele/sonoff-s20-wall-fan/LWT"
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  optimistic: False
+  qos: 1
+  retain: True

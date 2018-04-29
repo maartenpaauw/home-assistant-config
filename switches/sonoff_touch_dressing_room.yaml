@@ -2,6 +2,11 @@
   name: "Sonoff Touch Dressing Room"
   state_topic: "stat/sonoff-touch-dressing-room/POWER"
   command_topic: "cmnd/sonoff-touch-dressing-room/POWER"
-  optimistic: false
-  qos: 2
-  retain: true
+  availability_topic: "tele/sonoff-touch-dressing-room/LWT"
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  optimistic: False
+  qos: 1
+  retain: True

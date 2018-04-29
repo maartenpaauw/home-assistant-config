@@ -2,6 +2,11 @@
   name: "Sonoff Basic Fan"
   state_topic: "stat/sonoff-basic-fan/POWER"
   command_topic: "cmnd/sonoff-basic-fan/POWER"
-  optimistic: false
-  qos: 2
-  retain: true
+  availability_topic: "tele/sonoff-basic-fan/LWT"
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  optimistic: False
+  qos: 1
+  retain: True

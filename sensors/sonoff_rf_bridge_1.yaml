@@ -1,5 +1,9 @@
 - platform: mqtt
   name: "Sonoff RF Bridge 1"
   state_topic: "tele/sonoff-bridge-1/RESULT"
-  expire_after: 10
+  availability_topic: "tele/sonoff-bridge-1/LWT"
   value_template: "{{ value_json['RfReceived']['Data'] }}"
+  expire_after: 10
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  qos: 1
