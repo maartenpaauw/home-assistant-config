@@ -16,6 +16,14 @@
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_maarten_paauw
+    - service: notify.ios_iphone_8_plus_van_maarten_paauw
+      data:
+        title: "Goedemorgen!"
+        message: "Wat wil je drinken?"
+        data:
+          push:
+            badge: 0
+            category: "coffee_or_tea"
     - delay: "00:30:00"
     - service: notify.ios_iphone_8_plus_van_maarten_paauw
       data:

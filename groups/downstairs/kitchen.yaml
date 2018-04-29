@@ -4,4 +4,4 @@ kitchen:
   control: hidden
   entities:
     - input_boolean.ikettle
-    # - switch.sonoff_s20_coffee_machine
+    - switch.sonoff_s20_coffee_machine

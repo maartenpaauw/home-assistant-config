@@ -3,4 +3,4 @@ configuration_notification_actions:
   icon: mdi:bell-ring
   control: hidden
   entities:
-    - automation.ios_notification_action_input_number_seretide_diskus_decrement
+    - automation.ios_notification_action_seretide_diskus_taken

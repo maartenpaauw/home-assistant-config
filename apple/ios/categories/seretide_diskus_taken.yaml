@@ -4,6 +4,6 @@
     - identifier: "SERETIDE_DISKUS_TAKEN"
       title: "Ja"
       activationMode: "background"
-      authenticationRequired: no
-      destructive: yes
+      authenticationRequired: false
+      destructive: true
       behavior: "default"

@@ -1,0 +1,11 @@
+- alias: ios_notification_action_coffee_or_tea_picked_tea
+  initial_state: true
+  trigger:
+    - platform: event
+      event_type: ios.notification_action_fired
+      event_data:
+        actionName: TEA
+  action:
+    - service: input_boolean.turn_on
+      data:
+        entity_id: input_boolean.ikettle
