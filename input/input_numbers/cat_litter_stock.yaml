@@ -1,0 +1,7 @@
+cat_litter_stock:
+  name: Kattenbakvulling Zakken
+  icon: mdi:cat
+  min: 0
+  max: 30
+  step: 0.5
+  mode: box

@@ -4,4 +4,5 @@ default_view:
   entities:
     - group.climate
     - group.family
+    - group.bella_and_sarah
     - group.dinner_planner

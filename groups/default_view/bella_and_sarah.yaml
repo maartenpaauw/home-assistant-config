@@ -1,0 +1,6 @@
+bella_and_sarah:
+  name: Bella & Sarah
+  icon: mdi:cat
+  entities:
+    - script.input_number_cat_litter_stock_litter_box_cleaned
+    - sensor.cat_litter_stock_in_weeks

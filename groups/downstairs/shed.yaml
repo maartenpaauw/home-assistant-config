@@ -2,3 +2,5 @@ shed:
   name: Schuur
   icon: mdi:washing-machine
   control: hidden
+  entities:
+    - input_number.cat_litter_stock

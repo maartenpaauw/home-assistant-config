@@ -1,0 +1,6 @@
+- platform: template
+  sensors:
+    cat_litter_stock_in_weeks:
+      friendly_name: "Kattenbakvulling Voorraad"
+      value_template: "{{ ((((states.input_number.cat_litter_stock.state | float) / 1.5) * 2) | round) }}"
+      unit_of_measurement: "weken"
