@@ -41,7 +41,6 @@
 - Turn on AiLight in the staircase if there is movement.
 - Turn off AiLight in the staircase if there is no movement for 30 seconds.
 - Toggle light/dark theme based on sunset and sunrise.
-- Ask for tea when Rianne van der Maat comes home.
 
 ## Scripts
 

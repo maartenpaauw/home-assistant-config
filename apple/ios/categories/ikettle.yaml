@@ -1,9 +1,0 @@
-- name: ikettle
-  identifier: "ikettle"
-  actions:
-    - identifier: "IKETTLE_ON"
-      title: "Zet de waterkoker aan"
-      activationMode: "background"
-      authenticationRequired: no
-      destructive: no
-      behavior: "default"

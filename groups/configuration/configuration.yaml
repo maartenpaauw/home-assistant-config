@@ -11,4 +11,3 @@ configuration:
     - group.configuration_sensors
     - group.configuration_switches
     - group.configuration_themes
-    - group.configuration_zones
