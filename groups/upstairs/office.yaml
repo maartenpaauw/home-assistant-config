@@ -3,11 +3,9 @@ office:
   icon: mdi:briefcase
   control: hidden
   entities:
-    - switch.sonoff_basic_fan
     - switch.sonoff_s20_wall_fan
+    - switch.sonoff_basic_fan
     - switch.sonoff_basic_heater
     - switch.pc
     - light.bloom
     - media_player.spotify
-    - sensor.brother_toner
-    - sensor.brother_drum
