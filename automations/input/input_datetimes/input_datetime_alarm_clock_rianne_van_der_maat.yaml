@@ -11,7 +11,7 @@
     - service: light.turn_on
       data:
         entity_id: light.nachtlamp_van_rianne
-        transition: 60
+        transition: 300
         profile: "concentrate"
     - service: input_boolean.turn_off
       data:
