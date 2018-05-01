@@ -16,9 +16,6 @@
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_rianne_van_der_maat
-    - service: input_boolean.turn_on
-      data:
-        entity_id: input_boolean.ikettle
     - service: notify.ios_iphone_6s_van_rianne_van_der_maat
       data:
         title: "Goedemorgen!"
