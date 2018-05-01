@@ -1,0 +1,12 @@
+- alias: switch_sonoff_s20_coffee_machine_turn_off_after_15_minutes
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: switch.sonoff_s20_coffee_machine
+      to: "on"
+      for:
+        minutes: 15
+  action:
+    - service: switch.turn_off
+      data:
+        entity_id: switch.sonoff_s20_coffee_machine
