@@ -1,5 +1,10 @@
 # Sonoff
 
+## Usefull console settings
+
+`Sleep 250`
+`PowerRetain On`
+
 ## Touch
 
 Dutch wiring colours.
