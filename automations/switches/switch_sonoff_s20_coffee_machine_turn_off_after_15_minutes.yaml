@@ -10,3 +10,7 @@
     - service: switch.turn_off
       data:
         entity_id: switch.sonoff_s20_coffee_machine
+    - service: notify.IPHONE_MAARTEN_AND_RIANNE
+      data:
+        title: "Koffie!"
+        message: "De koffie is gezet."
