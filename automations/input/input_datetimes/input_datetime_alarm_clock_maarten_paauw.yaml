@@ -26,9 +26,9 @@
             category: "coffee_or_tea"
     - delay: "00:30:00"
     - service: notify.ios_iphone_8_plus_van_maarten_paauw
-      data:
+      data_template:
         title: "Even een herinnering!"
-        message: "Heb jij je medicijnen al genomen?"
+        message: "Heb jij je medicijnen al genomen? ({{ states.input_number.seretide_diskus.state | int }})"
         data:
           push:
             badge: 0
