@@ -3,4 +3,5 @@ bathroom:
   icon: mdi:hot-tub
   control: hidden
   entities:
+    - script.input_number_seretide_diskus_decrement
     - input_number.seretide_diskus
