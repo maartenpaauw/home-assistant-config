@@ -7,5 +7,6 @@ office:
     - switch.sonoff_basic_fan
     - switch.sonoff_basic_heater
     - switch.pc
+    - switch.transmission_turtle_mode
     - light.bloom
     - media_player.spotify
