@@ -1,0 +1,10 @@
+- alias: switch_pc_on_switch_transmission_turtle_mode_on
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: switch.pc
+      to: "on"
+  action:
+    - service: switch.turn_on
+      data:
+        entity_id: switch.transmission_turtle_mode
