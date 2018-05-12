@@ -2,7 +2,7 @@
 
 [![Greenkeeper](https://badges.greenkeeper.io/maartenpaauw/home-assistant-config.svg)](https://greenkeeper.io/)
 [![Travis CI](https://travis-ci.org/maartenpaauw/home-assistant-config.svg?branch=master)](https://travis-ci.org/maartenpaauw/home-assistant-config)
-[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-0.68.1-038FC7.svg)](https://home-assistant.io/)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-0.69.0-038FC7.svg)](https://home-assistant.io/)
 > Maarten Paauw's Home Assistant configuration files
 
 ## Components
