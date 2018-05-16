@@ -3,7 +3,7 @@
   state_topic: "tele/sonoff-bridge-1/RESULT"
   availability_topic: "tele/sonoff-bridge-1/LWT"
   value_template: "{{ value_json['RfReceived']['Data'] }}"
-  expire_after: 10
+  expire_after: 5
   payload_available: "Online"
   payload_not_available: "Offline"
   qos: 1
