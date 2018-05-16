@@ -1,0 +1,6 @@
+- platform: twitch
+  entity_namespace: twitch
+  channels:
+    - officialandypyro
+    - tsm_viss
+    - iliketomakestuff
