@@ -15,3 +15,4 @@ filter:
     - switch.sonoff_s20_coffee_machine
     - switch.sonoff_s20_wall_fan
     - switch.sonoff_touch_dressing_room
+    - switch.transmission_turtle_mode
