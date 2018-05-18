@@ -1,4 +1,4 @@
-- name: IPHONE_MAARTEN_AND_RIANNE
+- name: IPHONE_MAARTEN_PAAUW_AND_RIANNE_VAN_DER_MAAT
   platform: group
   services:
     - service: ios_iphone_8_plus_van_maarten_paauw

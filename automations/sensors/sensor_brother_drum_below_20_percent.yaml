@@ -5,7 +5,7 @@
       entity_id: sensor.brother_drum
       below: 20
   action:
-    - service: notify.IPHONE_MAARTEN_AND_RIANNE
+    - service: notify.IPHONE_MAARTEN_PAAUW_AND_RIANNE_VAN_DER_MAAT
       data:
         title: "Brother"
         message: "De drum is bijna op!"
