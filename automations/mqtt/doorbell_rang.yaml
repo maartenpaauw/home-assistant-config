@@ -1,0 +1,18 @@
+- alias: doorbell_rang
+  initial_state: true
+  trigger:
+    - platform: mqtt
+      topic: "home/OpenMQTTGateway/433toMQTT"
+      payload: "125680"
+  action:
+    - service: automation.turn_off
+      data:
+        entity_id: automation.doorbell_rang
+    - service: notify.IPHONE_MAARTEN_PAAUW_AND_RIANNE_VAN_DER_MAAT
+      data:
+        title: "TING DONG!"
+        message: "Er staat iemand voor de deur!"
+    - delay: "00:00:05"
+    - service: automation.turn_on
+      data:
+        entity_id: automation.doorbell_rang
