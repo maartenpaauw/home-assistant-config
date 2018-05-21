@@ -1,6 +1,0 @@
-configuration_input_booleans:
-  name: Invoer Booleans
-  icon: mdi:toggle-switch
-  control: hidden
-  entities:
-    - automation.input_boolean_turn_on_ikettle

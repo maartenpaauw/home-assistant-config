@@ -1,6 +1,0 @@
-configuration_notification_actions:
-  name: Notificaties
-  icon: mdi:bell-ring
-  control: hidden
-  entities:
-    - automation.ios_notification_action_seretide_diskus_taken

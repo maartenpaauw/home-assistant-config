@@ -1,6 +1,0 @@
-configuration_climate:
-  name: Klimaat
-  icon: mdi:nest-thermostat
-  control: hidden
-  entities:
-    - automation.climate_toon_set_operation_mode_cool_at_22_00

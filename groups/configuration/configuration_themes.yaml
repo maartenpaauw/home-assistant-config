@@ -1,7 +1,0 @@
-configuration_themes:
-  name: Thema's
-  icon: mdi:format-paint
-  control: hidden
-  entities:
-    - automation.theme_dark
-    - automation.theme_default
