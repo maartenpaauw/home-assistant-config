@@ -1,0 +1,10 @@
+- alias: input_boolean_tv_on_turn_on_tv
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: input_boolean.tv
+      to: "on"
+  action:
+    - service: media_player.turn_on
+      data:
+        entity_id: media_player.tv

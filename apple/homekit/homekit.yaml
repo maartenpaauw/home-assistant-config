@@ -2,6 +2,7 @@ filter:
   include_entities:
     - climate.toon_van_eneco
     - input_boolean.ikettle
+    - input_boolean.tv
     - light.ai_light_floor_lamp
     - light.ai_light_staircase
     - light.group_bedside_lamps
