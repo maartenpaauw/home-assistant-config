@@ -1,3 +1,6 @@
+# Visual Studio Code
+.vscode/
+
 # Ignore UUID.
 .uuid
 
@@ -38,6 +41,8 @@ yarn.lock
 
 # Ignore Custom UI files.
 www/custom_ui/state-card-custom-ui*
+www/custom_ui/*.LICENSE
+www/custom_ui/*.js.map
 
 # Ignore Customizer component
 custom_components/customizer/*
