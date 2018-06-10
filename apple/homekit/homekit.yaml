@@ -2,10 +2,10 @@ filter:
   include_entities:
     - climate.toon_van_eneco
     - input_boolean.ikettle
-    - input_boolean.tv
     - light.ai_light_floor_lamp
     - light.ai_light_staircase
     - light.group_bedside_lamps
+    - media_player.tv
     - script.media_player_tv_hdmi_1
     - script.media_player_tv_hdmi_3
     - switch.candle_1
@@ -16,3 +16,7 @@ filter:
     - switch.sonoff_s20_wall_fan
     - switch.sonoff_touch_dressing_room
     - switch.transmission_turtle_mode
+entity_config:
+  media_player.tv:
+    feature_list:
+      - feature: on_off

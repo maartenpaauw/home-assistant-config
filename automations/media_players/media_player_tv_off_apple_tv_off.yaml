@@ -5,9 +5,6 @@
       entity_id: media_player.tv
       to: "off"
   action:
-    - service: input_boolean.turn_off
-      data:
-        entity_id: input_boolean.tv
     - service: media_player.turn_off
       data:
         entity_id: media_player.apple_tv_woonkamer
