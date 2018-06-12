@@ -18,5 +18,6 @@ filter:
     - switch.transmission_turtle_mode
 entity_config:
   media_player.tv:
+    name: Televisie
     feature_list:
       - feature: on_off
