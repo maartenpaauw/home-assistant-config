@@ -49,3 +49,6 @@ custom_components/customizer/*
 
 # Ignore Custom UI update shell command file.
 update.sh
+
+# Ignore storage folder.
+.storage/
