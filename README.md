@@ -1,7 +1,7 @@
 # Home Assistant configuration
 
 [![Travis CI](https://travis-ci.org/maartenpaauw/home-assistant-config.svg?branch=master)](https://travis-ci.org/maartenpaauw/home-assistant-config)
-[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-0.73.0-038FC7.svg)](https://home-assistant.io/)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-0.73.1-038FC7.svg)](https://home-assistant.io/)
 > Maarten Paauw's Home Assistant configuration files
 
 ## Components
