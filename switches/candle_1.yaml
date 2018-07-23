@@ -1,7 +1,0 @@
-- platform: mqtt
-  name: "candle_1"
-  state_topic: "stat/wemos_1/POWER"
-  command_topic: "cmnd/wemos_1/POWER"
-  optimistic: false
-  qos: 2
-  retain: true

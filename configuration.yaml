@@ -28,6 +28,10 @@ customizer:
 # Map
 map:
 
+# Mosquitto
+mqtt:
+  discovery: true
+
 # Recorder
 recorder:
 
@@ -37,6 +41,7 @@ config:
 # Shopping list
 shopping_list:
 
+# HTTP
 http:
   api_password: !secret http_api_password
   base_url: !secret http_base_url
