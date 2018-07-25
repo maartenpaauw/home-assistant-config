@@ -1,0 +1,11 @@
+- alias: input_select_dinner_planner_clear_choice_at_20_00
+  initial_state: true
+  trigger:
+    - platform: time
+      at: "20:00:00"
+  action:
+    - service: input_select.select_option
+      data_template:
+        entity_id: >
+          input_select.dinner_planner_{{ now().strftime('%A') | lower }}
+        option: "Onbeslist"

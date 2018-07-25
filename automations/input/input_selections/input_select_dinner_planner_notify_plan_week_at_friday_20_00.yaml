@@ -1,0 +1,14 @@
+- alias: input_select_dinner_planner_notify_plan_week_at_friday_20_00
+  initial_state: true
+  trigger:
+    - platform: time
+      at: "20:00:00"
+  condition:
+    - condition: time
+      weekday:
+        - fri
+  action:
+    - service: notify.IPHONE_MAARTEN_PAAUW_AND_RIANNE_VAN_DER_MAAT
+      data:
+        title: "Nieuwe maaltijden"
+        message: "Tijd om voor komende week te plannen!"
