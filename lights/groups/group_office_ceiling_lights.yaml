@@ -1,0 +1,5 @@
+- platform: group
+  name: group_office_ceiling_lights
+  entities:
+    - light.kantoor_links
+    - light.kantoor_rechts

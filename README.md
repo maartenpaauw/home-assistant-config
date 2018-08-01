@@ -19,6 +19,7 @@
   - Sonoff PIR2
 - Philips Hue LivingColours Bloom
 - Philips Hue White and Ambiance E27
+- Philips Hue White and Ambiance GU10 - 2×
 - Philips Hue White and Color E27 - 2×
 - Smarter iKettle 3rd generation
 - Sony Bravia KDL-42W805A

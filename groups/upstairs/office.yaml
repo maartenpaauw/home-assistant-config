@@ -9,4 +9,5 @@ office:
     - switch.pc
     - switch.transmission_turtle_mode
     - light.bloom
+    - light.group_office_ceiling_lights
     - media_player.spotify

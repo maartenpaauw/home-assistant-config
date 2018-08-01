@@ -1,40 +1,60 @@
 remote.apple_tv_woonkamer:
+  config_entry_id:
   name:
   platform: apple_tv
   unique_id: 78099b9bbcc4601a8b69683254b972a76a1839dec5c7d65772133bf03604dbb2
 media_player.apple_tv_woonkamer:
+  config_entry_id:
   name:
   platform: apple_tv
   unique_id: 78099b9bbcc4601a8b69683254b972a76a1839dec5c7d65772133bf03604dbb2
 sensor.iphone_8_van_maarten_paauw_battery_level:
+  config_entry_id:
   name:
   platform: ios
   unique_id: level_iphone_8_plus_van_maarten_paauw
 sensor.iphone_6s_van_rianne_van_der_maat_battery_level:
+  config_entry_id:
   name:
   platform: ios
   unique_id: level_iphone_6s_van_rianne_van_der_maat
 sensor.iphone_6s_van_rianne_van_der_maat_battery_state:
+  config_entry_id:
   name:
   platform: ios
   unique_id: state_iphone_6s_van_rianne_van_der_maat
 sensor.iphone_8_van_maarten_paauw_battery_state:
+  config_entry_id:
   name:
   platform: ios
   unique_id: state_iphone_8_plus_van_maarten_paauw
 light.eettafel:
+  config_entry_id:
   name:
   platform: hue
   unique_id: 00:17:88:01:03:59:c5:56-0b
 light.nachtlamp_van_rianne:
+  config_entry_id:
   name:
   platform: hue
   unique_id: 00:17:88:01:02:78:2b:04-0b
 light.nachtlamp_van_maarten:
+  config_entry_id:
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:21:6d-0b
 light.bloom:
+  config_entry_id:
   name:
   platform: hue
   unique_id: 00:17:88:01:00:1e:8c:f7-0b
+light.kantoor_rechts:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:e9:e7:5e-0b
+light.kantoor_links:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:e9:e7:55-0b
