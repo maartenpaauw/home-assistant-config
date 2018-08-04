@@ -29,22 +29,22 @@ sensor.iphone_8_van_maarten_paauw_battery_state:
   platform: ios
   unique_id: state_iphone_8_plus_van_maarten_paauw
 light.eettafel:
-  config_entry_id:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
   name:
   platform: hue
   unique_id: 00:17:88:01:03:59:c5:56-0b
 light.nachtlamp_van_rianne:
-  config_entry_id:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
   name:
   platform: hue
   unique_id: 00:17:88:01:02:78:2b:04-0b
 light.nachtlamp_van_maarten:
-  config_entry_id:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
   name:
   platform: hue
   unique_id: 00:17:88:01:02:7a:21:6d-0b
 light.bloom:
-  config_entry_id:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
   name:
   platform: hue
   unique_id: 00:17:88:01:00:1e:8c:f7-0b
