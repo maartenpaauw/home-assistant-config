@@ -3,10 +3,9 @@
   state_topic: "stat/sonoff-s20-wall-fan/POWER"
   command_topic: "cmnd/sonoff-s20-wall-fan/POWER"
   availability_topic: "tele/sonoff-s20-wall-fan/LWT"
+  qos: 1
   payload_on: "ON"
   payload_off: "OFF"
   payload_available: "Online"
   payload_not_available: "Offline"
-  optimistic: false
-  qos: 1
-  retain: true
+  retain: false
