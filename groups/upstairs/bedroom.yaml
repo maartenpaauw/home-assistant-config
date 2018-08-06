@@ -3,7 +3,7 @@ bedroom:
   icon: mdi:hotel
   control: hidden
   entities:
-    - light.group_bedside_lamps
     - light.group_bedroom_ceiling_lamps
+    - light.group_bedside_lamps
     - light.nachtlamp_van_maarten
     - light.nachtlamp_van_rianne
