@@ -4,7 +4,9 @@ filter:
     - input_boolean.ikettle
     - light.ai_light_floor_lamp
     - light.ai_light_staircase
+    - light.group_bedroom_ceiling_lights
     - light.group_bedside_lamps
+    - light.group_office_ceiling_lights
     - media_player.tv
     - script.media_player_tv_hdmi_1
     - script.media_player_tv_hdmi_3

@@ -1,0 +1,6 @@
+- platform: group
+  name: group_bedroom_ceiling_lights
+  entities:
+    - light.slaapkamer_links
+    - light.slaapkamer_midden
+    - light.slaapkamer_rechts
