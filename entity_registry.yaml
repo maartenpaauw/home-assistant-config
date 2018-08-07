@@ -48,13 +48,33 @@ light.bloom:
   name:
   platform: hue
   unique_id: 00:17:88:01:00:1e:8c:f7-0b
-light.kantoor_rechts:
-  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:04:e9:e7:5e-0b
 light.kantoor_links:
   config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
   name:
   platform: hue
   unique_id: 00:17:88:01:04:e9:e7:55-0b
+light.kantoor_midden:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:c1:35:db-0b
+light.kantoor_rechts:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:e9:e7:5e-0b
+light.slaapkamer_links:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:a9:8c:4c-0b
+light.slaapkamer_midden:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:a9:8c:4a-0b
+light.slaapkamer_rechts:
+  config_entry_id: 9a7a4976acc145ef8520852e06f8ef18
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:c1:34:20-0b
