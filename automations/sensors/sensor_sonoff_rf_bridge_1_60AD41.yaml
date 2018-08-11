@@ -1,0 +1,11 @@
+- alias: sensor_sonoff_rf_bridge_1_60AD41
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.sonoff_rf_bridge_1
+      to: "60AD41"
+  action:
+    - service: notify.IPHONE_MAARTEN_PAAUW_AND_RIANNE_VAN_DER_MAAT
+      data:
+        title: "Tuindeuren open"
+        message: "Bella & Sarah lopen buiten!"
