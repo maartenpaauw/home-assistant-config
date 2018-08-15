@@ -89,6 +89,7 @@ input_boolean: !include_dir_merge_named input/input_booleans
 input_datetime: !include_dir_merge_named input/input_datetimes
 input_number: !include_dir_merge_named input/input_numbers
 input_select: !include_dir_merge_named input/input_selections
+input_text: !include_dir_merge_named input/input_texts
 light: !include_dir_merge_list lights
 media_player: !include_dir_merge_list media_players
 notify: !include_dir_merge_list notifies
