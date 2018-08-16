@@ -1,0 +1,10 @@
+- platform: template
+  sensors:
+    dinner_planner_friday:
+      friendly_name: "Vrijdag"
+      value_template: >-
+        {% if is_state("input_select.dinner_planner_friday", "Anders") %}
+          {{ states.input_text.dinner_planner_friday.state }}
+        {% else %}
+          {{ states.input_select.dinner_planner_friday.state }}
+        {% endif %}

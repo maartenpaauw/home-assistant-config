@@ -2,3 +2,5 @@ hall:
   name: Hal
   icon: mdi:home
   control: hidden
+  entities:
+    - sensor.postnl
