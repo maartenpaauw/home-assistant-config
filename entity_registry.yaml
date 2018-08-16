@@ -78,3 +78,8 @@ light.slaapkamer_rechts:
   name:
   platform: hue
   unique_id: 00:17:88:01:04:c1:34:20-0b
+media_player.sonos_one_keuken:
+  config_entry_id: ec21fc6d98a848adab8f6a78087f533e
+  name:
+  platform: sonos
+  unique_id: RINCON_7828CAC0D4CA01400

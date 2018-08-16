@@ -22,6 +22,7 @@
 - Philips Hue White and Ambiance GU10 - 6×
 - Philips Hue White and Color E27 - 2×
 - Smarter iKettle 3rd generation
+- Sonos One (Black)
 - Sony Bravia KDL-42W805A
 - Spotify Premium
 - Toon van Eneco

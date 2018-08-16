@@ -5,3 +5,4 @@ kitchen:
   entities:
     - input_boolean.ikettle
     - switch.sonoff_s20_coffee_machine
+    - media_player.sonos_one_keuken
