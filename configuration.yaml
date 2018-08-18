@@ -30,6 +30,7 @@ map:
 
 # Mosquitto
 mqtt:
+  password: !secret mqtt_password
   discovery: true
 
 # Recorder
