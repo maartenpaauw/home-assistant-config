@@ -47,6 +47,9 @@ www/custom_ui/*.js.map
 # Ignore Customizer component
 custom_components/customizer/*
 
+# Ignore variable custom component
+custom_components/variable.py
+
 # Ignore Custom UI update shell command file.
 update.sh
 

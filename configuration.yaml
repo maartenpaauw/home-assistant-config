@@ -99,4 +99,5 @@ script: !include_dir_merge_named scripts
 sensor: !include_dir_merge_list sensors
 shell_command: !include_dir_merge_named shell_commands
 switch: !include_dir_merge_list switches
+variable: !include_dir_merge_named variables
 zone: !include_dir_merge_list zones
