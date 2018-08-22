@@ -1,0 +1,4 @@
+- name: school_internship
+  latitude: !secret zone_school_internship_latitude
+  longitude: !secret zone_school_internship_longitude
+  icon: mdi:school
