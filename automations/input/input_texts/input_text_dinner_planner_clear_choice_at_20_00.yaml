@@ -8,4 +8,4 @@
       data_template:
         entity_id: >
           input_text.dinner_planner_{{ now().strftime('%A') | lower }}
-        option: ""
+        value: ""
