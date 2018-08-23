@@ -1,4 +1,4 @@
-- alias: input_select_dinner_planner_notify_plan_week_at_friday_20_00
+- alias: time_dinner_planner_notify_plan_week_at_friday_20_00
   initial_state: true
   trigger:
     - platform: time
