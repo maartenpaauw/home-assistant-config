@@ -1,0 +1,3 @@
+automation.time_media_player_sonos_one_keuken_play_hourly_chime:
+  friendly_name: Slingerklok
+  icon: mdi:clock-alert
