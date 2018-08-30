@@ -12,7 +12,10 @@
       data:
         title: "TING DONG!"
         message: "Er staat iemand voor de deur!"
-    - delay: "00:00:05"
+    - service: script.turn_on
+      data:
+        entity_id: script.media_player_sonos_one_keuken_play_ding_dong
+    - delay: "00:00:10"
     - service: automation.turn_on
       data:
         entity_id: automation.doorbell_rang
