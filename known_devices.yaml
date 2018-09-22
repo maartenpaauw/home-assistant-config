@@ -3,10 +3,10 @@ iphone_8_plus_van_maarten_paauw:
   mac: !secret device_tracker_maarten_paauw_mac
   gravatar: !secret device_tracker_maarten_paauw_gravatar
   track: true
-  hide_if_away: false
+  hide_if_away: false`
 
-iphone_6s_van_rianne_van_der_maat:
-  name: iPhone 6s van Rianne van der Maat
+iphone_8_plus_van_rianne_van_der_maat:
+  name: iphone 8 plus van Rianne van der Maat
   mac: !secret device_tracker_rianne_van_der_maat_mac
   gravatar: !secret device_tracker_rianne_van_der_maat_gravatar
   track: true

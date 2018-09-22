@@ -6,8 +6,7 @@
 
 ## Components
 
-- Apple iPhone 6s
-- Apple iPhone 8+
+- Apple iPhone 8+ - 2×
 - Apple TV 3rd generation
 - ARILUX E27 RGBW - 2× (Flashed with [AiLight][ailight])
 - Game PC

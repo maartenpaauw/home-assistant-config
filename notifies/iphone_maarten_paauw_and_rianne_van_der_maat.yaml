@@ -2,4 +2,4 @@
   platform: group
   services:
     - service: ios_iphone_8_plus_van_maarten_paauw
-    - service: ios_iphone_6s_van_rianne_van_der_maat
+    - service: ios_iphone_8_plus_van_rianne_van_der_maat
