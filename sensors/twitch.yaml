@@ -1,5 +1,6 @@
 - platform: twitch
   entity_namespace: twitch
+  client_id: !secret sensor_twitch_client_id
   channels:
     - officialandypyro
     - tsm_viss
