@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-pip3 install homeassistant;
+pip install -I homeassistant==$(cat .HA_VERSION);
