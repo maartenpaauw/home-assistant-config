@@ -12,6 +12,7 @@ filter:
     - script.media_player_tv_hdmi_1
     - script.media_player_tv_hdmi_3
     - switch.candle_1
+    - switch.magic_mirror
     - switch.pc
     - switch.sonoff_basic_fan
     - switch.sonoff_basic_heater

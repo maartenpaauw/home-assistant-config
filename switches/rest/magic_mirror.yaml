@@ -1,6 +1,6 @@
 - platform: rest
   name: magic_mirror
-  resource: http://magicmirror.local:3000/api/v1/magic-mirror/display
+  resource: !secret switch_magic_mirror_resource
   method: post
   body_on: '{"state": "true"}'
   body_off: '{"state": "false"}'
