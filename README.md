@@ -16,6 +16,7 @@
 - iTead Sonoff RF Bridge 433 (Flashed with [Tasmota][tasmota])
   - Sonoff DW1
   - Sonoff PIR2
+- MagicMirror²
 - Philips Hue LivingColours Bloom
 - Philips Hue White and Ambiance E27
 - Philips Hue White and Ambiance GU10 - 6×
