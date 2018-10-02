@@ -1,3 +1,0 @@
-dinner_planner_tuesday:
-  name: Dinsdag
-  options: !include options/meals.yaml
