@@ -1,10 +1,14 @@
 media_player_sonos_one_keuken_play_ding_dong:
   alias: media_player_sonos_one_keuken_play_ding_dong
   sequence:
+    - service: media_player.media_pause
+      data:
+        entity_id: media_player.sonos_one_keuken
     - service: variable.set_variable
       data:
         variable: media_player_sonos_one_keuken_volume
         value_template: "{{ states.media_player.sonos_one_keuken.attributes.volume_level }}"
+    - delay: "00:00:01"
     - service: media_player.volume_set
       data:
         entity_id: media_player.sonos_one_keuken
