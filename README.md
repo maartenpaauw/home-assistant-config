@@ -27,8 +27,6 @@
 - Sony Bravia KDL-42W805A
 - Spotify Premium
 - Toon van Eneco
-- Wemos D1 mini - 2× (Flashed with [Tasmota][tasmota])
-  - To [control a Wax Candle](https://www.instagram.com/p/BfY4dR_FVtn/?taken-by=maartenpaauw) from the Action
 
 ## Automations
 

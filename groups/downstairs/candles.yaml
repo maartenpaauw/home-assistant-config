@@ -1,6 +1,0 @@
-candles:
-  name: Kaarsen
-  icon: mdi:candle
-  control: hidden
-  entities:
-    - switch.candle_1
