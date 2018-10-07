@@ -12,7 +12,7 @@
       data:
         entity_id: light.nachtlamp_van_maarten
         transition: 300
-        profile: "concentrate"
+        profile: "morning"
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_maarten_paauw
@@ -25,11 +25,6 @@
             badge: 0
             category: "coffee_or_tea"
     - delay: "00:30:00"
-    - service: notify.IPHONE_MAARTEN_PAAUW
-      data_template:
-        title: "Even een herinnering!"
-        message: "Heb jij je medicijnen al genomen? ({{ states.input_number.seretide_diskus.state | int }} → {{ states.input_number.seretide_diskus.state | int - 2 }})"
-        data:
-          push:
-            badge: 0
-            category: "seretide_diskus_taken"
+    - service: script.turn_on
+      data:
+        entity_id: script.notify_maarten_paauw_seretide_diskus_taken

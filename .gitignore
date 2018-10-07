@@ -55,3 +55,9 @@ update.sh
 
 # Ignore storage folder.
 .storage/
+
+# Overwrite global Git ignore.
+!light_profiles.csv
+!scripts
+!www/doorbell/*
+!www/pendulum_clock/*

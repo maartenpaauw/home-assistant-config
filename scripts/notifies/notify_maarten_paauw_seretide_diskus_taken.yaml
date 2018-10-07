@@ -1,0 +1,11 @@
+notify_maarten_paauw_seretide_diskus_taken:
+  alias: notify_maarten_paauw_seretide_diskus_taken
+  sequence:
+    - service: notify.IPHONE_MAARTEN_PAAUW
+      data_template:
+        title: "Even een herinnering!"
+        message: "Heb jij je medicijnen al genomen? ({{ states.input_number.seretide_diskus.state | int }} → {{ states.input_number.seretide_diskus.state | int - 2 }})"
+        data:
+          push:
+            badge: 0
+            category: "seretide_diskus_taken"
