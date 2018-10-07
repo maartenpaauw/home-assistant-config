@@ -8,14 +8,15 @@
       entity_id: input_boolean.alarm_clock_rianne_van_der_maat
       state: "on"
   action:
-    - service: light.turn_on
+    - service: script.turn_on
       data:
-        entity_id: light.nachtlamp_van_rianne
-        transition: 300
-        profile: "morning"
+        entity_id: script.light_turn_on_bedlamp_with_profile_morning
+        variables:
+          device: "nachtlamp_van_rianne"
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_rianne_van_der_maat
+    - service: script.turn_on
       data:
         entity_id: script.notify_smartphone_ask_coffee_or_tea
         variables:

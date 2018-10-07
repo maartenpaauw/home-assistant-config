@@ -8,11 +8,11 @@
       entity_id: input_boolean.alarm_clock_maarten_paauw
       state: "on"
   action:
-    - service: light.turn_on
+    - service: script.turn_on
       data:
-        entity_id: light.nachtlamp_van_maarten
-        transition: 300
-        profile: "morning"
+        entity_id: script.light_turn_on_bedlamp_with_profile_morning
+        variables:
+          device: "nachtlamp_van_maarten"
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_maarten_paauw
