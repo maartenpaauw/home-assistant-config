@@ -12,15 +12,11 @@
       data:
         entity_id: light.nachtlamp_van_rianne
         transition: 300
-        profile: "concentrate"
+        profile: "morning"
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_rianne_van_der_maat
-    - service: notify.IPHONE_RIANNE_VAN_DER_MAAT
       data:
-        title: "Goedemorgen!"
-        message: "Wat wil je drinken?"
-        data:
-          push:
-            badge: 0
-            category: "coffee_or_tea"
+        entity_id: script.notify_smartphone_ask_coffee_or_tea
+        variables:
+          device: "IPHONE_RIANNE_VAN_DER_MAAT"

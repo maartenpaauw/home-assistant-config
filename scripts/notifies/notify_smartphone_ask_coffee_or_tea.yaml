@@ -1,0 +1,11 @@
+notify_smartphone_ask_coffee_or_tea:
+  alias: notify_smartphone_ask_coffee_or_tea
+  sequence:
+    - service_template: notify.{{ device }}
+      data:
+          title: "Goedemorgen!"
+          message: "Wat wil je drinken?"
+          data:
+            push:
+              badge: 0
+              category: "coffee_or_tea"

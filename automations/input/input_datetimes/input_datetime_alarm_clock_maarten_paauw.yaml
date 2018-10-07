@@ -16,14 +16,11 @@
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_maarten_paauw
-    - service: notify.IPHONE_MAARTEN_PAAUW
+    - service: script.turn_on
       data:
-        title: "Goedemorgen!"
-        message: "Wat wil je drinken?"
-        data:
-          push:
-            badge: 0
-            category: "coffee_or_tea"
+        entity_id: script.notify_smartphone_ask_coffee_or_tea
+        variables:
+          device: "IPHONE_MAARTEN_PAAUW"
     - delay: "00:30:00"
     - service: script.turn_on
       data:
