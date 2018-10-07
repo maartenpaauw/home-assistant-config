@@ -13,6 +13,9 @@
         entity_id: script.light_turn_on_bedlamp_with_profile_morning
         variables:
           device: "nachtlamp_van_maarten"
+    - service: switch.turn_on
+      data:
+        entity_id: switch.magic_mirror
     - service: input_boolean.turn_off
       data:
         entity_id: input_boolean.alarm_clock_maarten_paauw
