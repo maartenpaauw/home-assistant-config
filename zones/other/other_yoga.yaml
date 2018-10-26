@@ -1,5 +1,0 @@
-- name: other_yoga
-  latitude: !secret zone_other_yoga_latitude
-  longitude: !secret zone_other_yoga_longitude
-  radius: !secret zone_other_yoga_radius
-  icon: mdi:peace
