@@ -1,4 +1,4 @@
-- alias: ios_notification_action_coffee_or_tea_picked_tea
+- alias: ios_notification_action_tea
   initial_state: true
   trigger:
     - platform: event

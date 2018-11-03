@@ -18,6 +18,6 @@
         entity_id: input_boolean.alarm_clock_rianne_van_der_maat
     - service: script.turn_on
       data:
-        entity_id: script.notify_smartphone_ask_coffee_or_tea
+        entity_id: script.notify_smartphone_ask_which_drink
         variables:
           device: "IPHONE_RIANNE_VAN_DER_MAAT"

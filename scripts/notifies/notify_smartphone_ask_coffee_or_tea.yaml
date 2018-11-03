@@ -1,5 +1,5 @@
-notify_smartphone_ask_coffee_or_tea:
-  alias: notify_smartphone_ask_coffee_or_tea
+notify_smartphone_ask_which_drink:
+  alias: notify_smartphone_ask_which_drink
   sequence:
     - service_template: notify.{{ device }}
       data:
@@ -8,4 +8,4 @@ notify_smartphone_ask_coffee_or_tea:
           data:
             push:
               badge: 0
-              category: "coffee_or_tea"
+              category: "drinks"

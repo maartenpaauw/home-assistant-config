@@ -21,7 +21,7 @@
         entity_id: input_boolean.alarm_clock_maarten_paauw
     - service: script.turn_on
       data:
-        entity_id: script.notify_smartphone_ask_coffee_or_tea
+        entity_id: script.notify_smartphone_ask_which_drink
         variables:
           device: "IPHONE_MAARTEN_PAAUW"
     - delay: "00:30:00"

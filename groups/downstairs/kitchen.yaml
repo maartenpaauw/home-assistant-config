@@ -4,6 +4,5 @@ kitchen:
   control: hidden
   entities:
     - input_boolean.ikettle
-    - switch.sonoff_s20_coffee_machine
     - media_player.sonos_one_keuken
     - automation.time_media_player_sonos_one_keuken_play_hourly_chime
