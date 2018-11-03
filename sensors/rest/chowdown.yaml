@@ -1,0 +1,4 @@
+- platform: rest
+  resource: https://recepten.maartenpaauw.com/recipes.json
+  name: chowdown
+  value_template: "{{ value_json | map(attribute='title') | list }}"
