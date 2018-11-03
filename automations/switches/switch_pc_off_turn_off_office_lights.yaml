@@ -1,12 +1,14 @@
-- alias: pc_turn_off_bloom_at_shutdown
+- alias: switch_pc_off_turn_off_office_lights
   initial_state: true
   trigger:
     - platform: state
       entity_id: switch.pc
       to: "off"
       for:
-        minutes: 1
+        minutes: 3
   action:
     - service: light.turn_off
       data:
-        entity_id: light.bloom
+        entity_id:
+         - light.bloom
+         - light.group_office_ceiling_lights
