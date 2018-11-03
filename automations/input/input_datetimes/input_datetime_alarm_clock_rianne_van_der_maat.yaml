@@ -20,4 +20,4 @@
       data:
         entity_id: script.notify_smartphone_ask_which_drink
         variables:
-          device: "IPHONE_RIANNE_VAN_DER_MAAT"
+          device: "iphone_rianne_van_der_maat"

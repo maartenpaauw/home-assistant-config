@@ -23,7 +23,7 @@
       data:
         entity_id: script.notify_smartphone_ask_which_drink
         variables:
-          device: "IPHONE_MAARTEN_PAAUW"
+          device: "iphone_maarten_paauw"
     - delay: "00:30:00"
     - service: script.turn_on
       data:

@@ -8,7 +8,7 @@
       weekday:
         - fri
   action:
-    - service: notify.IPHONE_MAARTEN_PAAUW_AND_RIANNE_VAN_DER_MAAT
+    - service: notify.iphone_maarten_paauw_and_rianne_van_der_maat
       data:
         title: "Nieuwe maaltijden"
         message: "Tijd om voor komende week te plannen!"

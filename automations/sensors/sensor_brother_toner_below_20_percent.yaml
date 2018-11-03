@@ -5,7 +5,7 @@
       entity_id: sensor.brother_toner
       below: 20
   action:
-    - service: notify.IPHONE_MAARTEN_PAAUW_AND_RIANNE_VAN_DER_MAAT
+    - service: notify.iphone_maarten_paauw_and_rianne_van_der_maat
       data:
         title: "Brother"
         message: "De toner is bijna op!"
