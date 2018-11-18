@@ -12,7 +12,7 @@
       data:
         entity_id: script.light_turn_on_bedlamp_with_profile_morning
         variables:
-          device: "nachtlamp_van_maarten"
+          light: "nachtlamp_van_maarten"
     - service: switch.turn_on
       data:
         entity_id: switch.magic_mirror
