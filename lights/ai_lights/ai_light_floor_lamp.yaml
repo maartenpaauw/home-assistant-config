@@ -1,5 +1,6 @@
-- platform: mqtt_json
+- platform: mqtt
   name: "Ai Light Floor Lamp"
+  schema: json
   state_topic: "AiLight-2BF5BE"
   command_topic: "AiLight-2BF5BE/set"
   color_temp: true
