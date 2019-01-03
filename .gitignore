@@ -61,3 +61,6 @@ update.sh
 !scripts
 !www/doorbell/*
 !www/pendulum_clock/*
+
+# Ring
+.ring_cache.pickle

@@ -1,7 +1,7 @@
 # Home Assistant configuration
 
 [![Travis CI](https://travis-ci.org/maartenpaauw/home-assistant-config.svg?branch=master)](https://travis-ci.org/maartenpaauw/home-assistant-config)
-[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-0.84.5-038FC7.svg)](https://home-assistant.io/)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-0.84.6-038FC7.svg)](https://home-assistant.io/)
 
 > Maarten Paauw's Home Assistant configuration files
 
@@ -22,6 +22,7 @@
 - Philips Hue White and Ambiance E27
 - Philips Hue White and Ambiance GU10 - 6×
 - Philips Hue White and Color E27 - 2×
+- Ring Doorbell 2
 - Smarter iKettle 3rd generation
 - Sonos One (Black)
 - Sony Bravia KDL-42W805A
