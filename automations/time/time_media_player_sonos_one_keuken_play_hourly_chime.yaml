@@ -1,7 +1,7 @@
 - alias: time_media_player_sonos_one_keuken_play_hourly_chime
   initial_state: true
   trigger:
-    - platform: time
+    - platform: time_pattern
       hours: "/1"
       minutes: 0
       seconds: 0
