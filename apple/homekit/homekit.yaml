@@ -17,7 +17,7 @@ filter:
     - switch.sonoff_basic_heater
     - switch.sonoff_s20_wall_fan
     - switch.sonoff_touch_dressing_room
-    - switch.transmission_turtle_mode
+    - switch.transmission
 entity_config:
   media_player.tv:
     name: Televisie

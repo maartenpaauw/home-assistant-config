@@ -89,6 +89,11 @@ ring:
   username: !secret ring_username
   password: !secret ring_password
 
+# Transmission
+transmission:
+  host: !secret transmission_host
+  turtle_mode: true
+
 automation: !include_dir_merge_list automations
 binary_sensor: !include_dir_merge_list binary_sensors
 group: !include_dir_merge_named groups
