@@ -2,4 +2,4 @@ climate:
   name: Klimaat
   icon: mdi:thermometer
   entities:
-    - climate.toon_van_eneco
+    - climate.toon_thermostat

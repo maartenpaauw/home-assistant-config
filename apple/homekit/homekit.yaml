@@ -1,6 +1,6 @@
 filter:
   include_entities:
-    - climate.toon_van_eneco
+    - climate.toon_thermostat
     - input_boolean.ikettle
     - light.ai_light_floor_lamp
     - light.ai_light_staircase
