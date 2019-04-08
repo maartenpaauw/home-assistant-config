@@ -8,4 +8,4 @@ bedroom:
     - light.group_wardrobe_maarten_paauw
     - light.nachtlamp_van_maarten
     - light.nachtlamp_van_rianne
-    - switch.magic_mirror
+    # - switch.magic_mirror

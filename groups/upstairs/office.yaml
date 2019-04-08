@@ -7,7 +7,7 @@ office:
     - switch.sonoff_basic_fan
     - switch.sonoff_basic_heater
     - switch.pc
-    - switch.transmission
+    # - switch.transmission
     - light.bloom
     - light.group_office_ceiling_lights
     - media_player.spotify
