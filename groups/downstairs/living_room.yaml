@@ -3,7 +3,7 @@ living_room:
   icon: mdi:sofa
   control: hidden
   entities:
-    - light.eettafel
+    - light.woonkamer_eettafel
     - light.ai_light_floor_lamp
     - remote.apple_tv_woonkamer
     - media_player.tv

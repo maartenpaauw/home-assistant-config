@@ -1,6 +1,6 @@
 - platform: group
   name: group_bedroom_ceiling_lights
   entities:
-    - light.slaapkamer_links
-    - light.slaapkamer_midden
-    - light.slaapkamer_rechts
+    - light.slaapkamer_plafondlamp_links
+    - light.slaapkamer_plafondlamp_midden
+    - light.slaapkamer_plafondlamp_rechts

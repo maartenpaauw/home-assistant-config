@@ -1,6 +1,6 @@
 - platform: group
   name: group_office_ceiling_lights
   entities:
-    - light.kantoor_links
-    - light.kantoor_midden
-    - light.kantoor_rechts
+    - light.kantoor_plafondlamp_links
+    - light.kantoor_plafondlamp_midden
+    - light.kantoor_plafondlamp_rechts
