@@ -1,4 +1,0 @@
-- name: work_binnenstebuitentuin
-  latitude: !secret zone_work_binnenstebuitentuin_latitude
-  longitude: !secret zone_work_binnenstebuitentuin_longitude
-  icon: mdi:briefcase

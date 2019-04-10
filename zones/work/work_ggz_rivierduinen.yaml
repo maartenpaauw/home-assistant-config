@@ -1,0 +1,4 @@
+- name: work_ggz_rivierduinen
+  latitude: !secret zone_work_ggz_rivierduinen_latitude
+  longitude: !secret zone_work_ggz_rivierduinen_longitude
+  icon: mdi:briefcase
