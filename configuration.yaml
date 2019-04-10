@@ -17,13 +17,6 @@ ios: !include apple/ios/ios.yaml
 frontend:
   themes: !include_dir_merge_named themes
   javascript_version: latest
-  extra_html_url:
-    - /local/custom_ui/state-card-custom-ui.html
-  extra_html_url_es5:
-    - /local/custom_ui/state-card-custom-ui-es5.html
-
-customizer:
-  custom_ui: local
 
 # Map
 map:
