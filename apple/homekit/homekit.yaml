@@ -1,5 +1,6 @@
 filter:
   include_entities:
+    - binary_sensor.ring_voordeur_ding
     - climate.toon_thermostat
     - input_boolean.ikettle
     - light.ai_light_floor_lamp
