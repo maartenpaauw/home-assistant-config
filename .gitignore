@@ -39,19 +39,8 @@ yarn.lock
 # Ignore Configuration Entries file.
 .config_entries.json
 
-# Ignore Custom UI files.
-www/custom_ui/state-card-custom-ui*
-www/custom_ui/*.LICENSE
-www/custom_ui/*.js.map
-
-# Ignore Customizer component
-custom_components/customizer/*
-
 # Ignore variable custom component
 custom_components/variable.py
-
-# Ignore Custom UI update shell command file.
-update.sh
 
 # Ignore storage folder.
 .storage/
