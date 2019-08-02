@@ -23,7 +23,7 @@
   },
   "license": "GPL-3.0",
   "devDependencies": {
-    "@commitlint/cli": "8.0.0",
+    "@commitlint/cli": "8.1.0",
     "@commitlint/config-conventional": "8.0.0",
     "husky": "2.5.0",
     "lint-staged": "8.1.7"
