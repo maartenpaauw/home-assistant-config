@@ -4,8 +4,6 @@ office:
   control: hidden
   entities:
     - switch.sonoff_s20_wall_fan
-    - switch.sonoff_basic_fan
-    - switch.sonoff_basic_heater
     - switch.pc
     # - switch.transmission
     - light.kantoor_bloom

@@ -3,5 +3,3 @@ staircase:
   icon: mdi:stairs
   control: hidden
   entities:
-    - light.ai_light_staircase
-    - sensor.sonoff_pir2_staircase

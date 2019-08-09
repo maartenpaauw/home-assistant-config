@@ -6,14 +6,6 @@
   action:
     - service: mqtt.publish
       data:
-        topic: "cmnd/sonoff-basic-fan/POWER"
-        payload: ""
-    - service: mqtt.publish
-      data:
-        topic: "cmnd/sonoff-basic-heater/POWER"
-        payload: ""
-    - service: mqtt.publish
-      data:
         topic: "cmnd/sonoff-s20-wall-fan/POWER"
         payload: ""
     - service: mqtt.publish

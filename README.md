@@ -11,14 +11,9 @@
 
 - Apple iPhone 8+ - 2×
 - Apple TV 3rd generation
-- ARILUX E27 RGBW - 2× (Flashed with [AiLight][ailight])
 - Game PC
-- iTead Sonoff Basic - 2× (Flashed with [Tasmota][tasmota])
 - iTead Sonoff S20 - 2× (Flashed with [Tasmota][tasmota])
 - iTead Sonoff Touch (Flashed with [Tasmota][tasmota])
-- iTead Sonoff RF Bridge 433 (Flashed with [Tasmota][tasmota])
-  - Sonoff DW1
-  - Sonoff PIR2
 - MagicMirror²
 - Philips Hue LivingColours Bloom
 - Philips Hue White and Ambiance E27
@@ -42,8 +37,6 @@
 - Turn on/off the Apple TV 3rd generation when the Sony Bravia KDL-42W805A is on/off.
 - Send a notification when the printer's drum or toner is below 20 percent.
 - Turn off some office components when the PC shuts down.
-- Turn on AiLight in the staircase if there is movement.
-- Turn off AiLight in the staircase if there is no movement for 30 seconds.
 - Toggle light/dark theme based on sunset and sunrise.
 
 ## Scripts
@@ -62,4 +55,3 @@
 `[component_type]_[component_name]_[automation_description]`
 
 [tasmota]: https://github.com/arendst/Sonoff-Tasmota  "Sonoff Tasmota"
-[ailight]: https://github.com/stelgenhof/AiLight  "AiLight"

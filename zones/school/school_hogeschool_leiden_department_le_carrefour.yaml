@@ -1,5 +1,0 @@
-- name: school_hogeschool_leiden_department_le_carrefour
-  latitude: !secret zone_school_hogeschool_leiden_department_le_carrefour_latitude
-  longitude: !secret zone_school_hogeschool_leiden_department_le_carrefour_longitude
-  radius: !secret zone_school_hogeschool_leiden_department_le_carrefour_radius
-  icon: mdi:school
