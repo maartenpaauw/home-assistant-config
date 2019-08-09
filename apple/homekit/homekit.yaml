@@ -3,8 +3,6 @@ filter:
     - binary_sensor.ring_voordeur_ding
     - climate.toon_thermostat
     - input_boolean.ikettle
-    - light.ai_light_floor_lamp
-    - light.ai_light_staircase
     - media_player.tv
     - script.media_player_tv_hdmi_1
     - script.media_player_tv_hdmi_3

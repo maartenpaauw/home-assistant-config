@@ -3,4 +3,5 @@ hall:
   icon: mdi:home
   control: hidden
   entities:
+    - light.gang_plafondlamp
     - sensor.postnl

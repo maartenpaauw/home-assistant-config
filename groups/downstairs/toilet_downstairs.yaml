@@ -1,4 +1,6 @@
 toilet_downstairs:
-  name: WC beneden
+  name: WC
   icon: mdi:human-male-female
   control: hidden
+  entities:
+    - light.toilet_beneden_plafondlamp

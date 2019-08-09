@@ -1,4 +1,6 @@
 toilet_upstairs:
-  name: WC boven
+  name: WC
   icon: mdi:human-male-female
   control: hidden
+  entities:
+    - light.toilet_boven_plafondlamp

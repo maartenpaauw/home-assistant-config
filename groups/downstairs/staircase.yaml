@@ -3,3 +3,4 @@ staircase:
   icon: mdi:stairs
   control: hidden
   entities:
+    - light.trapkast_plafondlamp

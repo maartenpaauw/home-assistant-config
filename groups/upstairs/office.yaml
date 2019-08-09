@@ -3,9 +3,9 @@ office:
   icon: mdi:briefcase
   control: hidden
   entities:
+    - light.group_office_ceiling_lights
+    - light.kantoor_bloom
     - switch.sonoff_s20_wall_fan
     - switch.pc
     # - switch.transmission
-    - light.kantoor_bloom
-    - light.group_office_ceiling_lights
     - media_player.spotify

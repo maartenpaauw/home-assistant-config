@@ -2,3 +2,5 @@ corridor:
   name: Overloop
   icon: mdi:stairs
   control: hidden
+  entities:
+    - light.overloop_plafondlamp
