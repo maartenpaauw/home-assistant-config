@@ -7,5 +7,3 @@ living_room:
     - remote.apple_tv_woonkamer
     - media_player.tv
     - media_player.apple_tv_woonkamer
-    - script.media_player_tv_hdmi_1
-    - script.media_player_tv_hdmi_3

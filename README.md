@@ -39,11 +39,6 @@
 - Turn off some office components when the PC shuts down.
 - Toggle light/dark theme based on sunset and sunrise.
 
-## Scripts
-
-- Put Sony Bravia KDL-42W805A on and switch to HDMI 1.
-- Put Sony Bravia KDL-42W805A on and switch to HDMI 3.
-
 ## Shell Commands
 
 - Turn of PC.

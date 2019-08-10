@@ -4,15 +4,8 @@ filter:
     - climate.toon_thermostat
     - input_boolean.ikettle
     - media_player.tv
-    - script.media_player_tv_hdmi_1
-    - script.media_player_tv_hdmi_3
     # - switch.magic_mirror
     - switch.pc
     - switch.sonoff_s20_wall_fan
     - switch.sonoff_touch_dressing_room
     # - switch.transmission
-entity_config:
-  media_player.tv:
-    name: Televisie
-    feature_list:
-      - feature: on_off
