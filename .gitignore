@@ -39,9 +39,6 @@ yarn.lock
 # Ignore Configuration Entries file.
 .config_entries.json
 
-# Ignore variable custom component
-custom_components/variable.py
-
 # Ignore storage folder.
 .storage/
 
