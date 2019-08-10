@@ -1,6 +1,7 @@
 dinner_planner:
   name: Maaltijden
   icon: mdi:food
+  control: hidden
   entities:
     - input_text.dinner_planner_monday
     - input_text.dinner_planner_tuesday
