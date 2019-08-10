@@ -1,3 +1,7 @@
+frontend:
+  themes: !include_dir_merge_named themes
+  javascript_version: latest
+
 homeassistant:
   name: Brouwerstraat
   latitude: !secret zone_home_latitude
@@ -8,105 +12,61 @@ homeassistant:
   customize: !include_dir_merge_named customizations/entity
   customize_glob: !include_dir_merge_named customizations/global
 
-# Apple
-apple_tv: !include_dir_merge_list apple/apple_tv
-homekit: !include apple/homekit/homekit.yaml
-ios: !include apple/ios/ios.yaml
-
-# Enables the frontend
-frontend:
-  themes: !include_dir_merge_named themes
-  javascript_version: latest
-
-# Map
-map:
-
-# Mosquitto
-mqtt:
-  password: !secret mqtt_password
-  discovery: true
-
-# Recorder
-recorder:
-
-# Enables configuration UI
-config:
-
-# Shopping list
-shopping_list:
-
-# HTTP
 http:
   api_password: !secret http_api_password
   base_url: !secret http_base_url
 
-# Checks for available updates
-# Note: This component will send some information about your system to
-# the developers to assist with development of Home Assistant.
-# For more information, please see:
-# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
-updater:
-  # Optional, allows Home Assistant developers to focus on popular components.
-  # include_used_components: true
-
-# Discover some devices automatically
-discovery:
-
-# Allows you to issue voice commands from the frontend in enabled browsers
-conversation:
-
-# Enables support for tracking state changes over time
-history:
-
-# View all events in a logbook
-logbook:
-
-# Track the sun
-sun:
-
-# Text to speech
-tts:
-  - platform: google_translate
-    service_name: google_say
-
-# IFTTT
 ifttt:
   key: !secret ifttt_key
 
-# Toon
-toon:
-  client_id: !secret toon_client_id
-  client_secret: !secret toon_client_secret
+logger:
+  default: warn
 
-# Ring
+mqtt:
+  password: !secret mqtt_password
+  discovery: true
+
 ring:
   username: !secret ring_username
   password: !secret ring_password
 
-# Transmission
-transmission:
-  host: !secret transmission_host
-  turtle_mode: true
+toon:
+  client_id: !secret toon_client_id
+  client_secret: !secret toon_client_secret
 
-# System Health
-system_health:
+# transmission:
+#   host: !secret transmission_host
+#   turtle_mode: true
 
-# Home Assistant Cloud
+tts:
+  - platform: google_translate
+    service_name: google_say
+
 cloud:
-
-# Mobile App
+config:
+conversation:
+discovery:
+history:
+logbook:
+map:
 mobile_app:
-
-# Zeroconf
+recorder:
+shopping_list:
+sun:
+system_health:
+updater:
 zeroconf:
 
+apple_tv: !include_dir_merge_list apple/apple_tv
 automation: !include_dir_merge_list automations
 binary_sensor: !include_dir_merge_list binary_sensors
 group: !include_dir_merge_named groups
+homekit: !include apple/homekit/homekit.yaml
 input_boolean: !include_dir_merge_named input/input_booleans
 input_datetime: !include_dir_merge_named input/input_datetimes
 input_number: !include_dir_merge_named input/input_numbers
 input_text: !include_dir_merge_named input/input_texts
+ios: !include apple/ios/ios.yaml
 light: !include_dir_merge_list lights
 media_player: !include_dir_merge_list media_players
 notify: !include_dir_merge_list notifies
