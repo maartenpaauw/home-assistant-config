@@ -2,6 +2,7 @@ default_view:
   name: Brouwerstraat
   view: yes
   entities:
+    - camera.voordeur
     - group.climate
     - group.family
     - group.bella_and_sarah
