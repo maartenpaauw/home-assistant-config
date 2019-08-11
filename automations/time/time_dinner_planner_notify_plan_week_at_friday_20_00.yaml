@@ -6,7 +6,7 @@
   condition:
     - condition: time
       weekday:
-        - fri
+        - sun
   action:
     - service: notify.iphone_maarten_paauw_and_rianne_van_der_maat
       data:
