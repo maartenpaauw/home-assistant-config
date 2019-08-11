@@ -45,7 +45,7 @@ yarn.lock
 # Overwrite global Git ignore.
 !light_profiles.csv
 !scripts
-!www/pendulum_clock/*
+!www/**/*
 
 # Ring
 .ring_cache.pickle

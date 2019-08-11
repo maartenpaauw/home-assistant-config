@@ -3,5 +3,5 @@ family:
   icon: mdi:crosshairs-gps
   control: hidden
   entities:
-    - device_tracker.iphone_8_plus_van_maarten_paauw
-    - device_tracker.iphone_8_plus_van_rianne_van_der_maat
+    - person.maarten_paauw
+    - person.rianne_van_der_maat

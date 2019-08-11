@@ -1,4 +1,4 @@
 - name: iphone_maarten_paauw
   platform: group
   services:
-    - service: ios_iphone_8_plus_van_maarten_paauw
+    - service: mobile_app_iphone_8_van_maarten_paauw
