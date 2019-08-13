@@ -1,0 +1,5 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+media_player.spotify:
+  friendly_name: Spotify van Maarten

@@ -1,0 +1,5 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+climate.toon_thermostat:
+  friendly_name: Toon

@@ -1,0 +1,5 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+sensor.iphone_8_van_rianne_van_der_maat_battery_state:
+  hidden: true

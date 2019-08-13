@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+switch.magic_mirror:
+  friendly_name: MagicMirror²
+  icon: mdi:monitor

@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+light.group_bedside_lamps:
+  friendly_name: Nachtlampen
+  icon: mdi:lamp

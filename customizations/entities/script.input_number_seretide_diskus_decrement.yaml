@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+script.input_number_seretide_diskus_decrement:
+  friendly_name: Medicijnen Ingenomen
+  icon: mdi:medical-bag

@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+light.group_wardrobe_maarten_paauw:
+  friendly_name: Kledingkast
+  icon: mdi:ceiling-light

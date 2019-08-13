@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+light.group_*_ceiling_lights:
+  friendly_name: Plafondlamp
+  icon: mdi:ceiling-light

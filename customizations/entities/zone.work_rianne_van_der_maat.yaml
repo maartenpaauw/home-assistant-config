@@ -1,0 +1,5 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+zone.work_rianne_van_der_maat:
+  friendly_name: GGZ Rivierduinen

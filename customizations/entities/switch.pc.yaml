@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+switch.pc:
+  friendly_name: Computer
+  icon: mdi:desktop-tower

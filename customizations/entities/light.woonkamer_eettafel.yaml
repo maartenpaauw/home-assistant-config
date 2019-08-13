@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+light.woonkamer_eettafel:
+  friendly_name: Eettafel
+  icon: mdi:ceiling-light
