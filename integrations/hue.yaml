@@ -1,0 +1,8 @@
+#
+# https://www.home-assistant.io/components/hue/
+#
+hue:
+  bridges:
+    - host: !secret hue_bridge_host
+      allow_unreachable: true
+      allow_hue_groups: false
