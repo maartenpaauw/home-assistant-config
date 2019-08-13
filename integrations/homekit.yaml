@@ -3,6 +3,7 @@
 #
 homekit:
   name: "Home Assistant"
+  entity_config: !include_dir_merge_named ../assistants/siri
   filter:
     include_entities:
       - binary_sensor.ring_voordeur_ding
