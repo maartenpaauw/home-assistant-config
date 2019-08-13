@@ -1,4 +1,0 @@
-- platform: group
-  name: group_wardrobe_maarten_paauw
-  entities:
-    - light.slaapkamer_plafondlamp_links

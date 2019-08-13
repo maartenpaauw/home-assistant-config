@@ -1,10 +1,6 @@
-camera:
-  - platform: ring
-
-frontend:
-  themes: !include_dir_merge_named themes
-  javascript_version: latest
-
+#
+# https://www.home-assistant.io/docs/configuration/basic/
+#
 homeassistant:
   name: Brouwerstraat
   latitude: !secret zone_home_latitude
@@ -12,72 +8,10 @@ homeassistant:
   elevation: 3
   unit_system: metric
   time_zone: Europe/Amsterdam
-  customize: !include_dir_merge_named customizations/entity
-  customize_glob: !include_dir_merge_named customizations/global
-
-http:
-  api_password: !secret http_api_password
-  base_url: !secret http_base_url
-
-ifttt:
-  key: !secret ifttt_key
-
-logger:
-  default: warn
-
-mqtt:
-  password: !secret mqtt_password
-  discovery: true
-
-ring:
-  username: !secret ring_username
-  password: !secret ring_password
-
-toon:
-  client_id: !secret toon_client_id
-  client_secret: !secret toon_client_secret
-
-# transmission:
-#   host: !secret transmission_host
-#   turtle_mode: true
-
-tts:
-  - platform: google_translate
-    service_name: google_say
-
-cloud:
-config:
-conversation:
-discovery:
-history:
-logbook:
-map:
-mobile_app:
-recorder:
-shopping_list:
-sun:
-system_health:
-updater:
-zeroconf:
-
-apple_tv: !include_dir_merge_list apple/apple_tv
-automation: !include_dir_merge_list automations
-binary_sensor: !include_dir_merge_list binary_sensors
-group: !include_dir_merge_named groups
-homekit: !include apple/homekit/homekit.yaml
-input_boolean: !include_dir_merge_named input/input_booleans
-input_datetime: !include_dir_merge_named input/input_datetimes
-input_number: !include_dir_merge_named input/input_numbers
-input_text: !include_dir_merge_named input/input_texts
-ios: !include apple/ios/ios.yaml
-light: !include_dir_merge_list lights
-media_player: !include_dir_merge_list media_players
-notify: !include_dir_merge_list notifies
-person: !include_dir_merge_list persons
-scene: !include_dir_merge_list scenes
-script: !include_dir_merge_named scripts
-sensor: !include_dir_merge_list sensors
-shell_command: !include_dir_merge_named shell_commands
-switch: !include_dir_merge_list switches
-variable: !include_dir_merge_named variables
-zone: !include_dir_merge_list zones
+  customize: !include_dir_merge_named customizations/entities
+  customize_glob: !include_dir_merge_named customizations/globs
+  auth_providers:
+    - type: homeassistant
+    - type: legacy_api_password
+      api_password: !secret http_api_password
+  packages: !include_dir_named integrations

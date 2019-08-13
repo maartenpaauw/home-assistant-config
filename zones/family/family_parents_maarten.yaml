@@ -1,4 +1,0 @@
-- name: family_parents_maarten
-  latitude: !secret zone_family_parents_maarten_latitude
-  longitude: !secret zone_family_parents_maarten_longitude
-  icon: mdi:account-multiple

@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/components/transmission/
+#
+transmission:
+  host: !secret transmission_host
+  turtle_mode: true

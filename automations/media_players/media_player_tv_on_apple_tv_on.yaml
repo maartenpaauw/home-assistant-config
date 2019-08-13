@@ -1,10 +1,13 @@
-- alias: media_player_tv_on_apple_tv_on
-  initial_state: true
-  trigger:
-    - platform: state
-      entity_id: media_player.tv
-      to: "on"
-  action:
-    - service: media_player.turn_on
-      data:
-        entity_id: media_player.apple_tv_woonkamer
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: media_player_tv_on_apple_tv_on
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: media_player.tv
+    to: "on"
+action:
+  - service: media_player.turn_on
+    data:
+      entity_id: media_player.apple_tv_woonkamer

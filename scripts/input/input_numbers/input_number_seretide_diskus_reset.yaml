@@ -1,7 +1,0 @@
-input_number_seretide_diskus_reset:
-  alias: input_number_seretide_diskus_reset
-  sequence:
-    - service: input_number.set_value
-      data:
-        entity_id: input_number.seretide_diskus
-        value: 60

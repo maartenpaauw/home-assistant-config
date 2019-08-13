@@ -1,0 +1,7 @@
+#
+# https://www.home-assistant.io/components/http/
+#
+http:
+  base_url: !secret http_base_url
+  ip_ban_enabled: true
+  login_attempts_threshold: 5

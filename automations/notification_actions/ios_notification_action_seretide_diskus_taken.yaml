@@ -1,11 +1,14 @@
-- alias: ios_notification_action_seretide_diskus_taken
-  initial_state: true
-  trigger:
-    - platform: event
-      event_type: ios.notification_action_fired
-      event_data:
-        actionName: SERETIDE_DISKUS_TAKEN
-  action:
-    - service: script.turn_on
-      data:
-        entity_id: script.input_number_seretide_diskus_decrement
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: ios_notification_action_seretide_diskus_taken
+initial_state: true
+trigger:
+  - platform: event
+    event_type: ios.notification_action_fired
+    event_data:
+      actionName: SERETIDE_DISKUS_TAKEN
+action:
+  - service: script.turn_on
+    data:
+      entity_id: script.input_number_seretide_diskus_decrement

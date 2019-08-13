@@ -1,0 +1,10 @@
+#
+# https://www.home-assistant.io/components/input_number/
+#
+seretide_diskus:
+  name: Seretide Diskus
+  icon: mdi:medical-bag
+  min: 0
+  max: 60
+  step: 2
+  mode: box

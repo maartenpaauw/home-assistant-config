@@ -1,16 +1,19 @@
-- alias: theme_dark
-  initial_state: true
-  trigger:
-    - platform: homeassistant
-      event: start
-    - platform: sun
-      event: sunset
-      offset: "-01:00:00"
-  condition:
-    condition: sun
-    after: sunset
-    after_offset: "-1:00:00"
-  action:
-    - service: frontend.set_theme
-      data:
-        name: midnight_blue
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: theme_dark
+initial_state: true
+trigger:
+  - platform: homeassistant
+    event: start
+  - platform: sun
+    event: sunset
+    offset: "-01:00:00"
+condition:
+  condition: sun
+  after: sunset
+  after_offset: "-1:00:00"
+action:
+  - service: frontend.set_theme
+    data:
+      name: midnight_blue

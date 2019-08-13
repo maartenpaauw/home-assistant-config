@@ -1,23 +1,26 @@
-- alias: time_media_player_sonos_one_keuken_play_hourly_chime
-  initial_state: true
-  trigger:
-    - platform: time_pattern
-      hours: "/1"
-      minutes: 0
-      seconds: 0
-  condition:
-    condition: and
-    conditions:
-      - condition: time
-        after: "07:00:00"
-        before: "01:00:00"
-      - condition: state
-        entity_id: group.family
-        state: "home"
-      - condition: state
-        entity_id: media_player.sonos_one_keuken
-        state: "paused"
-  action:
-    - service: script.turn_on
-      data:
-        entity_id: script.media_player_sonos_one_keuken_play_chime
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: time_media_player_sonos_one_keuken_play_hourly_chime
+initial_state: true
+trigger:
+  - platform: time_pattern
+    hours: "/1"
+    minutes: 0
+    seconds: 0
+condition:
+  condition: and
+  conditions:
+    - condition: time
+      after: "07:00:00"
+      before: "01:00:00"
+    - condition: state
+      entity_id: group.family
+      state: "home"
+    - condition: state
+      entity_id: media_player.sonos_one_keuken
+      state: "paused"
+action:
+  - service: script.turn_on
+    data:
+      entity_id: script.media_player_sonos_one_keuken_play_chime

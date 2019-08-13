@@ -1,0 +1,4 @@
+#
+# https://www.home-assistant.io/components/shell_command/
+#
+pc_turn_off: !secret shell_command_pc_turn_off

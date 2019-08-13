@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/components/input_boolean/
+#
+alarm_clock_maarten_paauw:
+  name: Status
+  icon: mdi:alarm-check

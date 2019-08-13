@@ -1,11 +1,14 @@
-- alias: input_text_dinner_planner_clear_choice_at_20_00
-  initial_state: true
-  trigger:
-    - platform: time
-      at: "20:00:00"
-  action:
-    - service: input_text.set_value
-      data_template:
-        entity_id: >
-          input_text.dinner_planner_{{ now().strftime('%A') | lower }}
-        value: ""
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: input_text_dinner_planner_clear_choice_at_20_00
+initial_state: true
+trigger:
+  - platform: time
+    at: "20:00:00"
+action:
+  - service: input_text.set_value
+    data_template:
+      entity_id: >
+        input_text.dinner_planner_{{ now().strftime('%A') | lower }}
+      value: ""

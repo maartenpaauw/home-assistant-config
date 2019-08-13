@@ -1,30 +1,33 @@
-- alias: input_datetime_alarm_clock_maarten_paauw
-  initial_state: true
-  trigger:
-    - platform: template
-      value_template: "{{ states('sensor.time') == (states.input_datetime.alarm_clock_maarten_paauw.attributes.timestamp | int | timestamp_custom('%H:%M', false)) }}"
-  condition:
-    - condition: state
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: input_datetime_alarm_clock_maarten_paauw
+initial_state: true
+trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.alarm_clock_maarten_paauw.attributes.timestamp | int | timestamp_custom('%H:%M', false)) }}"
+condition:
+  - condition: state
+    entity_id: input_boolean.alarm_clock_maarten_paauw
+    state: "on"
+action:
+  - service: script.turn_on
+    data:
+      entity_id: script.light_turn_on_bedlamp_with_profile_morning
+      variables:
+        light: "nachtlamp_van_maarten"
+  - service: switch.turn_on
+    data:
+      entity_id: switch.magic_mirror
+  - service: input_boolean.turn_off
+    data:
       entity_id: input_boolean.alarm_clock_maarten_paauw
-      state: "on"
-  action:
-    - service: script.turn_on
-      data:
-        entity_id: script.light_turn_on_bedlamp_with_profile_morning
-        variables:
-          light: "nachtlamp_van_maarten"
-    - service: switch.turn_on
-      data:
-        entity_id: switch.magic_mirror
-    - service: input_boolean.turn_off
-      data:
-        entity_id: input_boolean.alarm_clock_maarten_paauw
-    - service: script.turn_on
-      data:
-        entity_id: script.notify_smartphone_ask_which_drink
-        variables:
-          device: "iphone_maarten_paauw"
-    - delay: "00:30:00"
-    - service: script.turn_on
-      data:
-        entity_id: script.notify_maarten_paauw_seretide_diskus_taken
+  - service: script.turn_on
+    data:
+      entity_id: script.notify_smartphone_ask_which_drink
+      variables:
+        device: "iphone_maarten_paauw"
+  - delay: "00:30:00"
+  - service: script.turn_on
+    data:
+      entity_id: script.notify_maarten_paauw_seretide_diskus_taken

@@ -1,0 +1,7 @@
+#
+# https://www.home-assistant.io/components/person/
+#
+name: "Rianne van der Maat"
+id: rianne_van_der_maat
+device_trackers:
+  - device_tracker.iphone_8_van_rianne_van_der_maat

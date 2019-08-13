@@ -1,9 +1,0 @@
-- platform: rest
-  name: magic_mirror
-  resource: !secret switch_magic_mirror_resource
-  method: post
-  body_on: '{"state": "true"}'
-  body_off: '{"state": "false"}'
-  is_on_template: "{{ value_json.state }}"
-  headers:
-    Content-Type: application/json

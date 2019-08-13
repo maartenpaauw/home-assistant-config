@@ -1,0 +1,4 @@
+#
+# https://www.home-assistant.io/components/switch/
+#
+switch: !include_dir_list ../entities/switches

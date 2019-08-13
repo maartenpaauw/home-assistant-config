@@ -1,6 +1,0 @@
-- platform: twitch
-  entity_namespace: twitch
-  client_id: !secret sensor_twitch_client_id
-  channels:
-    - fl0m
-    - jasonr

@@ -1,4 +1,0 @@
-- platform: postnl
-  name: PostNL
-  username: !secret postnl_username
-  password: !secret postnl_password

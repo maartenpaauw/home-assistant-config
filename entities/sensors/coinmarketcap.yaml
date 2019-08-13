@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/components/coinmarketcap/
+#
+platform: coinmarketcap
+currency_id: 372
+display_currency: EUR

@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/components/time_date/
+#
+platform: time_date
+display_options:
+  - "time"

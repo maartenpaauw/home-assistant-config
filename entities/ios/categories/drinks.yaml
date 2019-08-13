@@ -1,0 +1,12 @@
+#
+# https://www.home-assistant.io/docs/ecosystem/ios/notifications/actions/
+#
+name: drinks
+identifier: "drinks"
+actions:
+  - identifier: "TEA"
+    title: "Thee"
+    activationMode: "background"
+    authenticationRequired: false
+    destructive: false
+    behavior: "default"

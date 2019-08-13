@@ -1,0 +1,5 @@
+#
+# https://www.home-assistant.io/components/input_text/
+#
+dinner_planner_thursday:
+  name: Donderdag

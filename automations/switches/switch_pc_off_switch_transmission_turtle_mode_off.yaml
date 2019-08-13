@@ -1,10 +1,13 @@
-- alias: switch_pc_off_switch_transmission_turtle_mode_off
-  initial_state: true
-  trigger:
-    - platform: state
-      entity_id: switch.pc
-      to: "off"
-  action:
-    - service: switch.turn_off
-      data:
-        entity_id: switch.transmission
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: switch_pc_off_switch_transmission_turtle_mode_off
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: switch.pc
+    to: "off"
+action:
+  - service: switch.turn_off
+    data:
+      entity_id: switch.transmission

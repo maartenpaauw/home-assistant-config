@@ -1,6 +1,0 @@
-- platform: wake_on_lan
-  mac_address: !secret switch_pc_mac_address
-  host: !secret switch_pc_host
-  name: "PC"
-  turn_off:
-    service: shell_command.pc_turn_off

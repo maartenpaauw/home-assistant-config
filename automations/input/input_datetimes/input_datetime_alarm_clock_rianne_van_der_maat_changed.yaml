@@ -1,13 +1,16 @@
-- alias: input_datetime_alarm_clock_rianne_van_der_maat_changed
-  initial_state: true
-  trigger:
-    - platform: state
-      entity_id: input_datetime.alarm_clock_rianne_van_der_maat
-  condition:
-    - condition: state
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: input_datetime_alarm_clock_rianne_van_der_maat_changed
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: input_datetime.alarm_clock_rianne_van_der_maat
+condition:
+  - condition: state
+    entity_id: input_boolean.alarm_clock_rianne_van_der_maat
+    state: "off"
+action:
+  - service: input_boolean.turn_on
+    data:
       entity_id: input_boolean.alarm_clock_rianne_van_der_maat
-      state: "off"
-  action:
-    - service: input_boolean.turn_on
-      data:
-        entity_id: input_boolean.alarm_clock_rianne_van_der_maat

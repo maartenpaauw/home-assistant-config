@@ -1,16 +1,19 @@
-- alias: theme_default
-  initial_state: true
-  trigger:
-    - platform: homeassistant
-      event: start
-    - platform: sun
-      event: sunrise
-      offset: "+01:00:00"
-  condition:
-    condition: sun
-    after: sunrise
-    after_offset: "+1:00:00"
-  action:
-    - service: frontend.set_theme
-      data:
-        name: default
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: theme_default
+initial_state: true
+trigger:
+  - platform: homeassistant
+    event: start
+  - platform: sun
+    event: sunrise
+    offset: "+01:00:00"
+condition:
+  condition: sun
+  after: sunrise
+  after_offset: "+1:00:00"
+action:
+  - service: frontend.set_theme
+    data:
+      name: default

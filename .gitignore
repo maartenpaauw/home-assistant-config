@@ -46,6 +46,7 @@ yarn.lock
 !light_profiles.csv
 !scripts
 !www/**/*
+!entities/**/*
 
 # Ring
 .ring_cache.pickle

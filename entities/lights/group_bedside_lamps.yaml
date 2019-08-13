@@ -1,0 +1,8 @@
+#
+# https://www.home-assistant.io/components/light.group/
+#
+platform: group
+name: group_bedside_lamps
+entities:
+  - light.nachtlamp_van_maarten
+  - light.nachtlamp_van_rianne

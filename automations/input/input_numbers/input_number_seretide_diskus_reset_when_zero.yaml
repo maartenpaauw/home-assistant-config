@@ -1,11 +1,14 @@
-- alias: input_number_seretide_diskus_reset_when_zero
-  initial_state: true
-  trigger:
-    - platform: numeric_state
-      entity_id: input_number.seretide_diskus
-      below: 2
-  action:
-    - delay: "00:30:00"
-    - service: script.turn_on
-      data:
-        entity_id: script.input_number_seretide_diskus_reset
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: input_number_seretide_diskus_reset_when_zero
+initial_state: true
+trigger:
+  - platform: numeric_state
+    entity_id: input_number.seretide_diskus
+    below: 2
+action:
+  - delay: "00:30:00"
+  - service: script.turn_on
+    data:
+      entity_id: script.input_number_seretide_diskus_reset

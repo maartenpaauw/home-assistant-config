@@ -1,0 +1,10 @@
+#
+# https://www.home-assistant.io/components/scrape/
+#
+platform: scrape
+name: "Brother Toner"
+resource: !secret sensor_brother_status_resource
+select: ".tonerremain"
+attribute: height
+value_template: "{{ ((100 / 56) * (value | int)) | round(2) }}"
+unit_of_measurement: "%"

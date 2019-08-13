@@ -1,11 +1,14 @@
-- alias: sensor_brother_toner_below_20_percent
-  initial_state: true
-  trigger:
-    - platform: numeric_state
-      entity_id: sensor.brother_toner
-      below: 20
-  action:
-    - service: notify.iphone_maarten_paauw_and_rianne_van_der_maat
-      data:
-        title: "Brother"
-        message: "De toner is bijna op!"
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: sensor_brother_toner_below_20_percent
+initial_state: true
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.brother_toner
+    below: 20
+action:
+  - service: notify.iphone_maarten_paauw_and_rianne_van_der_maat
+    data:
+      title: "Brother"
+      message: "De toner is bijna op!"

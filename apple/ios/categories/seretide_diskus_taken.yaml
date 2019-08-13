@@ -1,9 +1,0 @@
-- name: seretide_diskus_taken
-  identifier: "seretide_diskus_taken"
-  actions:
-    - identifier: "SERETIDE_DISKUS_TAKEN"
-      title: "Ja"
-      activationMode: "background"
-      authenticationRequired: false
-      destructive: true
-      behavior: "default"

@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/components/input_boolean/
+#
+ikettle:
+  name: Waterkoker
+  icon: mdi:kettle

@@ -1,1 +1,0 @@
-install_samba_common: "apt-get update -y && apt-get install samba-common -y"

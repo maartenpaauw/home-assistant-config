@@ -1,0 +1,14 @@
+#
+# https://www.home-assistant.io/components/script/
+#
+notify_smartphone_ask_which_drink:
+  alias: notify_smartphone_ask_which_drink
+  sequence:
+    - service_template: notify.{{ device }}
+      data:
+          title: "Goedemorgen!"
+          message: "Wat wil je drinken?"
+          data:
+            push:
+              badge: 0
+              category: "drinks"

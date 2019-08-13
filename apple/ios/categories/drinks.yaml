@@ -1,9 +1,0 @@
-- name: drinks
-  identifier: "drinks"
-  actions:
-    - identifier: "TEA"
-      title: "Thee"
-      activationMode: "background"
-      authenticationRequired: false
-      destructive: false
-      behavior: "default"
