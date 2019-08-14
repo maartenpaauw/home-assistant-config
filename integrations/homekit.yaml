@@ -6,6 +6,7 @@ homekit:
   entity_config: !include_dir_merge_named ../assistants/siri
   filter:
     include_entities:
+      - alarm_control_panel.home
       - binary_sensor.ring_voordeur_ding
       - climate.toon_thermostat
       - input_boolean.ikettle

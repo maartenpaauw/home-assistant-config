@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/components/manual/
+#
+platform: manual
+name: home
+code: !secret alarm_home_code

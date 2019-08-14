@@ -3,6 +3,7 @@ default_view:
   view: yes
   entities:
     - camera.voordeur
+    - alarm_control_panel.home
     - group.climate
     - group.family
     - group.bella_and_sarah
