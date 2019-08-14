@@ -1,7 +1,0 @@
-#
-# https://www.home-assistant.io/components/input_datetime/
-#
-alarm_clock_maarten_paauw:
-  name: Tijd
-  has_date: false
-  has_time: true

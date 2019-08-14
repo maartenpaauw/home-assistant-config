@@ -1,6 +1,0 @@
-#
-# https://www.home-assistant.io/components/input_boolean/
-#
-alarm_clock_rianne_van_der_maat:
-  name: Status
-  icon: mdi:alarm-check

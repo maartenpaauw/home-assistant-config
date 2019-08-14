@@ -1,6 +1,0 @@
-alarm_clock_maarten_paauw:
-  name: Wekker van Maarten
-  icon: mdi:clock
-  entities:
-    - input_boolean.alarm_clock_maarten_paauw
-    - input_datetime.alarm_clock_maarten_paauw

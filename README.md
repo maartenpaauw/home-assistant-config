@@ -30,13 +30,10 @@
 
 - Turn the Toon van Eneco in "Slaap" mode when it's 10:00 pm.
 - Turn on the Smarter iKettle 3rd generation when an input boolean is turned on.
-- Morning routine when Maarten Paauw's alarm goes off.
-- Morning routine when Rianne van der Maat's alarm goes off.
 - Reset (the day) dinner planner every day at 8:00 pm.
-  - Send a notification at friday 8:00 pm as a reminder to pick a menu for next week.
+  - Send a notification at sunday 8:00 pm as a reminder to pick a menu for next week.
 - Turn on/off the Apple TV 3rd generation when the Sony Bravia KDL-42W805A is on/off.
 - Send a notification when the printer's drum or toner is below 20 percent.
-- Turn off some office components when the PC shuts down.
 - Toggle light/dark theme based on sunset and sunrise.
 
 ## Shell Commands
