@@ -11,7 +11,7 @@ condition:
     weekday:
       - sun
 action:
-  - service: notify.iphone_maarten_paauw_and_rianne_van_der_maat
+  - service: notify.maarten_paauw_and_rianne_van_der_maat
     data:
       title: "Nieuwe maaltijden"
       message: "Tijd om voor komende week te plannen!"

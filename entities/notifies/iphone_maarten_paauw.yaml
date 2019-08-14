@@ -1,7 +1,0 @@
-#
-# https://www.home-assistant.io/components/notify.group/
-#
-name: iphone_maarten_paauw
-platform: group
-services:
-  - service: mobile_app_iphone_8_van_maarten_paauw

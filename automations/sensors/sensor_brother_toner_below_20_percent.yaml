@@ -8,7 +8,7 @@ trigger:
     entity_id: sensor.brother_toner
     below: 20
 action:
-  - service: notify.iphone_maarten_paauw_and_rianne_van_der_maat
+  - service: notify.maarten_paauw_and_rianne_van_der_maat
     data:
       title: "Brother"
       message: "De toner is bijna op!"

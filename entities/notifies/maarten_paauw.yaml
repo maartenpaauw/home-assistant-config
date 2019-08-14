@@ -1,8 +1,8 @@
 #
 # https://www.home-assistant.io/components/notify.group/
 #
-name: iphone_maarten_paauw_and_rianne_van_der_maat
+name: maarten_paauw
 platform: group
 services:
   - service: mobile_app_iphone_8_van_maarten_paauw
-  - service: ios_iphone_8_van_rianne_van_der_maat
+  - service: browser

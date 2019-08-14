@@ -1,0 +1,8 @@
+#
+# https://www.home-assistant.io/components/notify.group/
+#
+name: maarten_paauw_and_rianne_van_der_maat
+platform: group
+services:
+  - service: maarten_paauw
+  - service: rianne_van_der_maat
