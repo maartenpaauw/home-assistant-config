@@ -4,3 +4,4 @@ staircase:
   control: hidden
   entities:
     - light.trapkast_plafondlamp
+    - binary_sensor.trapkast_motion

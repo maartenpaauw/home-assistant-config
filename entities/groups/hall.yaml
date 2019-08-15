@@ -4,4 +4,5 @@ hall:
   control: hidden
   entities:
     - light.gang_plafondlamp
+    - binary_sensor.gang_motion
     - sensor.postnl

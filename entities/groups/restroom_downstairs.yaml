@@ -1,6 +1,7 @@
-toilet_downstairs:
-  name: WC
+restroom_downstairs:
+  name: Toilet
   icon: mdi:human-male-female
   control: hidden
   entities:
     - light.toilet_beneden_plafondlamp
+    - binary_sensor.toilet_beneden_motion

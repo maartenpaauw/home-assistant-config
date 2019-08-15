@@ -4,3 +4,4 @@ corridor:
   control: hidden
   entities:
     - light.overloop_plafondlamp
+    - binary_sensor.overloop_motion
