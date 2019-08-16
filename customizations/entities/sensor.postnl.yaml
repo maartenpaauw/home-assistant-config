@@ -1,0 +1,5 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+sensor.postnl:
+  unit_of_measurement: "pakketten"
