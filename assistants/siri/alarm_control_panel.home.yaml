@@ -2,5 +2,5 @@
 # https://www.home-assistant.io/components/homekit/#entity_config
 #
 alarm_control_panel.home:
-  name: Woning Alarm
+  name: "Woning Alarm"
   code: !secret alarm_home_code
