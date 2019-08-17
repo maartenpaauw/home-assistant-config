@@ -6,3 +6,4 @@ living_room:
     - light.woonkamer_eettafel
     - media_player.tv
     - media_player.apple_tv_woonkamer
+    - media_player.playstation_4

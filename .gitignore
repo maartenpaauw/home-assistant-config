@@ -47,3 +47,6 @@ yarn.lock
 
 # Ring
 .ring_cache.pickle
+
+# Playstation 4
+.ps4-games.json
