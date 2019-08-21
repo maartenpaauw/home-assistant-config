@@ -1,5 +1,5 @@
 #
 # https://www.home-assistant.io/components/homekit/#entity_config
 #
-binary_sensor.ring_voordeur_ding:
-  name: "Gang Ring Doorbell 2"
+media_player.tv:
+  name: "Woonkamer Televisie"
