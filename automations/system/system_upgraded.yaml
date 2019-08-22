@@ -1,0 +1,19 @@
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: system_upgraded
+trigger:
+  - platform: state
+    entity_id: sensor.version_current
+condition:
+  - condition: template
+    value_template: >-
+      {{
+        states('sensor.version_available')
+        ==
+        states('sensor.version_current')
+      }}
+action:
+  - service: persistent_notification.dismiss
+    data:
+      notification_id: system_upgrade_available

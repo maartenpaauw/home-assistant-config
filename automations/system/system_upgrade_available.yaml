@@ -1,0 +1,22 @@
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: system_upgrade_available
+trigger:
+  - platform: state
+    entity_id: sensor.version_available
+condition:
+  - condition: template
+    value_template: >-
+      {{
+        states('sensor.version_available')
+        !=
+        states('sensor.version_current')
+      }}
+action:
+  - service: persistent_notification.create
+    data_template:
+      notification_id: system_upgrade_available
+      title: Home Assistant Upgrade
+      message: >-
+        Version {{ states('sensor.version_available') }} just got released!
