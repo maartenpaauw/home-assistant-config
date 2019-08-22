@@ -2,3 +2,5 @@
 # https://www.home-assistant.io/components/discovery/
 #
 discovery:
+  ignore:
+    - igd
