@@ -50,3 +50,6 @@ yarn.lock
 
 # Playstation 4
 .ps4-games.json
+
+# Cloud
+.cloud

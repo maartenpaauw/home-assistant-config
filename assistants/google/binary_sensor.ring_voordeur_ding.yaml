@@ -1,0 +1,7 @@
+#
+# https://www.nabucasa.com/config/google_assistant/
+# https://www.home-assistant.io/components/google_assistant/#entity_config
+#
+binary_sensor.ring_voordeur_ding:
+  name: "Ring Doorbell 2"
+  room: "Gang"

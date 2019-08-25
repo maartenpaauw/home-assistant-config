@@ -1,0 +1,7 @@
+#
+# https://www.nabucasa.com/config/google_assistant/
+# https://www.home-assistant.io/components/google_assistant/#entity_config
+#
+light.group_wardrobe_maarten_paauw:
+  name: "Kledingkast"
+  room: "Slaapkamer"

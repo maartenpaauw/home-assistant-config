@@ -1,0 +1,7 @@
+#
+# https://www.nabucasa.com/config/google_assistant/
+# https://www.home-assistant.io/components/google_assistant/#entity_config
+#
+switch.sonoff_touch_dressing_room:
+  name: "Plafondlamp"
+  room: "Kledingkamer"
