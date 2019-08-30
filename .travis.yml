@@ -2,9 +2,9 @@ dist: xenial
 language: python
 python:
   - 3.7.4
+before_install:
+  - cp secrets.example secrets.yaml
 install:
-  - . ci/travis/install.sh
-before_script:
-  - . ci/travis/before_script.sh
+  - pip install -I homeassistant==$(cat .HA_VERSION)
 script:
-  - . ci/travis/script.sh
+  - hass -c . --script check_config
