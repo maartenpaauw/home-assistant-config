@@ -1,4 +1,4 @@
 #
 # https://www.home-assistant.io/components/shell_command/
 #
-install_samba_common: "apt-get update -y && apt-get install samba-common -y"
+install_samba_common: "apk upgrade && apk add samba"
