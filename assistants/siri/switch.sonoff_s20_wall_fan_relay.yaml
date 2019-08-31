@@ -1,5 +1,5 @@
 #
 # https://www.home-assistant.io/components/homekit/#entity_config
 #
-switch.sonoff_s20_wall_fan:
+switch.sonoff_s20_wall_fan_relay:
   name: Kantoor Wandventilator

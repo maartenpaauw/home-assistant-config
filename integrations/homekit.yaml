@@ -14,6 +14,6 @@ homekit:
       - media_player.tv
       # - switch.magic_mirror
       - switch.pc
-      - switch.sonoff_s20_wall_fan
+      - switch.sonoff_s20_wall_fan_relay
       - switch.sonoff_touch_dressing_room
       # - switch.transmission

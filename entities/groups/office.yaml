@@ -8,7 +8,7 @@ office:
   entities:
     - light.group_office_ceiling_lights
     - light.kantoor_bloom
-    - switch.sonoff_s20_wall_fan
+    - switch.sonoff_s20_wall_fan_relay
     - switch.pc
     # - switch.transmission
     - media_player.spotify
