@@ -3,8 +3,8 @@ language: python
 python:
   - 3.7.4
 before_install:
-  - cp secrets.example secrets.yaml
+  - cp secrets.example config/secrets.yaml
 install:
-  - pip install -I homeassistant==$(cat .HA_VERSION)
+  - pip install -I homeassistant==$(cat config/.HA_VERSION)
 script:
-  - hass -c . --script check_config
+  - hass -c config --script check_config

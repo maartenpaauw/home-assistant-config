@@ -1,55 +1,55 @@
-# Visual Studio Code
+# Overwrite Global Ignore.
+!config/**/*
+
+# Visual Studio Code.
 .vscode/
 
 # Ignore UUID.
-.uuid
+config/.uuid
 
 # Ignore configuration files for devices.
-*.conf
+config/*.conf
 
-# Ignore secrets
-secrets.yaml
+# Ignore secrets.
+config/secrets.yaml
 
 # Ignore deps directory.
-deps/
+config/deps/
 
 # Ignore text to speech directory.
-tts/
+config/tts/
 
 # Ignore Home Assistant log file.
-home-assistant.log
+config/home-assistant.log
 
 # Ignore Home Assistant database file.
-home-assistant_v2.db
-home-assistant_v2.db-wal
-home-assistant_v2.db-shm
+config/home-assistant_v2.db
+config/home-assistant_v2.db-wal
+config/home-assistant_v2.db-shm
 
 # Ignore Yarn lock file.
 yarn.lock
 
 # Ignore Spotify tokens.
-.spotify-token-cache
+config/.spotify-token-cache
 
 # Ignore Homekit file.
-.homekit.state
+config/.homekit.state
 
 # Ignore Configuration Entries file.
-.config_entries.json
+config/.config_entries.json
 
 # Ignore storage folder.
-.storage/
-
-# Overwrite global Git ignore.
-!light_profiles.csv
-!scripts
-!www/**/*
-!entities/**/*
+config/.storage/
 
 # Ring
-.ring_cache.pickle
+config/.ring_cache.pickle
 
 # Playstation 4
-.ps4-games.json
+config/.ps4-games.json
 
 # Cloud
-.cloud
+config/.cloud
+
+# __pycache__
+**/__pycache__/*
