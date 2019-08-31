@@ -1,7 +1,7 @@
 #
 # https://www.home-assistant.io/components/person/
 #
-name: "Rianne van der Maat"
+name: rianne_van_der_maat
 id: rianne_van_der_maat
 user_id: !secret person_rianne_van_der_maat_user_id
 device_trackers:

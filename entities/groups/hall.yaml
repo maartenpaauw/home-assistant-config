@@ -1,3 +1,6 @@
+#
+# https://www.home-assistant.io/components/group/
+#
 hall:
   name: Hal
   icon: mdi:home

@@ -3,5 +3,5 @@
 # https://www.home-assistant.io/components/google_assistant/#entity_config
 #
 input_boolean.ikettle:
-  name: "Waterkoker"
-  room: "Keuken"
+  name: Waterkoker
+  room: Keuken

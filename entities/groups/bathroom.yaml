@@ -1,3 +1,6 @@
+#
+# https://www.home-assistant.io/components/group/
+#
 bathroom:
   name: Badkamer
   icon: mdi:hot-tub

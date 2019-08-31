@@ -11,13 +11,15 @@
 
 - Apple iPhone 8+ - 2×
 - Apple TV 3rd generation
+- Chromecast 3
 - Game PC
-- iTead Sonoff S20 - 2× (Flashed with [Tasmota][tasmota])
+- iTead Sonoff S20 (Flashed with [Tasmota][tasmota])
 - iTead Sonoff Touch (Flashed with [Tasmota][tasmota])
 - MagicMirror²
 - Philips Hue LivingColours Bloom
-- Philips Hue White and Ambiance E27
-- Philips Hue White and Ambiance GU10 - 6×
+- Philips Hue Motion Sensor - 5×
+- Philips Hue White and Ambiance E27 - 4×
+- Philips Hue White and Ambiance GU10 - 8×
 - Philips Hue White and Color E27 - 2×
 - Ring Doorbell 2
 - Smarter iKettle 3rd generation

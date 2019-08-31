@@ -5,4 +5,3 @@ name: work_rianne_van_der_maat
 latitude: !secret zone_work_rianne_van_der_maat_latitude
 longitude: !secret zone_work_rianne_van_der_maat_longitude
 radius: 200
-icon: mdi:briefcase

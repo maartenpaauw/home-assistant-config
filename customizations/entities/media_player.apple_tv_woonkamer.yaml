@@ -1,6 +1,5 @@
 #
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 #
-sensor.postnl:
-  friendly_name: PostNL
-  unit_of_measurement: pakketten
+media_player.apple_tv_woonkamer:
+  friendly_name: Apple TV

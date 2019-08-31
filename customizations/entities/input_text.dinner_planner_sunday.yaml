@@ -1,6 +1,5 @@
 #
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 #
-sensor.postnl:
-  friendly_name: PostNL
-  unit_of_measurement: pakketten
+input_text.dinner_planner_sunday:
+  friendly_name: Zondag

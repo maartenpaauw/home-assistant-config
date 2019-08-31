@@ -2,7 +2,7 @@
 # https://www.home-assistant.io/components/switch.mqtt/
 #
 platform: mqtt
-name: "Sonoff Touch Dressing Room"
+name: sonoff_touch_dressing_room
 state_topic: "stat/sonoff-touch-dressing-room/POWER1"
 command_topic: "cmnd/sonoff-touch-dressing-room/POWER1"
 availability_topic: "tele/sonoff-touch-dressing-room/LWT"

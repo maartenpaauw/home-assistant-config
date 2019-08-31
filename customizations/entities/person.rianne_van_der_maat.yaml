@@ -2,4 +2,5 @@
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 #
 person.rianne_van_der_maat:
+  friendly_name: Rianne van der Maat
   entity_picture: local/persons/rianne_van_der_maat.jpg

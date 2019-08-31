@@ -2,5 +2,5 @@
 # https://www.home-assistant.io/components/braviatv/
 #
 platform: braviatv
+name: tv
 host: !secret media_player_tv_host
-name: TV

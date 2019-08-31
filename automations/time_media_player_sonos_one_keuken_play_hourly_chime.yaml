@@ -12,14 +12,14 @@ condition:
   condition: and
   conditions:
     - condition: time
-      after: "07:00:00"
-      before: "01:00:00"
+      after: 07:00:00
+      before: 01:00:00
     - condition: state
       entity_id: group.family
-      state: "home"
+      state: home
     - condition: state
       entity_id: media_player.sonos_one_keuken
-      state: "paused"
+      state: paused
 action:
   - service: script.turn_on
     data:

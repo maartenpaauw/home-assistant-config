@@ -10,5 +10,5 @@ trigger:
 action:
   - service: notify.maarten_paauw_and_rianne_van_der_maat
     data:
-      title: "Brother"
-      message: "De drum is bijna op!"
+      title: Brother
+      message: De drum is bijna op!

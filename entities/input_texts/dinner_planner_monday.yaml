@@ -2,4 +2,4 @@
 # https://www.home-assistant.io/components/input_text/
 #
 dinner_planner_monday:
-  name: Maandag
+  name: dinner_planner_monday

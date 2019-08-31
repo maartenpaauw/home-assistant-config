@@ -1,3 +1,6 @@
+#
+# https://www.home-assistant.io/components/group/
+#
 office:
   name: Kantoor
   icon: mdi:briefcase

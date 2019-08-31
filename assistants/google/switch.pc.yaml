@@ -3,5 +3,5 @@
 # https://www.home-assistant.io/components/google_assistant/#entity_config
 #
 switch.pc:
-  name: "Computer"
-  room: "Kantoor"
+  name: Computer
+  room: Kantoor

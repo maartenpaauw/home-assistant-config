@@ -1,8 +1,0 @@
-brother:
-  name: Brother
-  icon: mdi:printer
-  control: hidden
-  entities:
-    - sensor.brother_status
-    - sensor.brother_toner
-    - sensor.brother_drum

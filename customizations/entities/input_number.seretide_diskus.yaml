@@ -1,0 +1,6 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+input_number.seretide_diskus:
+  friendly_name: Seretide Diskus
+  icon: mdi:medical-bag

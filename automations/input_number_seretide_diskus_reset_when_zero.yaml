@@ -8,7 +8,7 @@ trigger:
     entity_id: input_number.seretide_diskus
     below: 2
 action:
-  - delay: "00:30:00"
+  - delay: 00:30:00
   - service: script.turn_on
     data:
       entity_id: script.input_number_seretide_diskus_reset

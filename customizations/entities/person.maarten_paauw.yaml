@@ -2,4 +2,5 @@
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 #
 person.maarten_paauw:
+  friendly_name: Maarten Paauw
   entity_picture: local/persons/maarten_paauw.jpg

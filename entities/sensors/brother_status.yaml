@@ -1,7 +1,7 @@
 #
-# https://www.home-assistant.io/components/scrape/
+# https://www.home-assistant.io/components/snmp/
 #
-platform: scrape
-name: "Brother Status"
-resource: !secret sensor_brother_status_resource
-select: "#moni_data > span"
+platform: snmp
+name: brother_status
+host: !secret sensor_brother_host
+baseoid: 1.3.6.1.2.1.43.18.1.1.8.1.1

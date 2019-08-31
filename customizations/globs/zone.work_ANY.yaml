@@ -3,3 +3,4 @@
 #
 zone.work_*:
   friendly_name: Werk
+  icon: mdi:briefcase

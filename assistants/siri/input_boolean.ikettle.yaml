@@ -2,4 +2,4 @@
 # https://www.home-assistant.io/components/homekit/#entity_config
 #
 input_boolean.ikettle:
-  name: "Keuken Waterkoker"
+  name: Keuken Waterkoker

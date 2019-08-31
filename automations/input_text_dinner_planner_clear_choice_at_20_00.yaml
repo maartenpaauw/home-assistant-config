@@ -9,6 +9,6 @@ trigger:
 action:
   - service: input_text.set_value
     data_template:
-      entity_id: >
-        input_text.dinner_planner_{{ now().strftime('%A') | lower }}
+      entity_id: >-
+        input_text.dinner_planner_{{ now().strftime("%A") | lower }}
       value: ""

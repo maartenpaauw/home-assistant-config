@@ -1,3 +1,6 @@
+#
+# https://www.home-assistant.io/components/group/
+#
 dressing_room:
   name: Kledingkamer
   icon: mdi:tie

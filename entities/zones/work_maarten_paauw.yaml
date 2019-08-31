@@ -5,4 +5,3 @@ name: work_maarten_paauw
 latitude: !secret zone_work_maarten_paauw_latitude
 longitude: !secret zone_work_maarten_paauw_longitude
 radius: 200
-icon: mdi:briefcase

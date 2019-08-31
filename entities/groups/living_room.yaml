@@ -1,3 +1,6 @@
+#
+# https://www.home-assistant.io/components/group/
+#
 living_room:
   name: Woonkamer
   icon: mdi:sofa
@@ -6,4 +9,5 @@ living_room:
     - light.woonkamer_eettafel
     - media_player.tv
     - media_player.apple_tv_woonkamer
+    - media_player.chromecast_woonkamer
     - media_player.playstation_4
