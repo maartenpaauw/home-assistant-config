@@ -4,5 +4,5 @@
   branch = master
 [submodule "config/esphome"]
   path = config/esphome
-  url = git@github.com:maartenpaauw/esphome-config.git
+  url = https://github.com/maartenpaauw/esphome-config.git
   branch = master
