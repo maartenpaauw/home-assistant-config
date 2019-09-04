@@ -1,0 +1,10 @@
+#
+# https://www.home-assistant.io/components/input_select/
+#
+proxy_tv_source_list:
+  name: proxy_tv_source_list
+  options:
+    - Mediabox
+    - Chromecast
+    - Apple TV
+    - Playstation 4

@@ -1,5 +1,5 @@
 #
 # https://www.home-assistant.io/components/homekit/#entity_config
 #
-light.group_wardrobe_maarten_paauw:
+switch.pc:
   name: Kantoor Computer

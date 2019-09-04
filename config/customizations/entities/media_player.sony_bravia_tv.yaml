@@ -1,10 +1,7 @@
 #
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 #
-media_player.tv: 
-  friendly_name: Televisie
-  icon: mdi:television
-  device_class: tv
+media_player.sony_bravia_tv:
   source_list:
     - HDMI 1
     - HDMI 2/MHL

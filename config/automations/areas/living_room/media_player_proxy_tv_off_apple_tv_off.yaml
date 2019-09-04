@@ -1,13 +1,13 @@
 #
 # https://www.home-assistant.io/components/automation/
 #
-alias: media_player_tv_on_apple_tv_on
+alias: media_player_proxy_tv_off_apple_tv_off
 initial_state: true
 trigger:
   - platform: state
-    entity_id: media_player.tv
-    to: "on"
+    entity_id: media_player.proxy_tv
+    to: "off"
 action:
-  - service: media_player.turn_on
+  - service: media_player.turn_off
     data:
       entity_id: media_player.apple_tv_woonkamer

@@ -1,0 +1,28 @@
+#
+# https://www.home-assistant.io/components/script/
+#
+media_player_proxy_tv_select_source:
+  alias: media_player_proxy_tv_select_source
+  fields:
+    source:
+      description: 'The source to select'
+      example: 'Chromecast'
+  sequence:
+    - service: input_select.select_option
+      data_template:
+        entity_id: input_select.proxy_tv_source_list
+        option: >-
+          {{ source }}
+    - service: media_player.select_source
+      data_template:
+        entity_id: media_player.sony_bravia_tv
+        source: >-
+          {%
+            set mapper = {
+              "Mediabox": "HDMI 1",
+              "Chromecast": "HDMI 2/MHL",
+              "Apple TV": "HDMI 3",
+              "Playstation 4": "HDMI 4",
+            }
+          %}
+          {{ mapper[source] if source in mapper else "HDMI 1" }}

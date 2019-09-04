@@ -1,0 +1,7 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+media_player.*_tv:
+  friendly_name: Televisie
+  icon: mdi:television
+  device_class: tv

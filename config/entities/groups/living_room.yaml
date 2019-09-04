@@ -7,7 +7,7 @@ living_room:
   control: hidden
   entities:
     - light.woonkamer_eettafel
-    - media_player.tv
+    - media_player.proxy_tv
     - media_player.apple_tv_woonkamer
     - media_player.chromecast_woonkamer
     - media_player.playstation_4

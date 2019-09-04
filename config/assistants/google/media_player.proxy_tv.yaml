@@ -2,6 +2,6 @@
 # https://www.nabucasa.com/config/google_assistant/
 # https://www.home-assistant.io/components/google_assistant/#entity_config
 #
-media_player.tv:
+media_player.proxy_tv:
   name: Televisie
   room: Woonkamer

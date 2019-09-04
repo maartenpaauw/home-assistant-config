@@ -1,0 +1,16 @@
+#
+# https://www.home-assistant.io/components/template/
+#
+platform: template
+sensors:
+  dinner_planner_today:
+    entity_id:
+      - input_text.dinner_planner_monday
+      - input_text.dinner_planner_tuesday
+      - input_text.dinner_planner_wednesday
+      - input_text.dinner_planner_thursday
+      - input_text.dinner_planner_friday
+      - input_text.dinner_planner_saturday
+      - input_text.dinner_planner_sunday
+    value_template: >-
+      {{ states("input_text.dinner_planner_" + (now().strftime("%A") | lower)) }}

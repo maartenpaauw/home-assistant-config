@@ -1,5 +1,5 @@
 #
 # https://www.home-assistant.io/components/homekit/#entity_config
 #
-media_player.tv:
+media_player.proxy_tv:
   name: Woonkamer Televisie

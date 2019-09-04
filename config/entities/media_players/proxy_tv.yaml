@@ -1,0 +1,49 @@
+#
+# https://www.home-assistant.io/components/universal/
+#
+platform: universal
+name: proxy_tv
+children:
+  - media_player.sony_bravia_tv
+commands:
+  turn_on:
+    service: media_player.turn_on
+    data:
+      entity_id: media_player.sony_bravia_tv
+  turn_off:
+    service: media_player.turn_off
+    data:
+      entity_id: media_player.sony_bravia_tv
+  select_source:
+    service: script.turn_on
+    entity_id: script.media_player_proxy_tv_select_source
+    data_template:
+      variables:
+        source: >-
+          {{ source }}
+  volume_set:
+    service: media_player.volume_set
+    data_template:
+      entity_id: media_player.sony_bravia_tv
+      volume_level: >-
+        {{ volume_level }}
+  volume_up:
+    service: media_player.volume_up
+    data:
+      entity_id: media_player.sony_bravia_tv
+  volume_down:
+    service: media_player.volume_down
+    data:
+      entity_id: media_player.sony_bravia_tv
+  volume_mute:
+    service: media_player.volume_mute
+    data_template:
+      entity_id: media_player.sony_bravia_tv
+      is_volume_muted: >-
+        {{ states.media_player.sony_bravia_tv.attributes.is_volume_muted }}
+attributes:
+  state: media_player.sony_bravia_tv
+  source: input_select.proxy_tv_source_list
+  source_list: input_select.proxy_tv_source_list|options
+  is_volume_muted: media_player.sony_bravia_tv|is_volume_muted
+  volume_level: media_player.sony_bravia_tv|volume_level

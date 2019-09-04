@@ -1,0 +1,9 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+media_player.proxy_tv:
+  source_list:
+    - Mediabox
+    - Chromecast
+    - Apple TV
+    - Playstation 4
