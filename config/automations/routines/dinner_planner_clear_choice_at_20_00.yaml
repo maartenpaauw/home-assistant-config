@@ -1,8 +1,7 @@
 #
 # https://www.home-assistant.io/components/automation/
 #
-alias: input_text_dinner_planner_clear_choice_at_20_00
-initial_state: true
+alias: dinner_planner_clear_choice_at_20_00
 trigger:
   - platform: time
     at: "20:00:00"

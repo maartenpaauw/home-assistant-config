@@ -2,7 +2,6 @@
 # https://www.home-assistant.io/components/automation/
 #
 alias: input_boolean_turn_on_ikettle
-initial_state: true
 trigger:
   - platform: state
     entity_id: input_boolean.ikettle

@@ -1,8 +1,7 @@
 #
 # https://www.home-assistant.io/components/automation/
 #
-alias: time_dinner_planner_notify_plan_week_at_friday_20_00
-initial_state: true
+alias: dinner_planner_notify_plan_week_at_sunday_20_00
 trigger:
   - platform: time
     at: "20:00:00"

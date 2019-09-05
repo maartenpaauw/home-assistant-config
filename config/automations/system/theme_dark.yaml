@@ -2,7 +2,6 @@
 # https://www.home-assistant.io/components/automation/
 #
 alias: theme_dark
-initial_state: true
 trigger:
   - platform: homeassistant
     event: start

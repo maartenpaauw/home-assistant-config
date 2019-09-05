@@ -5,8 +5,8 @@ media_player_proxy_tv_select_source:
   alias: media_player_proxy_tv_select_source
   fields:
     source:
-      description: 'The source to select'
-      example: 'Chromecast'
+      description: "The source to select"
+      example: "Chromecast"
   sequence:
     - service: input_select.select_option
       data_template:

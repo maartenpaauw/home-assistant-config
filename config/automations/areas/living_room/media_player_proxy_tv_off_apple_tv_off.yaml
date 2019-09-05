@@ -2,7 +2,6 @@
 # https://www.home-assistant.io/components/automation/
 #
 alias: media_player_proxy_tv_off_apple_tv_off
-initial_state: true
 trigger:
   - platform: state
     entity_id: media_player.proxy_tv
