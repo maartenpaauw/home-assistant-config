@@ -14,7 +14,7 @@
 - Chromecast 3
 - Game PC
 - iTead Sonoff S20 - 2× (Flashed with [ESPHome][esphome])
-- iTead Sonoff Touch (Flashed with [Tasmota][tasmota])
+- iTead Sonoff Touch (Flashed with [ESPHome][esphome])
 - MagicMirror²
 - Philips Hue LivingColours Bloom
 - Philips Hue Motion Sensor - 5×
@@ -42,5 +42,4 @@
 
 - Turn off PC (windows).
 
-[tasmota]: https://github.com/arendst/Sonoff-Tasmota  "Sonoff Tasmota"
 [esphome]: https://github.com/maartenpaauw/esphome-config  "Maarten Paauw's ESPHome configuration files"

@@ -1,6 +1,6 @@
 #
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 #
-switch.sonoff_touch_dressing_room:
+switch.sonoff_touch_dressing_room_relay:
   friendly_name: Plafondlamp
   icon: mdi:ceiling-light

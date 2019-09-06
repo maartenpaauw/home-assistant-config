@@ -6,4 +6,4 @@ dressing_room:
   icon: mdi:tie
   control: hidden
   entities:
-    - switch.sonoff_touch_dressing_room
+    - switch.sonoff_touch_dressing_room_relay

@@ -1,5 +1,5 @@
 #
 # https://www.home-assistant.io/components/homekit/#entity_config
 #
-switch.sonoff_touch_dressing_room:
+switch.sonoff_touch_dressing_room_relay:
   name: Kledingkamer Plafondlamp

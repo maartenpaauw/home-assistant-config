@@ -1,5 +1,0 @@
-#
-# https://www.home-assistant.io/docs/mqtt/broker
-#
-mqtt:
-  password: !secret mqtt_password
