@@ -2,7 +2,3 @@
   path = config/themes/home-assistant-community-themes
   url = https://github.com/maartenpaauw/home-assistant-community-themes.git
   branch = master
-[submodule "config/esphome"]
-  path = config/esphome
-  url = https://github.com/maartenpaauw/esphome-config.git
-  branch = master
