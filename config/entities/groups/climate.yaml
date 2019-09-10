@@ -1,8 +1,0 @@
-#
-# https://www.home-assistant.io/components/group/
-#
-climate:
-  name: Klimaat
-  icon: mdi:thermometer
-  entities:
-    - climate.toon_thermostat

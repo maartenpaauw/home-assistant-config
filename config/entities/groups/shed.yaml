@@ -1,8 +1,0 @@
-#
-# https://www.home-assistant.io/components/group/
-#
-shed:
-  name: Schuur
-  icon: mdi:washing-machine
-  control: hidden
-  entities:

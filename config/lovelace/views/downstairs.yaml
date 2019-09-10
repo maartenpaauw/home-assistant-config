@@ -1,0 +1,62 @@
+#
+# https://www.home-assistant.io/lovelace/views/
+#
+title: Beneden
+path: downstairs
+cards:
+  - type: entities
+    title: Badkamer
+    show_header_toggle: false
+    entities:
+      - entity: script.input_number_seretide_diskus_decrement
+      - entity: input_number.seretide_diskus
+
+  - type: entities
+    title: Hal
+    show_header_toggle: false
+    entities:
+      - entity: light.gang_plafondlamp
+      - entity: binary_sensor.gang_motion
+      - entity: sensor.postnl
+
+  - type: entities
+    title: Keuken
+    show_header_toggle: false
+    entities:
+      - entity: input_boolean.ikettle
+      - entity: automation.time_media_player_sonos_one_keuken_play_hourly_chime
+
+  - type: media-control
+    entity: media_player.sonos_one_keuken
+
+  - type: entities
+    title: Woonkamer
+    show_header_toggle: false
+    entities:
+      - entity: light.woonkamer_eettafel
+
+  - type: media-control
+    entity: media_player.proxy_tv
+
+  - type: media-control
+    entity: media_player.apple_tv_woonkamer
+
+  - type: media-control
+    entity: media_player.chromecast_woonkamer
+
+  - type: media-control
+    entity: media_player.playstation_4
+
+  - type: entities
+    title: Trapkast
+    show_header_toggle: false
+    entities:
+      - entity: light.trapkast_plafondlamp
+      - entity: binary_sensor.trapkast_motion
+
+  - type: entities
+    title: Toilet
+    show_header_toggle: false
+    entities:
+      - entity: light.toilet_beneden_plafondlamp
+      - entity: binary_sensor.toilet_beneden_motion

@@ -1,0 +1,49 @@
+#
+# https://www.home-assistant.io/lovelace/views/
+#
+title: Boven
+path: upstairs
+cards:
+  - type: entities
+    title: Slaapkamer
+    show_header_toggle: false
+    entities:
+      - entity: light.group_bedroom_ceiling_lights
+      - entity: light.group_wardrobe_maarten_paauw
+      - entity: light.group_bedside_lamps
+      - entity: light.nachtlamp_van_maarten
+      - entity: light.nachtlamp_van_rianne
+      # - entity: switch.magic_mirror
+
+  - type: entities
+    title: Overloop
+    show_header_toggle: false
+    entities:
+      - entity: light.overloop_plafondlamp
+      - entity: binary_sensor.overloop_motion
+
+  - type: entities
+    title: Kledingkamer
+    show_header_toggle: false
+    entities:
+      - entity: switch.sonoff_touch_dressing_room_relay
+
+  - type: entities
+    title: Kantoor
+    show_header_toggle: false
+    entities:
+      - entity: light.group_office_ceiling_lights
+      - entity: light.kantoor_bloom
+      - entity: switch.sonoff_s20_wall_fan_relay
+      - entity: switch.pc
+      # - entity: switch.transmission
+
+  - type: media-control
+    entity: media_player.spotify
+
+  - type: entities
+    title: Toilet
+    show_header_toggle: false
+    entities:
+      - entity: light.toilet_boven_plafondlamp
+      - entity: binary_sensor.toilet_boven_motion

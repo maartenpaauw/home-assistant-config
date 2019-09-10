@@ -1,0 +1,9 @@
+#
+# https://www.home-assistant.io/lovelace/
+# https://www.home-assistant.io/lovelace/yaml-mode/
+#
+title: Brouwerstraat
+views:
+  - !include lovelace/views/dashboard.yaml
+  - !include lovelace/views/downstairs.yaml
+  - !include lovelace/views/upstairs.yaml

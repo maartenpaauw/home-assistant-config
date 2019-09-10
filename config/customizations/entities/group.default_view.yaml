@@ -1,5 +1,0 @@
-#
-# https://www.home-assistant.io/docs/configuration/customizing-devices/
-#
-group.default_view:
-  order: 0
