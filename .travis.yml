@@ -13,6 +13,8 @@ before_install:
 
 install:
   - pip install -I homeassistant==$(cat config/.HA_VERSION)
+  - pip install yamllint
 
 script:
   - hass -c config --script check_config
+  - yamllint .

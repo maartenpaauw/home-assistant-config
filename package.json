@@ -30,6 +30,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "yamllint .",
       "commit-msg": "commitlint -e"
     }
   }

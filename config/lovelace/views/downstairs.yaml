@@ -1,3 +1,4 @@
+---
 #
 # https://www.home-assistant.io/lovelace/views/
 #
@@ -18,37 +19,37 @@ cards:
 
   - type: vertical-stack
     cards:
-    - type: custom:mini-media-player
-      entity: media_player.sonos_one_keuken
-      icon: mdi:music
-      artwork: cover
-      info: scroll
-      hide:
-        power: true
+      - type: custom:mini-media-player
+        entity: media_player.sonos_one_keuken
+        icon: mdi:music
+        artwork: cover
+        info: scroll
+        hide:
+          power: true
 
-    - type: custom:mini-media-player
-      entity: media_player.proxy_tv
-      hide:
-        controls: true
+      - type: custom:mini-media-player
+        entity: media_player.proxy_tv
+        hide:
+          controls: true
 
-    - type: custom:mini-media-player
-      entity: media_player.chromecast_woonkamer
-      artwork: cover
+      - type: custom:mini-media-player
+        entity: media_player.chromecast_woonkamer
+        artwork: cover
 
-    - type: custom:mini-media-player
-      entity: media_player.apple_tv_woonkamer
-      icon: mdi:apple
-      artwork: cover
-      toggle_power: false
-      hide:
-        volume: true
+      - type: custom:mini-media-player
+        entity: media_player.apple_tv_woonkamer
+        icon: mdi:apple
+        artwork: cover
+        toggle_power: false
+        hide:
+          volume: true
 
-    - type: custom:mini-media-player
-      entity: media_player.playstation_4
-      artwork: cover
-      hide:
-        volume: true
-        controls: true
+      - type: custom:mini-media-player
+        entity: media_player.playstation_4
+        artwork: cover
+        hide:
+          volume: true
+          controls: true
 
   - type: entities
     title: Woonkamer

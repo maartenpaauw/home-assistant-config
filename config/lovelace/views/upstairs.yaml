@@ -1,3 +1,4 @@
+---
 #
 # https://www.home-assistant.io/lovelace/views/
 #
@@ -36,7 +37,6 @@ cards:
         hide_when_off: true
       - entity: switch.sonoff_s20_wall_fan_relay
       - entity: switch.pc
-      # - entity: switch.transmission
 
   - type: entities
     title: Slaapkamer
@@ -62,7 +62,6 @@ cards:
         entity: light.nachtlamp_van_rianne
         toggle: true
         hide_when_off: true
-      # - entity: switch.magic_mirror
 
   - type: entities
     title: Overloop

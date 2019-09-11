@@ -1,3 +1,4 @@
+---
 #
 # https://www.nabucasa.com/config/google_assistant/
 # https://www.home-assistant.io/components/cloud/
@@ -7,13 +8,13 @@ cloud:
     entity_config: !include_dir_merge_named ../assistants/google
     filter:
       include_entities:
-      - binary_sensor.ring_voordeur_ding
-      - climate.toon_thermostat
-      - input_boolean.ikettle
-      - light.group_wardrobe_maarten_paauw
-      - media_player.proxy_tv
-      # - switch.magic_mirror
-      - switch.pc
-      - switch.sonoff_s20_wall_fan_relay
-      - switch.sonoff_touch_dressing_room_relay
-      # - switch.transmission
+        - binary_sensor.ring_voordeur_ding
+        - climate.toon_thermostat
+        - input_boolean.ikettle
+        - light.group_wardrobe_maarten_paauw
+        - media_player.proxy_tv
+        # - switch.magic_mirror
+        - switch.pc
+        - switch.sonoff_s20_wall_fan_relay
+        - switch.sonoff_touch_dressing_room_relay
+        # - switch.transmission
