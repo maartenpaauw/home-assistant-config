@@ -1,0 +1,5 @@
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+sensor.*_temperature:
+  friendly_name: Temperatuur

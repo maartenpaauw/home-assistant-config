@@ -1,0 +1,17 @@
+#
+# https://www.home-assistant.io/lovelace/views/
+#
+title: Instellingen
+path: settings
+cards:
+  - type: entities
+    title: Maaltijden
+    show_header_toggle: false
+    entities:
+      - entity: input_text.dinner_planner_monday
+      - entity: input_text.dinner_planner_tuesday
+      - entity: input_text.dinner_planner_wednesday
+      - entity: input_text.dinner_planner_thursday
+      - entity: input_text.dinner_planner_friday
+      - entity: input_text.dinner_planner_saturday
+      - entity: input_text.dinner_planner_sunday

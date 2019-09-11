@@ -4,30 +4,18 @@
 title: Brouwerstraat
 path: dashboard
 cards:
-  - type: picture-entity
-    entity: camera.voordeur
-
-  - type: alarm-panel
-    entity: alarm_control_panel.home
+  - type: glance
+    title: Familie
+    show_name: false
+    entities:
+      - entity: person.maarten_paauw
+        tap_action:
+          action: navigate
+          navigation_path: /map
+      - entity: person.rianne_van_der_maat
+        tap_action:
+          action: navigate
+          navigation_path: /map
 
   - type: thermostat
     entity: climate.toon_thermostat
-
-  - type: entities
-    title: Familie
-    show_header_toggle: false
-    entities:
-      - entity: person.maarten_paauw
-      - entity: person.rianne_van_der_maat
-
-  - type: entities
-    title: Maaltijden
-    show_header_toggle: false
-    entities:
-      - entity: input_text.dinner_planner_monday
-      - entity: input_text.dinner_planner_tuesday
-      - entity: input_text.dinner_planner_wednesday
-      - entity: input_text.dinner_planner_thursday
-      - entity: input_text.dinner_planner_friday
-      - entity: input_text.dinner_planner_saturday
-      - entity: input_text.dinner_planner_sunday

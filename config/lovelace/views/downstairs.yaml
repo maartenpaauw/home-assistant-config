@@ -4,20 +4,72 @@
 title: Beneden
 path: downstairs
 cards:
+  - type: custom:mini-graph-card
+    name: Klimaat
+    decimals: 1
+    hour24: true
+    entities:
+      - entity: sensor.gang_temperature
+        name: Gang
+      - entity: sensor.toilet_beneden_temperature
+        name: Toilet
+      - entity: sensor.trapkast_temperature
+        name: Trapkast
+
+  - type: vertical-stack
+    cards:
+    - type: custom:mini-media-player
+      entity: media_player.sonos_one_keuken
+      icon: mdi:music
+      artwork: cover
+      info: scroll
+      hide:
+        power: true
+
+    - type: custom:mini-media-player
+      entity: media_player.proxy_tv
+      hide:
+        controls: true
+
+    - type: custom:mini-media-player
+      entity: media_player.chromecast_woonkamer
+      artwork: cover
+
+    - type: custom:mini-media-player
+      entity: media_player.apple_tv_woonkamer
+      icon: mdi:apple
+      artwork: cover
+      toggle_power: false
+      hide:
+        volume: true
+
+    - type: custom:mini-media-player
+      entity: media_player.playstation_4
+      artwork: cover
+      hide:
+        volume: true
+        controls: true
+
+  - type: entities
+    title: Woonkamer
+    show_header_toggle: false
+    entities:
+      - type: custom:slider-entity-row
+        entity: light.woonkamer_eettafel
+        toggle: true
+        hide_when_off: true
+
   - type: entities
     title: Badkamer
     show_header_toggle: false
     entities:
-      - entity: script.input_number_seretide_diskus_decrement
+      - type: call-service
+        name: Medicijnen
+        icon: mdi:medical-bag
+        action_name: Ingenomen
+        service: script.input_number_seretide_diskus_decrement
       - entity: input_number.seretide_diskus
-
-  - type: entities
-    title: Hal
-    show_header_toggle: false
-    entities:
-      - entity: light.gang_plafondlamp
-      - entity: binary_sensor.gang_motion
-      - entity: sensor.postnl
+        secondary_info: last-changed
 
   - type: entities
     title: Keuken
@@ -26,37 +78,33 @@ cards:
       - entity: input_boolean.ikettle
       - entity: automation.time_media_player_sonos_one_keuken_play_hourly_chime
 
-  - type: media-control
-    entity: media_player.sonos_one_keuken
-
   - type: entities
-    title: Woonkamer
+    title: Hal
     show_header_toggle: false
     entities:
-      - entity: light.woonkamer_eettafel
-
-  - type: media-control
-    entity: media_player.proxy_tv
-
-  - type: media-control
-    entity: media_player.apple_tv_woonkamer
-
-  - type: media-control
-    entity: media_player.chromecast_woonkamer
-
-  - type: media-control
-    entity: media_player.playstation_4
+      - type: custom:slider-entity-row
+        entity: light.gang_plafondlamp
+        toggle: true
+        hide_when_off: true
+      - entity: binary_sensor.gang_motion
+      - entity: sensor.postnl
 
   - type: entities
     title: Trapkast
     show_header_toggle: false
     entities:
-      - entity: light.trapkast_plafondlamp
+      - type: custom:slider-entity-row
+        entity: light.trapkast_plafondlamp
+        toggle: true
+        hide_when_off: true
       - entity: binary_sensor.trapkast_motion
 
   - type: entities
     title: Toilet
     show_header_toggle: false
     entities:
-      - entity: light.toilet_beneden_plafondlamp
+      - type: custom:slider-entity-row
+        entity: light.toilet_beneden_plafondlamp
+        toggle: true
+        hide_when_off: true
       - entity: binary_sensor.toilet_beneden_motion

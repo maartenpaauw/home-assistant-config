@@ -4,22 +4,74 @@
 title: Boven
 path: upstairs
 cards:
+  - type: custom:mini-graph-card
+    name: Klimaat
+    decimals: 1
+    hour24: true
+    entities:
+      - entity: sensor.overloop_temperature
+        name: Overloop
+      - entity: sensor.toilet_boven_temperature
+        name: Toilet
+
+  - type: custom:mini-media-player
+    entity: media_player.spotify
+    artwork: cover
+    info: scroll
+    hide:
+      source: true
+      power: true
+
+  - type: entities
+    title: Kantoor
+    show_header_toggle: false
+    entities:
+      - type: custom:slider-entity-row
+        entity: light.group_office_ceiling_lights
+        toggle: true
+        hide_when_off: true
+      - type: custom:slider-entity-row
+        entity: light.kantoor_bloom
+        toggle: true
+        hide_when_off: true
+      - entity: switch.sonoff_s20_wall_fan_relay
+      - entity: switch.pc
+      # - entity: switch.transmission
+
   - type: entities
     title: Slaapkamer
     show_header_toggle: false
     entities:
-      - entity: light.group_bedroom_ceiling_lights
-      - entity: light.group_wardrobe_maarten_paauw
-      - entity: light.group_bedside_lamps
-      - entity: light.nachtlamp_van_maarten
-      - entity: light.nachtlamp_van_rianne
+      - type: custom:slider-entity-row
+        entity: light.group_bedroom_ceiling_lights
+        toggle: true
+        hide_when_off: true
+      - type: custom:slider-entity-row
+        entity: light.group_wardrobe_maarten_paauw
+        toggle: true
+        hide_when_off: true
+      - type: custom:slider-entity-row
+        entity: light.group_bedside_lamps
+        toggle: true
+        hide_when_off: true
+      - type: custom:slider-entity-row
+        entity: light.nachtlamp_van_maarten
+        toggle: true
+        hide_when_off: true
+      - type: custom:slider-entity-row
+        entity: light.nachtlamp_van_rianne
+        toggle: true
+        hide_when_off: true
       # - entity: switch.magic_mirror
 
   - type: entities
     title: Overloop
     show_header_toggle: false
     entities:
-      - entity: light.overloop_plafondlamp
+      - type: custom:slider-entity-row
+        entity: light.overloop_plafondlamp
+        toggle: true
+        hide_when_off: true
       - entity: binary_sensor.overloop_motion
 
   - type: entities
@@ -29,21 +81,11 @@ cards:
       - entity: switch.sonoff_touch_dressing_room_relay
 
   - type: entities
-    title: Kantoor
-    show_header_toggle: false
-    entities:
-      - entity: light.group_office_ceiling_lights
-      - entity: light.kantoor_bloom
-      - entity: switch.sonoff_s20_wall_fan_relay
-      - entity: switch.pc
-      # - entity: switch.transmission
-
-  - type: media-control
-    entity: media_player.spotify
-
-  - type: entities
     title: Toilet
     show_header_toggle: false
     entities:
-      - entity: light.toilet_boven_plafondlamp
+      - type: custom:slider-entity-row
+        entity: light.toilet_boven_plafondlamp
+        toggle: true
+        hide_when_off: true
       - entity: binary_sensor.toilet_boven_motion

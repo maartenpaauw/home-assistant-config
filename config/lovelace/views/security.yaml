@@ -1,0 +1,10 @@
+#
+# https://www.home-assistant.io/lovelace/views/
+#
+title: Beveiliging
+path: security
+cards:
+  - type: alarm-panel
+    entity: alarm_control_panel.home
+  - type: picture-entity
+    entity: camera.voordeur

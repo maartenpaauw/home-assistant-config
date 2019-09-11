@@ -3,7 +3,10 @@
 # https://www.home-assistant.io/lovelace/yaml-mode/
 #
 title: Brouwerstraat
+resources: !include_dir_list lovelace/resources
 views:
   - !include lovelace/views/dashboard.yaml
   - !include lovelace/views/downstairs.yaml
   - !include lovelace/views/upstairs.yaml
+  - !include lovelace/views/security.yaml
+  - !include lovelace/views/settings.yaml
