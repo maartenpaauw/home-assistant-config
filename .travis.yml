@@ -12,9 +12,9 @@ before_install:
   - cp secrets.example config/secrets.yaml
 
 install:
-  - pip install -I homeassistant==$(cat config/.HA_VERSION)
   - pip install yamllint
+  - pip install -I homeassistant==$(cat config/.HA_VERSION)
 
 script:
-  - hass -c config --script check_config
   - yamllint .
+  - hass -c config --script check_config

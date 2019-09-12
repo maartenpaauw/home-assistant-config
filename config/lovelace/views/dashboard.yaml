@@ -2,7 +2,7 @@
 #
 # https://www.home-assistant.io/lovelace/views/
 #
-title: Brouwerstraat
+title: Dashboard
 path: dashboard
 cards:
   - type: glance
@@ -18,5 +18,11 @@ cards:
           action: navigate
           navigation_path: /map
 
-  - type: thermostat
-    entity: climate.toon_thermostat
+  - type: vertical-stack
+    cards:
+      - type: thermostat
+        entity: climate.toon_thermostat
+
+      - type: custom:simple-weather-card
+        entity: weather.rijnsburg
+        name: Rijnsburg

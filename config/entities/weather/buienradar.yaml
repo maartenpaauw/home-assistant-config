@@ -1,0 +1,8 @@
+---
+#
+# https://www.home-assistant.io/components/buienradar/
+#
+platform: buienradar
+name: rijnsburg
+latitude: !secret zone_home_latitude
+longitude: !secret zone_home_longitude
