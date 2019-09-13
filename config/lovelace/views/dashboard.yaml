@@ -5,15 +5,20 @@
 title: Dashboard
 path: dashboard
 cards:
-  - type: glance
-    title: Familie
-    show_name: false
-    entities:
-      - entity: person.maarten_paauw
+  - type: horizontal-stack
+    cards:
+      - type: picture-entity
+        entity: person.maarten_paauw
+        image: /local/persons/maarten_paauw.jpg
+        show_name: false
         tap_action:
           action: navigate
           navigation_path: /map
-      - entity: person.rianne_van_der_maat
+
+      - type: picture-entity
+        entity: person.rianne_van_der_maat
+        image: /local/persons/rianne_van_der_maat.jpg
+        show_name: false
         tap_action:
           action: navigate
           navigation_path: /map
