@@ -5,7 +5,7 @@ yaml-files:
 
 ignore: |
     config/custom_components
-    config/themes/home-assistant-community-themes
+    config/themes
 
 rules:
   braces:
