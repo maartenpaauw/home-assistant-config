@@ -62,6 +62,7 @@ cards:
         entity: light.nachtlamp_van_rianne
         toggle: true
         hide_when_off: true
+      - entity: switch.magic_mirror
 
   - type: entities
     title: Overloop
