@@ -3,6 +3,6 @@
 # https://www.nabucasa.com/config/google_assistant/
 # https://www.home-assistant.io/components/google_assistant/#entity_config
 #
-switch.sonoff_s20_wall_fan_relay:
+switch.sonoff_s20_2_relay:
   name: Wandventilator
   room: Kantoor

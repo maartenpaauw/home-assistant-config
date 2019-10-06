@@ -2,6 +2,6 @@
 #
 # https://www.home-assistant.io/docs/configuration/customizing-devices/
 #
-switch.sonoff_s20_wall_fan_relay:
+switch.sonoff_s20_2_relay:
   friendly_name: Wandventilator
   icon: mdi:air-conditioner
