@@ -1,0 +1,6 @@
+---
+#
+# https://www.home-assistant.io/components/homekit/#entity_config
+#
+switch.sonoff_s20_1_relay:
+  name: Kantoor Elektrische Kachel

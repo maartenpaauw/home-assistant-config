@@ -1,0 +1,8 @@
+---
+#
+# https://www.nabucasa.com/config/google_assistant/
+# https://www.home-assistant.io/components/google_assistant/#entity_config
+#
+switch.sonoff_s20_1_relay:
+  name: Elektrische Kachel
+  room: Kantoor

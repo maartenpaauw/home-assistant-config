@@ -35,6 +35,7 @@ cards:
         entity: light.kantoor_bloom
         toggle: true
         hide_when_off: true
+      - entity: switch.sonoff_s20_1_relay
       - entity: switch.sonoff_s20_2_relay
       - entity: switch.pc
 

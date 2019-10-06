@@ -15,6 +15,7 @@ cloud:
         - media_player.proxy_tv
         - switch.magic_mirror
         - switch.pc
+        - switch.sonoff_s20_1_relay
         - switch.sonoff_s20_2_relay
         - switch.sonoff_touch_dressing_room_relay
         # - switch.transmission
