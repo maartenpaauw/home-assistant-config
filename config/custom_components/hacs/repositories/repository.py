@@ -3,6 +3,7 @@
 import pathlib
 import json
 import os
+import tempfile
 from distutils.version import LooseVersion
 from integrationhelper import Validate, Logger
 from aiogithubapi import AIOGitHubException
@@ -53,6 +54,8 @@ class RepositoryInformation:
     default_branch = None
     description = ""
     full_name = None
+    file_name = None
+    javascript_type = None
     homeassistant_version = None
     last_updated = None
     uid = None
@@ -97,7 +100,7 @@ class HacsRepository(Hacs):
         self.information = RepositoryInformation()
         self.repository_object = None
         self.status = RepositoryStatus()
-        self.repository_manifest = None
+        self.repository_manifest = HacsManifest({})
         self.validate = Validate()
         self.releases = RepositoryReleases()
         self.versions = RepositoryVersions()
@@ -367,7 +370,7 @@ class HacsRepository(Hacs):
                 ):
                     persistent_directory = Backup(
                         f"{self.content.path.local}/{self.repository_manifest.persistent_directory}",
-                        "/tmp/hacs_persistent_directory/",
+                        tempfile.TemporaryFile() + "/hacs_persistent_directory/",
                     )
                     persistent_directory.create()
 
@@ -412,6 +415,14 @@ class HacsRepository(Hacs):
                     await self.reload_custom_components()
                 else:
                     self.pending_restart = True
+            self.hass.bus.fire(
+                "hacs/repository",
+                {
+                    "id": 1337,
+                    "action": "install",
+                    "repository": self.information.full_name,
+                },
+            )
 
     async def download_content(self, validate, directory_path, local_directory, ref):
         """Download the content of a directory."""
@@ -425,7 +436,7 @@ class HacsRepository(Hacs):
                 )
 
             for content in contents:
-                if content.type == "dir" and self.content.path.remote != "":
+                if content.type == "dir" and (self.repository_manifest.content_in_root or self.content.path.remote != ""):
                     await self.download_content(
                         validate, content.path, local_directory, ref
                     )
@@ -446,16 +457,19 @@ class HacsRepository(Hacs):
                 # Save the content of the file.
                 if self.content.single:
                     local_directory = self.content.path.local
+
                 else:
                     _content_path = content.path
-                    _content_path = _content_path.replace(
-                        f"{self.content.path.remote}/", ""
-                    )
+                    if not self.repository_manifest.content_in_root:
+                        _content_path = _content_path.replace(
+                            f"{self.content.path.remote}/", ""
+                        )
 
                     local_directory = f"{self.content.path.local}/{_content_path}"
                     local_directory = local_directory.split("/")
                     del local_directory[-1]
                     local_directory = "/".join(local_directory)
+
 
                 # Check local directory
                 pathlib.Path(local_directory).mkdir(parents=True, exist_ok=True)
@@ -588,6 +602,14 @@ class HacsRepository(Hacs):
             self.common.installed.remove(self.information.full_name)
         self.versions.installed = None
         self.versions.installed_commit = None
+        self.hass.bus.fire(
+            "hacs/repository",
+            {
+                "id": 1337,
+                "action": "uninstall",
+                "repository": self.information.full_name,
+            },
+        )
 
     async def remove_local_directory(self):
         """Check the local directory."""
