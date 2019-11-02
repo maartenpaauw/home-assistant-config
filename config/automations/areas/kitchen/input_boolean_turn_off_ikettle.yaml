@@ -1,0 +1,12 @@
+---
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: input_boolean_turn_off_ikettle
+trigger:
+  - platform: webhook
+    webhook_id: ikettle_turn_off
+action:
+  - service: input_boolean.turn_off
+    data:
+      entity_id: input_boolean.ikettle
