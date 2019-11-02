@@ -1,4 +1,0 @@
-[submodule "config/themes/home-assistant-community-themes"]
-  path = config/themes/home-assistant-community-themes
-  url = git@github.com:maartenpaauw/home-assistant-community-themes.git
-  branch = master
