@@ -16,6 +16,8 @@ cards:
         name: Toilet
       - entity: sensor.trapkast_temperature
         name: Trapkast
+      - entity: sensor.schuur_temperature
+        name: Schuur
 
   - type: vertical-stack
     cards:
@@ -109,3 +111,13 @@ cards:
         toggle: true
         hide_when_off: true
       - entity: binary_sensor.toilet_beneden_motion
+
+  - type: entities
+    title: Schuur
+    show_header_toggle: false
+    entities:
+      - type: custom:slider-entity-row
+        entity: light.schuur_plafondlamp
+        toggle: true
+        hide_when_off: true
+      - entity: binary_sensor.schuur_motion
