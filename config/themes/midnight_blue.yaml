@@ -1,4 +1,7 @@
 ---
+#
+# Midnight Blue Theme
+#
 midnight_blue:
   accent-color: "#E45E65"
   card-background-color: "var(--primary-background-color)"
