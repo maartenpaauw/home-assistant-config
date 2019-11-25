@@ -38,6 +38,8 @@ cards:
       - entity: switch.sonoff_s20_1_relay
       - entity: switch.sonoff_s20_2_relay
       - entity: switch.pc
+      - entity: switch.transmission_turtle_mode
+        name: Transmission
 
   - type: entities
     title: Slaapkamer
