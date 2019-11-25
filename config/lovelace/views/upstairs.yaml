@@ -73,7 +73,6 @@ cards:
         entity: light.overloop_plafondlamp
         toggle: true
         hide_when_off: true
-      - entity: binary_sensor.overloop_motion
 
   - type: entities
     title: Kledingkamer
@@ -89,4 +88,3 @@ cards:
         entity: light.toilet_boven_plafondlamp
         toggle: true
         hide_when_off: true
-      - entity: binary_sensor.toilet_boven_motion

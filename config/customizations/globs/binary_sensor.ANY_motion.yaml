@@ -1,6 +1,0 @@
----
-#
-# https://www.home-assistant.io/docs/configuration/customizing-devices/
-#
-binary_sensor.*_motion:
-  friendly_name: Beweging

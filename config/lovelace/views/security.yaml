@@ -7,5 +7,26 @@ path: security
 cards:
   - type: alarm-panel
     entity: alarm_control_panel.home
+    states:
+      - arm_away
+      - arm_night
+
   - type: picture-entity
     entity: camera.voordeur
+
+  - type: entities
+    title: Beweging
+    show_header_toggle: false
+    entities:
+      - entity: binary_sensor.toilet_beneden_motion
+        name: Toilet Beneden
+      - entity: binary_sensor.toilet_boven_motion
+        name: Toilet Boven
+      - entity: binary_sensor.overloop_motion
+        name: Overloop
+      - entity: binary_sensor.gang_motion
+        name: Gang
+      - entity: binary_sensor.trapkast_motion
+        name: Trapkast
+      - entity: binary_sensor.schuur_motion
+        name: Schuur
