@@ -1,12 +1,7 @@
-dist: xenial
-
 language: python
 
 python:
   - 3.7.4
-
-git:
-  submodules: false
 
 before_install:
   - cp secrets.example config/secrets.yaml
