@@ -1,6 +1,0 @@
----
-#
-# https://www.home-assistant.io/docs/configuration/customizing-devices/
-#
-sensor.dinner_planner_today:
-  friendly_name: Vandaag

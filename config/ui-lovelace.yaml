@@ -10,4 +10,3 @@ views:
   - !include lovelace/views/downstairs.yaml
   - !include lovelace/views/upstairs.yaml
   - !include lovelace/views/security.yaml
-  - !include lovelace/views/settings.yaml
