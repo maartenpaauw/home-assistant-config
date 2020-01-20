@@ -5,4 +5,4 @@
 name: rianne_van_der_maat
 platform: group
 services:
-  - service: ios_iphone_8_van_rianne_van_der_maat
+  - service: mobile_app_iphone_8_van_rianne_van_der_maat

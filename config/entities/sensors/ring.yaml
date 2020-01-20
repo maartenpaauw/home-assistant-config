@@ -1,5 +1,0 @@
----
-#
-# https://www.home-assistant.io/components/ring/#sensor
-#
-platform: ring
