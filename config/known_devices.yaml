@@ -1,9 +1,0 @@
----
-#
-# https://www.home-assistant.io/components/device_tracker/#known_devicesyaml
-#
-iphone_8_van_rianne_van_der_maat:
-  name: iPhone 8+ van Rianne van der Maat
-  mac: !secret device_tracker_rianne_van_der_maat_mac
-  track: true
-  hide_if_away: false
