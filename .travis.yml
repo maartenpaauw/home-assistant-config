@@ -8,6 +8,7 @@ before_install:
 
 install:
   - pip install yamllint
+  - pip install netdisco
   - pip install -I homeassistant==$(cat config/.HA_VERSION)
 
 script:
