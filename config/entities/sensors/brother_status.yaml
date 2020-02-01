@@ -1,8 +1,0 @@
----
-#
-# https://www.home-assistant.io/components/snmp/
-#
-platform: snmp
-name: brother_status
-host: !secret sensor_brother_host
-baseoid: 1.3.6.1.2.1.43.18.1.1.8.1.1
