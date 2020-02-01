@@ -7,6 +7,9 @@ trigger:
   - platform: webhook
     webhook_id: faceit_game_started
 action:
+  - service: script.turn_on
+    data:
+      entity_id: script.notify_maarten_paauw_faceit_game_started
   - service: input_boolean.turn_on
     data:
       entity_id: input_boolean.faceit

@@ -1,0 +1,11 @@
+---
+#
+# https://www.home-assistant.io/components/script/
+#
+notify_maarten_paauw_faceit_game_found:
+  alias: notify_maarten_paauw_faceit_game_found
+  sequence:
+    - service: notify.maarten_paauw
+      data_template:
+        title: FACEIT - Match gevonden
+        message: Accepteer de match snel.

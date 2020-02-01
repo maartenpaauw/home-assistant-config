@@ -1,0 +1,12 @@
+---
+#
+# https://www.home-assistant.io/components/automation/
+#
+alias: faceit_game_found
+trigger:
+  - platform: webhook
+    webhook_id: faceit_game_found
+action:
+  - service: script.turn_on
+    data:
+      entity_id: script.notify_maarten_paauw_faceit_game_found

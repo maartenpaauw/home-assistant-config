@@ -1,0 +1,11 @@
+---
+#
+# https://www.home-assistant.io/components/script/
+#
+notify_maarten_paauw_faceit_game_started:
+  alias: notify_maarten_paauw_faceit_game_started
+  sequence:
+    - service: notify.maarten_paauw
+      data_template:
+        title: FACEIT - Match is klaar
+        message: 5 minuten om mee te doen.
