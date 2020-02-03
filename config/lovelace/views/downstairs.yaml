@@ -35,6 +35,12 @@ cards:
           controls: true
 
       - type: custom:mini-media-player
+        name: Mediabox Next
+        entity: media_player.stb_arris_uhd
+        hide:
+          volume: true
+
+      - type: custom:mini-media-player
         entity: media_player.chromecast_woonkamer
         artwork: cover
 

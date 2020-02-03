@@ -1,0 +1,7 @@
+---
+#
+# https://www.home-assistant.io/components/zone/
+#
+ziggonext:
+  username: !secret ziggo_next_username
+  password: !secret ziggo_next_password

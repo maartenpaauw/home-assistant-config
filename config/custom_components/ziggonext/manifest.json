@@ -1,0 +1,10 @@
+{
+  "domain": "ziggonext",
+  "name": "Ziggo Next",
+  "documentation": "",
+  "requirements": [
+    "ziggonext==0.5.12"
+  ],
+  "dependencies": [],
+  "codeowners": ["@Sholofly"]
+}
