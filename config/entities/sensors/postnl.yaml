@@ -1,8 +1,0 @@
----
-#
-# https://www.home-assistant.io/components/postnl/
-#
-platform: postnl
-name: postnl
-username: !secret sensor_postnl_username
-password: !secret sensor_postnl_password
