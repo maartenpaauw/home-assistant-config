@@ -1,7 +1,0 @@
----
-#
-# https://www.home-assistant.io/components/spotify/
-#
-platform: spotify
-client_id: !secret media_player_spotify_client_id
-client_secret: !secret media_player_spotify_client_secret
