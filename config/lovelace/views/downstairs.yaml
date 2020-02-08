@@ -95,7 +95,6 @@ cards:
         entity: light.gang_plafondlamp
         toggle: true
         hide_when_off: true
-      - entity: sensor.postnl
 
   - type: entities
     title: Trapkast
