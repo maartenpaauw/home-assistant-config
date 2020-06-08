@@ -53,3 +53,9 @@ config/.cloud
 
 # __pycache__
 **/__pycache__/*
+
+# Node
+node_modules/
+
+# PHP Storm
+.idea/
