@@ -2,7 +2,8 @@
 from homeassistant.helpers.entity import Entity
 from .const import ZIGGO_API
 from ziggonext import (
-	ZiggoNext
+	ZiggoNext,
+    ZiggoNextBox
 )
 
 
@@ -11,19 +12,17 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
     # We only want this platform to be set up via discovery.
     sensors = []
     api = hass.data[ZIGGO_API]
-    for boxId in api.settopBoxes.keys():
-        sensors.append(ZiggoSensor(boxId, api))
+    for box in api.settop_boxes.values():
+        sensors.append(ZiggoSensor(box, api))
     add_entities(sensors)
 
 
 class ZiggoSensor(Entity):
     """Representation of a sensor."""
 
-    def __init__(self, boxId, api: ZiggoNext):
+    def __init__(self, box:ZiggoNextBox, api: ZiggoNext):
         """Initialize the sensor."""
-        self._boxId = boxId
-        self._box = api.settopBoxes[boxId]
-        self._api = api
+        self._box = box
 
     @property
     def name(self):
@@ -41,4 +40,3 @@ class ZiggoSensor(Entity):
         """Fetch new state data for the sensor.
         This is the only method that should fetch new data for Home Assistant.
         """
-        self._box = self._api.settopBoxes[self._boxId]
