@@ -2,5 +2,5 @@
 #
 # https://github.com/kalkih/simple-weather-card
 #
-url: /community_plugin/simple-weather-card/simple-weather-card-bundle.js
+url: /local/community/simple-weather-card/simple-weather-card-bundle.js
 type: module

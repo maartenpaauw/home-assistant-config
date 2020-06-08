@@ -2,5 +2,5 @@
 #
 # https://github.com/kalkih/mini-media-player
 #
-url: /community_plugin/mini-media-player/mini-media-player-bundle.js
+url: /local/community/mini-media-player/mini-media-player-bundle.js
 type: module
